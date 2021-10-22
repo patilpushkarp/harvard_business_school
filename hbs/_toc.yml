@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Management Communication
+    chapters:
+    - file: docs/management_communication/intro.md
+    - file: docs/management_communication/plan_comm.md
+  - caption: Mathematics for Management
+    chapters:
+    - file: docs/mathematics/algebra.md
+    - file: docs/mathematics/calculus.md
+    - file: docs/mathematics/statistics.md
+    - file: docs/mathematics/probability.md
+    - file: docs/mathematics/finance.md
+  - caption: Finance Online
+    chapters:
+    - file: docs/finance_online/intro.md
