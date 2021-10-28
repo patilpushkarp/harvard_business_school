@@ -239,3 +239,9 @@ And as for purpose, don't settle for "I want my words to work." Visualize specif
   - What evidence do I have or need to support the arguments?
   - What assumptions am I making? Are they acceptable to the audience?
 
+### How? Using Emotion in the Message
+
+- Emotion influences our every thought and action.
+- **"Emotion is generally not an essential factor in informative communication, but it matters a great deal in persuasion. Emotion influences how an audience reacts to a communication. It also influences how writers and speakers express themselves in their messages."**
+- 
+
