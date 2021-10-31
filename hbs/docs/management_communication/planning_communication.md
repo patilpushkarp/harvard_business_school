@@ -243,5 +243,112 @@ And as for purpose, don't settle for "I want my words to work." Visualize specif
 
 - Emotion influences our every thought and action.
 - **"Emotion is generally not an essential factor in informative communication, but it matters a great deal in persuasion. Emotion influences how an audience reacts to a communication. It also influences how writers and speakers express themselves in their messages."**
-- 
+- Consider these three questions:
+  - How do audience members feel about my topic?
+  - What audience feelings can help me achieve my purpose?
+  - How can I elicit these feelings?
+- **"Business audiences can fool themselves into thinking that they’re immune to feelings affecting their judgment. Emotions are real and are part of how we make our judgments and decisions even though we aren’t conscious of some of them."**
+- **"Practically, then, you are better off having the audience’s emotions work for you. Emotions energize persuasion and can have a multiplier effect on a message."**
+
+### How? Using Character in the Message
+
+- **"Character is the audience's attitude toward a speaker or writer."**
+- **"Audiences form attitudes of the person communicating not only from the content of the message but also from other sources such as body language and facial expression (speakers), tone and vocabulary (writers), and the audience's previous impressions of the person (both writers and speakers)."**
+- Audience put more emphasis on the communicator's knowledge and credibility.
+- Persuasion works more if consistency is maintained over a time span.
+
+#### On-Demand Character
+
+- Fallicious character is difficult to construct. Never create one.
+- **"The risk of trying to express false character is that the audience will detect it, at which point the persuader's credibility evaporates."**
+- Instead, stress different aspects of our character to suit our purpose. 
+- When you are considering what ethos you want to convey, ask these questions:
+  - What is the audience's attitude toward my character?
+  - What do I want the audience members' attitude to be?
+  - How can I move the audience to adopt the desired attitude?
+
+### The Ethics of Persuasion
+
+- Misuses of persuasion: fudging of data, manipulation of feelings, projection of a false character.
+- Persuasion is not deception of emotion.
+- Persuasion is an art to get things done.
+- **"Persuasion is sensitive to the ethics of both sides of a communication. The point is that both communicators and audiences have ethical responsibilities."**
+- **"Everyone has opportunities to exploit communication for the sake of some kind of perceived advantage. When in doubt, ask yourself what outcome is best for you and the common good in the long as well as the short run."**
+
+## Organizing a Message
+
+- The meesage of the communication is completely dependent over the situation. Situation determines the creation and organization of content.
+
+### Informative Communication
+
+- **To create an informative message, gather the information necessary to accomplish your purpose. You also need to understand the information. If you do not understand some or all of the information, take whatever action you need to master it.**
+- **The guiding principle for informative communication is to include everything the audience needs to know and no more. Limiting information to the essentials sounds straightforward, but there is a strong tendency to think that more information is better than less.**
+
+#### Information Organizers
+
+- Order the content should be created by focusing on the comprehension ability of the audience.
+- Order of content should not be left to the audience.
+- There are two broad categories of organizers:
+  1. Organic organizers
+  2. Analytic organizers
+
+#### Information Organizers: Organic
+
+- **"Organic organizers are those that derive from the nature of the topic."**
+- Most common types of organic logics:
+
+|Organic Organizer|Definition|Example|
+|--|--|--|
+|Physical arrangement|Arrangement of physical details.|Describe the organization of a production line and explain why it is organized that way.|
+|Chronology|Time sequence|Describe the history of a product line and explain decisions that shaped its history.|
+|Process|Series of steps that lead to a specific outcome.|Describe the steps for entering information into a computer database and explain the rationale for the order of the steps.|
+|Hierarchy|Structure of authority, power, responsibility, or similar characteristics of an organization.|Describe an organization chart and explain the reporting relationships.|
+
+#### Information Organizers: Analytic
+
+- Analytic organizer are those who organizes information using concepts appropriate to the content and the audience.
+- **"A frequently used analytic organizer is order of importance. A to-do list arranged from the most important task to the least important is an example. So is a set of recommendations for improving an employee's performance arranged in priority order. Another common type of analytic organizer is level of difficulty (basic to advanced) and frequency (high frequency to low frequency)."**
+- **"Business concepts often serve as analytic organizers."**
+- Examples of analytical organization
+
+|Analytical Organizer|Definition|Example|
+|--|--|--|
+|Importance|Arrange by value, worth, and urgency.|List of critical safety practices (most important to least important).|
+|Difficulty|Arrange by level of difficulty.|Training manual for operation of machine (basic to advanced).|
+|Frequency|Arrange by the number of occurrences over a period of time.|Number of mentions of company in various social media (high to low frequency).|
+|Business concepts|Arrange by order of concepts in a business model.|A marketing plan organized around the 4Ps.|
+
+### Persuasive Arguments
+
+- Persuasion rests on the foundation of well-defined purpose and a sound understanding of the audience.
+- **"The goal of informative communication is to obtain audience comprehension of the content. In contrast, persuasive communication seeks to motivate an audience to think, feel, or do something specific."**
+- In informative communication, just the necessary facts are provided. But in persuasion, apart from the provision of facts, it is also necessary to communicate the necessity to act, feel and think over those facts in a certain way.
+- **"Persuasive business communication uses different combinations of rational arguments and emotional and character-based appeals."**
+- **"Management communication depends heavily on rational arguments for a variety of reasons, the most important of which is audience expectations. Therefore, as future managers and leaders, you need to know how to build arguments."**
+- Three important types of arguments in business:
+  1. Decision
+  2. Evaluation
+  3. Diagnosis
+
+#### Decision Arguments
+
+- Decision is driving force in every business. There are two factors which influence the decision: criteria and evidence.
+- **"When you apply the criteria, you have to show the audience strong evidence that clearly supports your recommended decision."**
+- [Decision Argument Template](./Definition_Decision-Argument.pdf)
+
+#### Evaluation Arguments
+
+- **"The keys to an evaluation are using an appropriate set of criteria, fully applying them to the subject of the evaluation, and making a reasonable evaluation based on the results."**
+- [Evaluation Argument Template](./Definition_Evaluation-Argument.pdf)
+
+#### Diagnosis Arguments
+
+- Many business situations need diagnosis.
+- **"A diagnostic argument is explanatory. It is needed when a situation or outcome needs a causal explanation"**
+- [Diagnosis Argument Template](./Definition_Diagnosis-Argument.pdf)
+- **"To make an accurate diagnosis, use concepts and knowledge relevant to the problem, along with experience and common sense."**
+
+```{note}
+All the templates and supporting material is available on github.
+```
 

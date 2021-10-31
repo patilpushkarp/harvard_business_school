@@ -15,6 +15,9 @@ parts:
     - file: docs/mathematics/statistics.md
     - file: docs/mathematics/probability.md
     - file: docs/mathematics/finance.md
+  - caption: Quantitative Methods
+    chapters:
+    - file: docs/quantitative_methods/overview.md
   - caption: Finance Online
     chapters:
     - file: docs/finance_online/intro.md
