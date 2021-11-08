@@ -1,0 +1,628 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basics: Data Description &#8212; IIMU - Harvard Business School Courses</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">IIMU - Harvard Business School Courses</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   IIMU - Harvard Business School Courses
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Management Communication
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../management_communication/intro.html">
+   Management Communication : Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../management_communication/planning_communication.html">
+   Planning Communication
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../management_communication/writing.html">
+   Writing in Business
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Mathematics for Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/algebra.html">
+   Algebra
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/calculus.html">
+   Calculus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/statistics.html">
+   Statistics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/probability.html">
+   Probability
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/finance.html">
+   Finance
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Quantitative Methods
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="overview.html">
+   Overview and Introduction
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Finance Online
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../finance_online/intro.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/docs/quantitative_methods/basic_data.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/patilpushkarp/harvard_business_school"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/quantitative_methods/basic_data.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#describing-and-summarizing-the-data">
+   Describing and Summarizing the Data
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#working-with-data">
+     Working with Data
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#histograms">
+       Histograms
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#outliers">
+       Outliers
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#summary">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#central-values-for-data">
+     Central Values for Data
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#the-mean">
+       The Mean
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#the-median">
+       The Median
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#the-mode">
+       The Mode
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#variability">
+   Variability
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-standard-deviation">
+     The Standard Deviation
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#calculating">
+       Calculating
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#interpreting">
+       Interpreting
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Summary
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-coefficient-of-variation">
+     The Coefficient of Variation
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#relationship-between-variables">
+   Relationship Between Variables
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#two-variables">
+     Two Variables
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#variable-and-time">
+       Variable and Time
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#false-relationships">
+       False Relationships
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hidden-variables">
+       Hidden Variables
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="basics-data-description">
+<h1>Basics: Data Description<a class="headerlink" href="#basics-data-description" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="describing-and-summarizing-the-data">
+<h2>Describing and Summarizing the Data<a class="headerlink" href="#describing-and-summarizing-the-data" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“Data can be represented by graphs like histograms. These visual displays allow you to quickly recognize patterns in the distribution of data.”</strong></p></li>
+</ul>
+<div class="section" id="working-with-data">
+<h3>Working with Data<a class="headerlink" href="#working-with-data" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Every data that we encounter has a story to tell. Every data has some valuable information that is required for better decision making.</p></li>
+<li><p>It is necessary to extract as much information as possible from the available data. This exercise can be challenging but it reveals certain subtle details which are absolutely required for monagaers.</p></li>
+<li><p>Some important questions to consider after acquiring the data:</p>
+<ol class="simple">
+<li><p>Where do the data come from?</p></li>
+<li><p>How were they collected?</p></li>
+<li><p>How can we help the data tell their story?</p></li>
+</ol>
+</li>
+<li><p>Get a preliminary sense of data before starting with any analysis. This includes, patterns, trends, relationships, grouping etc. that exist in the data.</p></li>
+<li><p><strong>“Grouping data can help us identify patterns within a single category or across different categories.”</strong></p></li>
+</ul>
+<div class="section" id="histograms">
+<h4>Histograms<a class="headerlink" href="#histograms" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>The grouped data can be graphed in order to see the pattern visually.</p></li>
+<li><p>Graphed data can helps us deepen our understanding of the data set and the situation it describes.</p></li>
+<li><p>The plot of a number of values in each group is called a histogram.</p></li>
+<li><p><strong>“A histogram shows us where the data tend to cluster.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="outliers">
+<h4>Outliers<a class="headerlink" href="#outliers" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Data points like this one that fall far from the rest of the data are known as outliers.”</strong></p></li>
+<li><p>Before acting on outliers, identify the source of the outliers. Examine the underlying situation in great detail.</p></li>
+<li><p>Outlier can be dealt by: leave the outlier alone, or — very rarely — remove it or change it to a corrected value.</p></li>
+<li><p><strong>“Excluding or changing data is not something we do often. We should never do it to help the data ‘fit’ a conclusion we want to draw. Such changes to a data set should be made on a case-by-case basis only after careful investigation of the situation.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="summary">
+<h4>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“With any data set we encounter, we must find ways to allow the data to tell their story. Ordering and graphing data sets often expose patterns and trends, thus helping us to learn more about the data and the underlying situation. If data can provide insight into a situation, they can help us to make the right decisions.”</strong>
+<img alt="Summary" src="../../_images/summary_working_with_data.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="central-values-for-data">
+<h3>Central Values for Data<a class="headerlink" href="#central-values-for-data" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Eventhough graphs are quite useful, sometimes it is necessary to represent data using single numbers.</p></li>
+</ul>
+<div class="section" id="the-mean">
+<h4>The Mean<a class="headerlink" href="#the-mean" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Average or mean is the summ of all the values divided by the number of elements in the data set. It is represented by <span class="math notranslate nohighlight">\(\mu\)</span>.</p></li>
+<li><p><strong>“The mean is by far the most common measure used to describe the “center” or “central tendency” of a data set. However, it isn’t always the best value to represent data. Outliers can exercise undue influence and pull the mean value towards one extreme.”</strong></p></li>
+<li><p><strong>“In addition, if the distribution has a tail that extends out to one side — a skewed distribution — the values on that side will pull the mean towards them.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="the-median">
+<h4>The Median<a class="headerlink" href="#the-median" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Mean is often not the best value to represent the data when the data is skewed. In these cases, median isused to represent the data.</p></li>
+<li><p><strong>“The median is the middle value of a data set whose values are arranged in numerical order. Half the values are higher than the median, and half are lower.”</strong></p></li>
+<li><p><strong>“With an odd number of data points, listed in order, the median is simply the middle value. In a data set with an even number of points, we average the two middle values.”</strong></p></li>
+<li><p>To decide between mean and median for representation, weight the pros and cons for each as per the situation.</p></li>
+</ul>
+</div>
+<div class="section" id="the-mode">
+<h4>The Mode<a class="headerlink" href="#the-mode" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Mode - the data set’s most frequently occurring value.”</strong></p></li>
+<li><p>A distribution with two peaks is called a bimodal distribution.</p></li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h4>Summary<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“To summarize a data set using a single value, we can choose one of three values: the mean, the median, or the mode. They are often called summary statistics or descriptive statistics. All three give a sense of the “center” or “central tendency” of the data set, but we need to understand how they differ before using them:”</strong>
+<img alt="Summary" src="../../_images/summary_central_values.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="variability">
+<h2>Variability<a class="headerlink" href="#variability" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>The central values does not give any information about the spread of the data.</p></li>
+<li><p><strong>“Two sets of data could have the same mean and median, and yet be distributed completely differently around the center value.”</strong></p></li>
+</ul>
+<div class="section" id="the-standard-deviation">
+<h3>The Standard Deviation<a class="headerlink" href="#the-standard-deviation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Sense of the spread of the data is critical.</p></li>
+<li><p>The summary statistic that captures the level of dispersion in a set of data around the mean is standard deviation. It is represented by <span class="math notranslate nohighlight">\(\sigma\)</span>.
+<img alt="Standard Deviation Formula" src="../../_images/standard_deiation_formula.png" /></p></li>
+<li><p>A large standard deviation signifies and the data is scattered and that there is greater variability in the data, while a small standard deviation signifies that the data is tightly clustered around the mean.</p></li>
+</ul>
+<div class="section" id="calculating">
+<h4>Calculating<a class="headerlink" href="#calculating" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Calculating the standard deviation is a two step process</p>
+<ol class="simple">
+<li><p>Calculate the variance - The square of the differences between mean and the actual values. The differences are square to avoid negative values cancelling out positive values. Squaring in the variance removes the sense of unit of the quantity under measurement. <img alt="Variance Formula" src="../../_images/variance_formula.png" /></p></li>
+<li><p>To express the variability in the same unit as the data, we take the sqaure root of the variance.</p></li>
+</ol>
+</li>
+</ul>
+</div>
+<div class="section" id="interpreting">
+<h4>Interpreting<a class="headerlink" href="#interpreting" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“For a data set, a smaller standard deviation indicates that more data points are near the mean, and that the mean is more representative of the data.”</strong></p></li>
+<li><p><strong>“With a larger standard deviation, the data would be spread farther from the mean.”</strong></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id2">
+<h3>Summary<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“The standard deviation measures how much data vary about their mean value.”</strong>
+<img alt="Summary" src="../../_images/summary_standard_deviation.png" /></p></li>
+</ul>
+</div>
+<div class="section" id="the-coefficient-of-variation">
+<h3>The Coefficient of Variation<a class="headerlink" href="#the-coefficient-of-variation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Standard deviations must be considered within the data’s context.”</strong> It is necessary to compare the magnitude the standard deviation as compare to the mean around which it is varying.</p></li>
+<li><p><strong>“The coefficient of variation is simply the ratio of the standard deviation to the mean. It can be interpreted as the standard deviation expressed as a percent of the mean.”</strong> This tells us about the relative volatility as a standardized measure. <img alt="Coefficient of Variability" src="../../_images/cv_formula.png" /></p></li>
+<li><p>The larger the coeeficient, the larger the variability.</p></li>
+<li><p><strong>“The coefficient of variation describes the standard deviation as a fraction of the mean, giving you a standard measure of variability.”</strong></p></li>
+</ul>
+<div class="section" id="id3">
+<h4>Summary<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“The coefficient of variation expresses the standard deviation as a fraction of the mean. We can use it to compare variation in different data sets of different scales or units.”</strong></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="relationship-between-variables">
+<h2>Relationship Between Variables<a class="headerlink" href="#relationship-between-variables" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="two-variables">
+<h3>Two Variables<a class="headerlink" href="#two-variables" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Histograms can only be used for one variable.</p></li>
+<li><p>For two variables, scatter plot can be used.</p></li>
+<li><p>Do not draw conclusions about causality from the scatter plot.</p></li>
+<li><p><strong>“Managers who use data to make decisions without firm understanding of the underlying situation often make blunders that in hindsight can appear as ludicrous.”</strong></p></li>
+</ul>
+<div class="section" id="variable-and-time">
+<h4>Variable and Time<a class="headerlink" href="#variable-and-time" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Sometimes, we are not as interested in the relationship between two variables as we are in the behavior of a single variable over time. In such cases, we can consider time as our second variable.”</strong></p></li>
+<li><p>If the other variable is time, the graph is called as time series.</p></li>
+<li><p><strong>“Time series are extremely useful because they put data points in temporal order and show how data change over time.”</strong></p></li>
+<li><p><strong>“Time series will help us recognize seasonal patterns and yearly trends. But we must be careful: we shouldn’t rely only on visual analysis when looking for relationships and patterns.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="false-relationships">
+<h4>False Relationships<a class="headerlink" href="#false-relationships" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Our intuition tells us that pairs of variables with a strong relationship on a scatter plot must be related to each other. But we must be careful: human intuition isn’t foolproof and often we infer relationships where there are none. We must be careful to avoid some of these common pitfalls.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="hidden-variables">
+<h4>Hidden Variables<a class="headerlink" href="#hidden-variables" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Even when two data sets seem to be directly related, we may need to investigate further to understand the reason for the relationship.”</strong></p></li>
+<li><p><strong>“We may find that the reason is not due to any fundamental connection between the two variables themselves, but that they are instead mutually related to another underlying factor.”</strong></p></li>
+<li><p><strong>“In many business contexts, hidden variables can complicate the investigation of a relationship between almost any two variables.”</strong></p></li>
+<li><p><strong>“Keep in mind that scatter plots don’t prove anything about causality. They never prove that one variable causes the other, but simply illustrate how the data behave.”</strong></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./docs/quantitative_methods"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Pushkar Patil<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
