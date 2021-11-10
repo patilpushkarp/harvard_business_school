@@ -130,7 +130,26 @@
 - **"In many business contexts, hidden variables can complicate the investigation of a relationship between almost any two variables."**
 - **"Keep in mind that scatter plots don't prove anything about causality. They never prove that one variable causes the other, but simply illustrate how the data behave."**
 
+#### Summary
 
+- **"Plotting two variables helps us see relationships between two data sets. But even when relationships exist, we still need to be skeptical: is the relationship plausible? An apparent relationship between two variables may simply be coincidental, or may stem from a relationship each variable has with a third, often hidden variable."**
 
+![Summary](./summary_two_variables.png)
 
+### Correlation
 
+- Correlation coefficient quantifies the extent to which there is a linear relationship between two variables.
+- **"To describe the strength of a linear relationship, the correlation coefficient takes on values between -1 and +1."**
+- **"To describe the strength of a linear relationship, the correlation coefficient takes on values between -1 and +1."** In such cases scatter plot should be used to look at the relationship.
+
+#### Influence of outliers
+
+- Correlation coefficient may not be sufficient for certain cases.
+- Outliers influence the correlation coeffificent.
+- **"Correlation give more weight to points distant from the center of the data, outliers can strongly influence the correlation coefficient of the entire set. In these situations, our intuition and the measure we use to quantify our intuition can be quite different. We should always attempt to reconcile those differences by returning to the data."**
+
+#### Summary
+
+- **"The correlation coefficient characterizes the strength and direction of a linear relationship between two data sets. The value of the correlation coefficient ranges between -1 and +1."**
+
+![Summary](./summary_correlation.png)

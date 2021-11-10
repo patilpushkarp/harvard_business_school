@@ -53,6 +53,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Introduction" href="../finance_online/intro.html" />
+    <link rel="prev" title="Overview and Introduction" href="overview.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -84,7 +86,7 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../../intro.html">
-   IIMU - Harvard Business School Courses
+   Indian Institute of Management, Udaipur - Harvard Business School Courses
   </a>
  </li>
 </ul>
@@ -147,10 +149,15 @@
   Quantitative Methods
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="overview.html">
    Overview and Introduction
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Basics: Data Description
   </a>
  </li>
 </ul>
@@ -206,7 +213,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/quantitative_methods/basic_data.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/quantitative_methods/basics_data_description.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -226,7 +233,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/quantitative_methods/basic_data.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/quantitative_methods/basics_data_description.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -372,6 +379,28 @@
      <li class="toc-h4 nav-item toc-entry">
       <a class="reference internal nav-link" href="#hidden-variables">
        Hidden Variables
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#correlation">
+     Correlation
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#influence-of-outliers">
+       Influence of outliers
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       Summary
       </a>
      </li>
     </ul>
@@ -567,6 +596,36 @@
 <li><p><strong>“Keep in mind that scatter plots don’t prove anything about causality. They never prove that one variable causes the other, but simply illustrate how the data behave.”</strong></p></li>
 </ul>
 </div>
+<div class="section" id="id4">
+<h4>Summary<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Plotting two variables helps us see relationships between two data sets. But even when relationships exist, we still need to be skeptical: is the relationship plausible? An apparent relationship between two variables may simply be coincidental, or may stem from a relationship each variable has with a third, often hidden variable.”</strong></p></li>
+</ul>
+<p><img alt="Summary" src="../../_images/summary_two_variables.png" /></p>
+</div>
+</div>
+<div class="section" id="correlation">
+<h3>Correlation<a class="headerlink" href="#correlation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Correlation coefficient quantifies the extent to which there is a linear relationship between two variables.</p></li>
+<li><p><strong>“To describe the strength of a linear relationship, the correlation coefficient takes on values between -1 and +1.”</strong></p></li>
+<li><p><strong>“To describe the strength of a linear relationship, the correlation coefficient takes on values between -1 and +1.”</strong> In such cases scatter plot should be used to look at the relationship.</p></li>
+</ul>
+<div class="section" id="influence-of-outliers">
+<h4>Influence of outliers<a class="headerlink" href="#influence-of-outliers" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Correlation coefficient may not be sufficient for certain cases.</p></li>
+<li><p>Outliers influence the correlation coeffificent.</p></li>
+<li><p><strong>“Correlation give more weight to points distant from the center of the data, outliers can strongly influence the correlation coefficient of the entire set. In these situations, our intuition and the measure we use to quantify our intuition can be quite different. We should always attempt to reconcile those differences by returning to the data.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h4>Summary<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“The correlation coefficient characterizes the strength and direction of a linear relationship between two data sets. The value of the correlation coefficient ranges between -1 and +1.”</strong></p></li>
+</ul>
+<p><img alt="Summary" src="../../_images/summary_correlation.png" /></p>
+</div>
 </div>
 </div>
 </div>
@@ -600,6 +659,24 @@
 
 <div class='prev-next-bottom'>
     
+    <div id="prev">
+        <a class="left-prev" href="overview.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Overview and Introduction</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../finance_online/intro.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Introduction</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
 
 </div>
         
