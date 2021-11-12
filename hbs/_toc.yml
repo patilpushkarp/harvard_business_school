@@ -20,7 +20,8 @@ parts:
     chapters:
     - file: docs/quantitative_methods/overview.md
     - file: docs/quantitative_methods/basics_data_description.md
-    - file: docs/quantative_methods/samppling_estimation.md
+    - file: docs/quantative_methods/sampling_estimation.md
+    - file: docs/quantative_methods/hypothesis_testing.md
   - caption: Finance Online
     chapters:
     - file: docs/finance_online/intro.md
