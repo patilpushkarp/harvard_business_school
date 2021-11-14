@@ -541,3 +541,145 @@ Writing skills are fundamental in business. It’s increasingly important to be 
   - Use of trusted sources: Your evidence comes from or is based on sources the audience trusts, such as company documents or external sources such as well-known business databases.
   - Endorsement by a trusted individual or group: Someone the audience respects supports your point of view or the usefulness of communicating it.
   - Objectivity: You don't betray a bias toward a particular point of view. You earn it with a convincing argument.
+
+### Organizing the memo
+
+- Planning the conetent and organnization of message for persuasive arguments can be done with the help of the templates.
+- Templates helps is decideing the type of content required for the argument and also helps in ordering it.
+- **"Readers like predictability in the organization of a written message and dislike unpredictability. Structure helps readers make predictions about what will come next in the text, to locate key ideas, and to remember what they have read as they progress through a message."**
+
+### Drafting
+
+- Separate out the different tasks such as ttending to logical argument, audience feelings, and the representation of your character while drafting the persuasive messages.
+- **"First, write the argument. Let it be the focus in the first draft. Second, as you revise, look for opportunities to embed in the message emotion and positive impressions of you."**
+
+#### Opening of a Persuasive Message
+
+- **"a persuasive message should open with a brief description of the issue and why it's important. In addition, at or near the beginning, the writer's conclusion about the issue should be stated. The type of conclusion depends on the argument template used:"**
+  - Diagnosis: a definition of the problem and summary of the major causes
+  - Evaluation: a statement of the overall evaluation
+  - Decision: a statement of the recommended decision
+- **"Business audiences in low-context cultures want to know what the writer thinks as soon as possible. An audience that doesn’t know the point of a persuasive message can’t begin building a mental picture for understanding it."**
+- **"Cultural factors can trump stating the conclusion first. A given culture might not follow the norms of U.S. business English."**
+- **"The culture might favor gradually leading the reader to the conclusion or not want the writer to state it explicitly anywhere in the message, leaving the reader to infer it. You must work with the norms of the audience, not try to impose norms on them."**
+
+#### Conclusion of a Persuasive Message
+
+- **"The question to ask about the conclusion of a persuasive message is this: What is the final thought you want to leave with the reader?"**
+- **"The reader isn’t going to remember many of the details of your message, which is why a written message can be so useful. Writing was the first portable memory device, a permanent record that the audience can consult whenever necessary. Even so, the end of a message is a chance to “bookmark” it in the audience's memory."**
+- **"A vivid restatement of the conclusion can come in the form of a quotation, a positive comment about the future, an analogy or metaphor—these are a few ideas for ending a persuasive message on a memorable note."**
+- Conclusion summarizes the message.
+- **"Concisely summarizing an argument helps the reader retain a memory of it."**
+
+### Revising the Draft
+
+- **"Here are key points about revising presented previously in the course:"**
+  - Read the draft from the audience's point of view.
+  - Concentrate on the content, organization, and tone of the draft.
+  - Be willing to make major changes if necessary.
+  - Set aside the first draft for a day or more if possible.
+
+### Editing and Correcting
+
+- **"Editing sentences and correcting mistakes are the final steps in making a written message ready for the audience. This work can be tedious and writers often hurry through it because of a looming deadline. But editing and correcting are worth doing right. Confused sentences slow the reader down, and grammar mistakes and other errors such as misspellings rapidly erode your credibility."**
+
+----
+
+## Writing an Action Plan
+
+- **"Action plan - A critical business communication that translates thought into action. A coordinated set of actions designed to achieve a desired end state."**
+- **"An argument for a decision, an evaluation, or a diagnosis usually requires some kind of follow-up action."**
+- Simple action plan with few steps may not be written but a long descriptive ones needs to be written to vet the audience and to be effective executed.
+- A good action plan is required so that people can ordinate the actions required to achieve a desired outcome.
+- There are two key parts of the action plan:
+  1. Action - Actions need to be clearly tied to the business objectives and the outcomes rather than being focused on inputs and the tasks to be performed.
+  2. Plan - Plan needs to clearly lay out the responsibilities, timelines, dependencies and milestones.
+
+### Informative Communication as Action Plans
+
+- **"Two types of informative communication can be action plans: information organized as a chronology or as a process."**
+
+### Argument-Driven Action Plan
+
+- **"Business arguments have consequences for action. The three types of argument—diagnosis, decision, and evaluation—provide the basis for different types of actions."**
+
+|Type of Argument|Action Plan Goal|Action Plan Example|
+|--|--|--|
+|Diagnosis|Correct a problem.|Fix chronic outages in the company computer network.|
+|Evaluation|Capitalize on positives; eliminate or reduce negatives.|Improve an individual’s capabilities based on a performance evaluation.|
+|Decision|Implement decision.|Detail how a company will install the new machinery it has decided to buy.|
+
+### Basic Elements of an Action Plan
+
+- **"An action plan has these four elements:"**
+  - Goals
+  - Relevant content
+  - Specific actions
+  - Chronological order
+
+#### Goals
+
+- Action plan too needs a purpose which is summarized by its goals.
+- **"Action plan goals should address all of the important issues in the argument. A few broader goals are better than a large number of narrower ones. Many small goals make an action plan harder to write and cause the plan to become unfocused."**
+
+#### Relevant Content
+
+- **"Each step of an action plan consists of relevant content. Relevance is determined by the content of the argument."**
+
+#### Specific Actions
+
+- **"The action plan steps describe actions. Each step answers these three questions:"**
+  1. What needs to be accomplished? - The end result of the step.
+  2. Who will do it? - The individuals who will do the work.
+  3. What are the necessary tasks? - The work the individuals have to do to complete the step.
+- **"An action plan isn't helpful if the steps are vaguely written. A step should tell an audience what they need to know in order to carry it out."**
+
+#### Specific Actions: Writing Process
+
+- **"Writing a draft of an action plan involves two distinct dimensions:"**
+  - Creating a comprehensive set of actions that achieves the goals
+  - Arranging the actions in a logical order
+- **"To ease the drafting of a plan, don't try to do both at the same time. Break the work into a series of steps:"**
+  - List action steps in the order you think of them.
+  - Review the list and add missing steps and delete superfluous ones.
+  - Arrange them in a logical sequence.
+  - Edit the descriptions of the actions, clarifying them, expanding vague ones, and pruning overly detailed ones.
+
+#### Chronological Order
+
+- **"Argument-based action plans must be in chronological order."**
+- **"Splitting the plan into short-term and long-term steps assists in coordinating the steps in time, prompting the writer to decide which steps should be completed soon and which should be completed later."**
+- **"Short-term steps are"**
+  - urgent;
+  - easy; and
+  - necessary for long-term steps.
+- **"Long-term steps are"**
+  - hard to achieve and/or complex;
+  - time-consuming to complete; and
+  - dependent on prior steps.
+
+## Short Form Writing
+
+- **"Short form communication - All types of text-based digital communication such as email, wikis, blogs, texting, instant messaging, Twitter, Facebook, and Tumblr."**
+
+### Email
+
+- Email is the basic medium of communication in business.
+
+#### Strengths
+
+- **"Email has five essential strengths for businesses:"**
+  - Fast: Messages can be sent and received quickly, essentially instantaneously. Because messages are often short, recipients can read them quickly.
+  - Simple: Email applications are easy to use.
+  - Asynchronous: A message can be sent anywhere in the world, no matter how large the time difference is.
+  - Portable: Cellphones, tablets, and other portable devices can run email applications, making email communication possible anywhere, anytime.
+  - Efficient: Many email messages are short and do away with “telephone tag,” allowing people to communicate when they aren't in the same room at the same time. With email, it is as though people are always in the same room!
+
+#### Weaknesses
+
+- **"Email has weaknesses that companies are now starting to recognize. For senders, the weaknesses have implications for writing."**
+  - Limited Message Length: Some topics need longer messages. The short form medium can encourage a writer to condense the message, leaving out crucial content.
+  - Hasty Writing: Email stimulates a feeling of urgency in users, encouraging them to write hastily. That may be why so many emails are badly written and full of errors.
+  - Digital Disinhibition - Psychologists have confirmed that people are vulnerable to what they call digital disinhibition when using email. The term means saying things in an email that the writer would never say if the recipient were physically present. People are wired to monitor one another's reactions and to adjust facial expression, body, gestures, and speech. People receive none of that information when composing an email message. As a result it's easy for writers to say things they later regret.
+
+

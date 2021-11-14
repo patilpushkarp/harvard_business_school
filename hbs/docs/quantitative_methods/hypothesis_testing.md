@@ -48,3 +48,62 @@
 - **"When we want to test for change in a specific direction, we use a one-sided test. Instead of finding a range containing 95% of all sample means centered at the null hypothesis mean, we find a one-sided range. We calculate its endpoint using the cumulative probability under the normal curve."**
 ![Summary](./summary_one_sided_hypo_test.png)
 
+## Single Population Proportions
+
+### Hypothesis Tests for Single Population Porpotions
+
+- **"hypothesis tests for proportions are much like hypothesis tests for means."**
+- Earlier formula are used, just that mean is replaced with proportions.
+- **"The null hypothesis for a proportion test states the initial understanding. The alternative hypothesis is the claim we are using the hypothesis test to substantiate. The alternative hypothesis typically states the opposite of the null hypothesis: it states that our initial understanding is incorrect."**
+- **"As with population means, we collect a random sample and calculate the sample proportion, "p-bar." However, for a hypothesis test about a population proportion, we don't need to calculate a standard deviation from the sample."**
+![Hypothesis Test for Single Proportion](./hypothesis_test_for_single_proportion.png)
+
+#### Summary
+
+- **"In a hypothesis test for population proportions, we assume that the null hypothesis is true. Then, we construct a range of likely sample proportions around the null hypothesis proportion. If the sample proportion we collect falls in the rejection region, we reject the null hypothesis. Otherwise, we cannot reject the null hypothesis."**
+![Summary](./summary_hypothesis_test_proportions.png)
+
+## P-values
+
+### P-values
+
+- P-values measures the strength of evidence against a null hypothesis.
+- **"The confidence level tells us the significance level of the test, which is simply 1 minus the confidence level."**
+- **"P-value tells us how likely it is to collect a sample mean that falls at least a certain distance from the null hypothesis mean."**
+- **"In the familiar hypothesis testing procedure, if the p-value is less than our threshold of 5%, we reject our null hypothesis."**
+- **"The p-value does more than simply answer the question of whether or not we can reject the hypothesis. It also indicates the strength of the evidence for rejecting the null hypothesis. For example, if the p-value is 0.049, we barely have enough evidence to reject the null hypothesis at the 0.05 level of significance; if it is 0.001, we have strong evidence for rejecting the null hypothesis."**
+- **"the lower the p-value, the higher our confidence in rejecting the null hypothesis."**
+- **"For one-sided tests, the p-value is the area under one side of the curve."**
+
+#### Summary
+
+- **"The p-value measures the strength of the evidence against the null hypothesis. It is the likelihood, assuming that the null hypothesis is true, of collecting a sample mean at least as far from the null hypothesis mean as the sample actually collected. We compare the p-value to the threshold significance level to make a reject/not reject decision. The p-value also tells us how comfortable we can be with that decision."**
+![Summary](./summary_p_value.png)
+
+## Comparing Two Populations
+
+### Using Hypothesis Tests to Compare Two Population Means
+
+- **"We conduct two-population tests to compare a characteristic of two groups for which we have access to sample data for each group."**
+- **"In two-population tests, we take two samples, one from each population. For each sample, we calculate the sample mean, standard deviation, and sample size. We can then use the two sets of sample data to test claims about differences between the two populations. "**
+![Hypothesis test for comparing means](./comparing_means.png)
+- **"The null hypothesis states that there is no difference in the two population means. As with single-population tests, we test the null hypothesis by asking how likely it would be to produce the sample results if the null hypothesis is in fact true."**
+![Z value for Comparing means](./z_value_for_comparing_means.png)
+
+#### Summary
+
+- **"In a hypothesis test for two population means, we assume a null hypothesis: that the two population means are equal. We collect a sample from each population and calculate its sample statistics. We calculate a p-value for the difference between the two samples. If the p-value is less than the significance level, we reject the null hypothesis."**
+![Summary](./summary_comparing_means.png)
+
+## Hypothesis Tests for Two Population Proportions
+
+- **"Comparing two population proportions is similar to comparing two population means. We have two populations: the null hypothesis states that their proportions are the same; the alternative hypothesis states that they are different."**
+- **"We collect a sample from each population and calculate its sample size and sample proportion. As in the single population proportion test, we don't need to find the sample standard deviation, since we know that the population standard deviation is the square root of $[p*(1 - p)].$"**
+![z-value for comparing proportions](./z_value_for_comparing_proportions.png)
+- **"We translate the z-value into a p-value just as we would for any other type of hypothesis test. If the p-value is less than our significance level, we reject the null hypothesis and conclude that the proportions are different. If the p-value is greater than the significance level, we do not reject the null hypothesis."**
+
+### Summary
+
+- **"In a hypothesis test for two population proportions, we assume a null hypothesis: the two population proportions are equal. We collect two samples and calculate the sample proportions. We calculate a p-value for the difference between the sample proportions. If the p-value is less than the significance level, we reject the null hypothesis."**
+![Summary](./summary_comparing_proportions.png)
+
