@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sampling and Estimation &#8212; IIMU - Harvard Business School Courses</title>
     
-  <link href="../../_static/css/theme.css" rel="stylesheet" />
-  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -31,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -42,7 +42,7 @@
     <script src="../../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
@@ -54,7 +54,10 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -88,7 +91,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Management Communication
  </span>
@@ -110,7 +113,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Mathematics for Management
  </span>
@@ -142,7 +145,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Quantitative Methods
  </span>
@@ -159,7 +162,7 @@
   </a>
  </li>
 </ul>
-<p class="caption" role="heading">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Finance Online
  </span>
@@ -333,6 +336,112 @@
      Summary
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#central-limit-theorem">
+     Central Limit Theorem
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#definition">
+       Definition
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#confidence-intervals">
+   Confidence Intervals
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estimating-a-population-mean-ii">
+     Estimating a Population Mean II
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#finding-a-confidence-interval">
+     Finding a Confidence Interval
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Summary
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#using-small-sample">
+       Using Small Sample
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#finding-the-t-value">
+         Finding the t value
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id5">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#choosing-a-sample-size">
+       Choosing a Sample Size
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id6">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#step-by-step-guide">
+       Step-by-step Guide
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#proportions">
+   Proportions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#confidence-intervals-and-proportions">
+     Confidence Intervals and Proportions
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id7">
+       Sample Size
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#finding-a-preliminary-estimate-of-p-bar">
+       Finding a Preliminary Estimate of p-bar
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id8">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
   </ul>
  </li>
 </ul>
@@ -494,6 +603,168 @@
 <img alt="Summary" src="../../_images/summary_normal_dist.png" /></p></li>
 </ul>
 </div>
+<div class="section" id="central-limit-theorem">
+<h3>Central Limit Theorem<a class="headerlink" href="#central-limit-theorem" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Even if a population is not normally distributed, the properties of the normal distribution are very helpful to us in sampling.”</strong></p></li>
+</ul>
+<div class="section" id="definition">
+<h4>Definition<a class="headerlink" href="#definition" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>The Central Limit Theorem says that if we took many random samples from a population and plotted the means of each sample, then — assuming the samples we take are sufficiently large — the resulting plot of the sample means would look normally distributed. Furthermore, if we took enough of these samples, the mean of the resulting distribution of sample means would be equal to the true mean of the population.”</strong></p></li>
+<li><p>The normal distribution formed by the means of the samples is called Distribution of Sample Means or Sampling Distribution of the mean.</p></li>
+<li><p><strong>“The Central Limit Theorem is so powerful for sampling and estimation because it allows us to ignore the underlying distribution of the population we want to learn about. Since we know the Distribution of Sample Means is normally distributed and centered at the true population mean, we can completely disregard the underlying distribution of the population.”</strong></p></li>
+<li><p>Nnformation about the Distribution of Sample Means is used to draw conclusions about the likelihood of different values of the actual population mean.</p></li>
+<li><p><strong>“The Central Limit Theorem states that for any population distribution, the means of samples from that population are distributed approximately normally. The more samples, and the larger the sample size, the closer the Distribution of Sample Means fits a normal curve. The mean of a single sample lies on this normal curve, so we can use the normal curve’s special properties to extract more information from a single sample mean.”</strong></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="confidence-intervals">
+<h2>Confidence Intervals<a class="headerlink" href="#confidence-intervals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“Using the properties of the normal distribution and the Central Limit Theorem, you can construct a range of values that is almost certain to contain the population mean.”</strong></p></li>
+</ul>
+<div class="section" id="estimating-a-population-mean-ii">
+<h3>Estimating a Population Mean II<a class="headerlink" href="#estimating-a-population-mean-ii" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“If we take a sufficiently large sample — let’s say at least 30 points — from a population, there is a 95% chance that the mean of that sample falls within two standard deviations of the true population mean.”</strong></p></li>
+<li><p>With the help of central limit theorem, it can be concluded that there is a 95% chance that the sample mean is 2 standard deviations away from the population mean.</p></li>
+<li><p>Remember, confidence interval is the range around sample means.</p></li>
+<li><p><strong>“95% of all samples we obtain will have intervals that contain the population mean. In other words, 95% of the time a range that is two standard deviations wide centered around the sample mean contains the population mean.”</strong></p></li>
+<li><p><strong>“If we increase the confidence level to 98%, we have only a 1 out of 50 chance of obtaining an interval that does not contain the true population mean. However, this higher confidence comes at a cost. If we keep the same sample size, then the confidence interval will widen, thereby decreasing the accuracy of our estimate. Alternatively, to keep the same interval width, we can increase our sample size.”</strong></p></li>
+<li><p><strong>“If we would make a different decision for different values within an interval, that interval is too wide.”</strong>
+<img alt="Standard Deviation of Sampling Distribution of Mean" src="../../_images/std_dev_sample_dist.png" /></p></li>
+</ul>
+<div class="section" id="id3">
+<h4>Summary<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“A confidence interval is an estimate for the mean of a population. It specifies a range that is likely to contain the population mean. A confidence interval is centered at the mean of a sample randomly drawn from the population under study. When we have a confidence level of 95% we expect equally wide confidence intervals centered at 95 out of 100 such sample means to contain the population mean.”</strong>
+<img alt="Summary" src="../../_images/summary_est_population_mu_2.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="finding-a-confidence-interval">
+<h3>Finding a Confidence Interval<a class="headerlink" href="#finding-a-confidence-interval" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Use the confidence formula with appropriate values that can be calculated with the help of earlier discussions.</p></li>
+<li><p>For finding the required z with <span class="math notranslate nohighlight">\(x\%\)</span> of confidence:</p>
+<ul>
+<li><p>Perform <span class="math notranslate nohighlight">\(100-x\)</span>.</p></li>
+<li><p>The remaining percentage that is obtained should be divided by 2 as we divide the area equally on either sides.</p></li>
+<li><p>Find the <span class="math notranslate nohighlight">\(z\)</span> for the cumulative probability of <span class="math notranslate nohighlight">\(x+\frac{(100-x)}{2}\)</span> using the table or excel.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="id4">
+<h4>Summary<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“To calculate a confidence interval, we take a sample, compute its mean and standard deviation, and then build a range around the sample mean with a specified level of confidence. The confidence level indicates how confident we are that the sample mean we collected contains the population mean.”</strong>
+<img alt="Summary" src="../../_images/summary_ci.png" /></p></li>
+</ul>
+</div>
+<div class="section" id="using-small-sample">
+<h4>Using Small Sample<a class="headerlink" href="#using-small-sample" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“With a small sample, the consequences of the Central Limit Theorem are not assured, so we cannot be sure that the sample means follow a normal distribution.”</strong></p></li>
+<li><p><strong>“With a small sample, we can’t be sure that the sample standard deviation is a good estimate of the population standard deviation.”</strong></p></li>
+<li><p><strong>“Due to these additional uncertainties, we cannot use z-values to construct confidence intervals. Using a z-value would overstate our confidence in our estimate.”</strong></p></li>
+<li><p><strong>“if we don’t know anything about the underlying population, we cannot create a confidence interval with fewer than 30 data points. However, if the underlying population is normally distributed — or even roughly normally distributed — we can use a confidence interval to estimate the population mean.”</strong></p></li>
+<li><p>For sample whose distribution does not follow normal distribution and the sample size is small, we can use the t-distribution for finding the confidence interval</p></li>
+<li><p>A t-distribution gives <span class="math notranslate nohighlight">\(t\)</span> values.</p></li>
+<li><p><strong>“A t-distribution gives us t-values in much the same way as a normal distribution gives us z-values.”</strong></p></li>
+<li><p><strong>“A t-distribution looks similar to a normal distribution, but is not as tall in the center and has thicker tails, because it is more likely than the normal distribution to have values fall farther away from the mean.”</strong>
+<img alt="t-distribution" src="../../_images/t_distribution.png" /></p></li>
+<li><p><strong>“To achieve the same level of confidence, a confidence interval based on a t-distribution will be wider than one based on a normal distribution.”</strong></p></li>
+<li><p><strong>“t-distribution is also different because it varies with the sample size: For each sample size, there is a different t-value associated with a given level of confidence. The smaller the sample size n, the shorter the height and the thicker the tails of the t-distribution curve, and the farther we have to go from the mean to reach a given level of confidence. On the other hand, as the sample size increases, the shape of the t-distribution becomes more and more like the shape of a normal distribution. Once we reach a sample size of 30, the t-distribution becomes virtually identical to the z-distribution, so t-values and z-values can be used interchangeably.”</strong></p></li>
+<li><p>t-distribution can also be used for sample size greater than 30 but z-distribution is usually preferred because of ease of calculation.</p></li>
+</ul>
+<div class="section" id="finding-the-t-value">
+<h5>Finding the t value<a class="headerlink" href="#finding-the-t-value" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>To find the t-value -</p>
+<ul>
+<li><p>Find the t-distribution that corresponds to the sample. To find t-distribution.</p>
+<ul>
+<li><p>Find the degrees of freedom. Usually it cal be calculated as <span class="math notranslate nohighlight">\((n-1)\)</span>.</p></li>
+</ul>
+</li>
+<li><p>Then use the excel function to find the t-value. Alternatively, use the t-table to find the t-value.</p></li>
+</ul>
+</li>
+<li><p>Use the same formula for confidence interval, just replace <span class="math notranslate nohighlight">\(z\)</span> with <span class="math notranslate nohighlight">\(t\)</span></p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h5>Summary<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“Confidence intervals can be constructed even with a sample size of less than 30, as long as the population is roughly normally distributed (or, at least not too skewed or bimodal). To find a confidence interval with a small sample, use a t-distribution. T-distributions are a set of distributions that resemble the normal distribution, but with shorter heights near the mean and thicker tails. To find a confidence interval for a small sample size, place the appropriate t-value into the confidence interval formula.”</strong>
+<img alt="Summary" src="../../_images/summary_t_dist.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="choosing-a-sample-size">
+<h4>Choosing a Sample Size<a class="headerlink" href="#choosing-a-sample-size" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Sample size directly affacts the accuracy of the estimate.</p></li>
+<li><p><strong>“The larger the sample size, the tighter the confidence interval and the more accurate our estimate.”</strong></p></li>
+<li><p><strong>“To find the sample size necessary to give us a specified distance d from the mean, we must have an estimate of sigma, the standard deviation of spending. If we do not have an estimate based on past data or some other source, we might take a preliminary survey to obtain a rough estimate of sigma.”</strong>
+<img alt="Sample Size" src="../../_images/sample_size.png" /></p></li>
+</ul>
+<div class="section" id="id6">
+<h5>Summary<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“When estimating a population mean, we can ensure that our confidence interval extends a distance of at most d on either side of the mean by choosing an appropriate sample size.”</strong>
+<img alt="Summary" src="../../_images/summary_sample_size.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="step-by-step-guide">
+<h4>Step-by-step Guide<a class="headerlink" href="#step-by-step-guide" title="Permalink to this headline">¶</a></h4>
+<ol class="simple">
+<li><p><strong>“We choose a level of confidence and a sample size n appropriate to the decision context.”</strong></p></li>
+<li><p><strong>“We take a random sample and find the sample mean. This is our best estimate for the population mean.”</strong></p></li>
+<li><p><strong>“We find the standard deviation.”</strong></p></li>
+<li><p><strong>“Find the z-value or t-value associated with the proper confidence level. If our sample size is over 30, we find the z-value for our confidence level. If not, we find the t-value for our confidence level and with degrees of freedom = sample size - 1.”</strong></p></li>
+<li><p><strong>“We calculate the end points of the confidence interval using the formulae below.”</strong>
+<img alt="Step by Step Guide" src="../../_images/stey_by_step_guide_ci.png" /></p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="section" id="proportions">
+<h2>Proportions<a class="headerlink" href="#proportions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="confidence-intervals-and-proportions">
+<h3>Confidence Intervals and Proportions<a class="headerlink" href="#confidence-intervals-and-proportions" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Proportion is number of desired actions by the total number of actions.</p></li>
+<li><p>Proportions for all the actions under consideration always add up to 1.</p></li>
+<li><p>Proportion can be considered as a point estimate and we can know confidence interval for this estimate.</p></li>
+<li><p>Finding the confidence interval for proportion estimate is similar to the way we discussed earlier. The only difference will be in the calculation of standard deviation. <strong>“We can approximate the standard deviation of the population with a simple formula rather than calculating it directly from the raw data.”</strong>
+<img alt="Confidence Interval for Proportion for 2 responses/actions" src="../../_images/proportion_ci.png" /></p></li>
+</ul>
+<div class="section" id="id7">
+<h4>Sample Size<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Sample size matters significantly for dealing with very small and very large proportions.
+<img alt="Guidelines for Proportion" src="../../_images/proportion_guidelines.png" /></p></li>
+<li><p>Guidelines ensures that our sample has reasonable numbers for every action.</p></li>
+</ul>
+</div>
+<div class="section" id="finding-a-preliminary-estimate-of-p-bar">
+<h4>Finding a Preliminary Estimate of p-bar<a class="headerlink" href="#finding-a-preliminary-estimate-of-p-bar" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“We can obtain a preliminary estimate of p-bar using either of two methods: first, we can use past experience. In many cases, however, we are sampling for the first time. Without past experience, we don’t know what p-bar might be. In this case, it may well be worth our time to take a small test sample to estimate the proportion, p-bar.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h4>Summary<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Proportions are often used to indicate the frequency of some characteristic in a population. The sample proportion p-bar is the number of occurrences of the characteristic in the sample divided by the number of respondents, the sample size. It is our best estimate of the true proportion in the population. We can construct a confidence interval for the population proportion. Two guidelines for the sample size must be met for a valid confidence interval: n(p-bar) and n(1 - (p-bar)) must each be at least five.”</strong>
+<img alt="Summary" src="../../_images/summary_proportions.png" /></p></li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 
@@ -520,13 +791,8 @@
               </div>
               
         
-            
-
-
-
-<div class='prev-next-bottom'>
-    
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'>
 </div>
         
         </div>
@@ -547,8 +813,7 @@
       </div>
     </div>
   
-  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>

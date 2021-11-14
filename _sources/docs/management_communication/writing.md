@@ -386,3 +386,300 @@ Writing skills are fundamental in business. It’s increasingly important to be 
 - **"A reasonably settled outline or writing plan expedites writing a draft."**
 - No need to keep all the points in your head or worry about the order of content while drafting.
 
+#### Opening and Conclusion
+
+- With the help of draft, writing opening and conclusion becomes easier.
+- Openings helps to seize reader's attention and motivates them to continue.
+- **"Conclusions let readers go with a final thought or worthwhile piece of information."**
+
+#### Opening an Informative Message
+
+- Don't grab readers with verbal pyrotechnics—colorful language and daring or provocative claims.
+- It is necessary to give audience some purpose to read.
+- Opening should tell the reader about the information being delivered and need of that information.
+- Opening should also connect the new information with the information that reader already knows, whenever possible, in order to improve reader's comprehension and retention.
+- **"Good business writing speaks to the reader directly, concisely, clearly, and logically."**
+
+#### Concluding an Informative Message
+
+- **"The conclusion can serve purposes such as these:"**
+  - Reinforcing an especially important piece of information
+  - Pointing the reader to other sources of similar information
+  - Telling the reader how to get questions answered
+- Conclusion may not be always required.
+- **"Sometimes you don't need a conclusion. In a description-explanation of a process, the process has a last step that should be obvious to the reader. A conclusion should always have a value for the audience. It should not be a contrived summation in flowery language."**
+
+### Revising the draft
+
+- **"The goal of revising a draft is to improve the expression of your ideas for maximum effect on readers. In the draft stage, you engage your ideas and give them a voice with as little filtering as possible. In the revising stage, you read from the audience's point of view. The revising stage is the pivotal moment in shifting from a private message (one that means something to you) to a public message (one that means something to others)."**
+- **"Revision concentrates on the content, organization, and tone of the draft."**
+- **"Set aside the first draft for a day or more if possible. Our brains need sleep to consolidate memories, and the break helps us look at the draft with more energy and objectivity."**
+
+### Editing and Correcting
+
+- Editing and correcting may seem to introduce an unnecessary delay but it is required to as poorly written sentences and mistakes in grammar, punctuation, and mechanics cause readers to question the writer’s competence and credibility.
+- It is not a good idea to skip this step.
+- **"Have a friend or colleague with good editorial skills assist you, or take another break. With just an hour or two doing something else, you can come back to your writing and see style problems and mistakes that you were oblivious to before you stopped work."**
+
+#### Editing
+
+- **"The goal of editing is to make the writing as readable as possible."**
+- Use "The Writing Style" for editing.
+
+#### Correcting
+
+- **"Ask people you work with how strict your readers are about grammar, spelling, punctuation, and mechanics."**
+- **"In any case, numerous mistakes slow readers down and can reduce their comprehension of the overall message. When a reader encounters a mistake, she performs what reading experts call a fix-up. She determines what the word or sentence is supposed to mean. Of course, each fix-up interrupts the process of building meaning from the message. Many fix-ups fragment the message for the reader and raise questions about the author's competence."**
+
+## Persuasive Writing
+
+- **"The “Planning Communication” module states that persuasive writing motivates an audience to think, feel, or act in the way the communicator intends. Persuasion has power: It can change people’s thinking and cause them to have strong emotions and do things they might not otherwise do. But it is up to the audience to decide whether to ally themselves with the communicator’s purpose. Persuasion often fails, but one unsuccessful attempt doesn’t mean the communicator won’t have more opportunities to try—or eventually realize her purpose."**
+
+### Persuading vs Informing
+
+- **"Using writing to persuade an audience is a more difficult and complex task than using it to inform. People will usually accept information once they understand its significance to them. On the other hand, persuasion addresses subjects about which people disagree. When adults think or feel a certain way about a subject, it can be hard to change their minds."**
+- **"Change entails risk and risk often makes people uncomfortable or afraid. One persuasive communication often won’t overcome audience resistance, particularly when the stakes are high. So persuasion becomes a process consisting of multiple communications."**
+- **"Persuasion requires persistence. The same message—or variations of it—may have to be sent time after time. (In fact, research indicates that persistence is an essential means for minorities to influence majorities.)"**
+
+### Composing Persuasive Memo
+
+- **"Creating persuasion involves appeals to reason, emotion, and character. The goal is to take the best possible advantage of these three resources in a message."**
+- **"Reason is the primary tool of persuasion in business because businesspeople prefer rational choices grounded in factual evidence. Emotions play a strong role, too—a role that business audiences very often underestimate."**
+- **"Our rationality isn't as rational as it is commonly assumed to be. Nevertheless, to be skilled at persuasion in business, you have to be particularly skilled in reasoning."**
+
+#### Using Argument to Persuade
+
+- **"Arguments use reason to prove that a conclusion is likely to be true. Why "likely to be true" instead of "true"? Even in science, proof of unequivocal truth is hard to come by. In business, data are never perfect or complete, and many contingencies are in play."**
+- Our decision cannot have always have the desired result. **"The history of business is littered with choices that seemed to be well reasoned and turned out to be completely, and often expensively, wrong."**
+- But rational argument is the best tool we have. So using it carefully and critically, we still have chances to get better results than relying on gut feelings.
+- Use the templates from "Planning Communication" module for arguments.
+
+### Researching and Developing a Writing Plan
+
+- Every business argument should be backed by an evidence.
+- **"An argument is no better than the evidence that grounds it in reality. By providing facts and connecting them to the argument, you invite the audience to verify it for themselves."**
+- Do not misunderstand evidence with information. 
+- Evidence is information or data that can be clearly linked to an argument that backs a conclusion.
+
+### Building Arguments
+
+- **"An argument's essential elements are a conclusion and the evidence that backs it up."**
+- **"The work of building an argument largely consists of developing the evidence that will convince your audience to accept your conclusion."**
+- **"The evidence used to build arguments comes in several forms:"**
+  - Facts
+  - Inferences
+  - Opinions
+  - Assumptions
+
+#### Using Facts
+
+- **"Business arguments rest on facts, the gold standard of business persuasion. For an argument to be persuasive, however, the audience must believe the facts can be trusted."**
+
+#### Using Inferences
+
+- **"Inference is a conclusion drawn from facts or reasoning."**
+
+#### Using Opinions
+
+- Opinion is usually of excerpt.
+- Another term for opinion is argument from authority.
+- **"Depending on the stature of the experts, their opinion can be compelling. (Of course, experts can be wrong.)"**
+
+#### Using Assumptions
+
+- **"Every argument ultimately rests on assumptions.When used in persuasion, arguments must have assumptions acceptable to the audience. Otherwise, the argument will very likely fail to convince. It's wise, then, for writers to evaluate the assumptions of their major arguments."**
+
+### Using Emotions to Persuade
+
+- **"Skilled writers stimulate feelings that assist in persuading the audience and, sometimes, inhibit feelings that work against persuasion."**
+- **"Because persuasion in business relies on rational argument, the writer attempts to align audience emotion with the argument."**
+- Fatcs can create feelings.
+- Fact based persuasion is necessary but not sufficient case for closing the deal. It is necessary to have emotional data (understanding of the audience, understanding the audience concerns).
+
+#### Emotional Proof
+
+- **"Sometimes written language does have a primarily emotional function."**
+- **"People have scientifically proven emotional levers, and communicators can employ them for persuasion."**
+- **"Cialdini's Six Levers of Emotional Influence"**
+
+|Emotional Influence|Definition|Example|
+|--|--|--|
+|Liking|Liking someone who likes us|You ask a friend to give a job interview to someone you know.|
+|Reciprocity|Repaying what we have received or giving what we hope to receive back|As an inducement, you say that your organization will provide needed services to a potential business partner.|
+|Social proof|Influence of others perceived to be similar to ourselves|Your hotel tells guests that 80% of guests do not ask for new towels during their stay.|
+|Consistency|Tendency to honor our commitments|You cite the long-time company mission statement as support for your positive evaluation of a new line of business.|
+|Authority|Deference (often excessive) we give to experts|You use government safety research to help sell an automobile.|
+|Scarcity|Value we give to something that is scarce|You tell loyal customers that they have only one week to take advantage of special pricing.|
+
+- **"Social proof and authority have particular power for written persuasion."**
+- Social proof powered the social media.
+- **"Businesses liberally use social proof."**
+- **"Sometimes lowering the temperature of feelings constitutes an emotional proof."**
+- **"If you were recommending a decision to invest in the new project, you might say that the old project taught the company worthwhile lessons that it can apply to the new one. By finding value in the old project and avoiding any criticism of it, you steer feelings in a positive direction that is favorable to your recommendation."**
+
+### Using Character to Persuade
+
+- **"Character in persuasion means the audience's attitude toward the communicator."**
+- **"Persuasion can depend on character to “prove” a conclusion."**
+- **"When putting forward a business-related opinion, communicators have been known to depend primarily on character to persuade an audience."**
+- **"The module called “Planning Communication” identifies two components of character in business communication: knowledge and credibility."**
+
+#### Knowledge
+
+- Audience expects communicator to be knowledgeable.
+- **"It helps to have a halo—a preexisting audience belief that the writer has the required knowledge. But the halo can be perishable. Each message must confirm that the communicator can address the topic with authority."**
+- **"Writers reinforce their authority through the following:"**
+  - High-quality argument: A sound argument and transparent evidence give an audience confidence in the writer.
+  - Relevant knowledge: As a sign of competence, audiences pay attention to the writer's command of relevant knowledge. If you want to be taken seriously, you must have the knowledge that the audience considers necessary to draw conclusions about the subject.
+  - High-quality writing: Well-written persuasion has multiple effects, and one effect is the favorable response it elicits from audiences. Audiences may not be conscious of it, but as they read, they evaluate the writer behind the message. A writer doesn't need brilliant insight to impress readers. A message that is direct, concise, clear, and logical reflects well on the writer.
+- Do not complicate the already complicated problem. Instead, come up with possible soultions or some decision points for the decision makers.
+
+#### Credibility
+
+- **"A writer substantiates credibility in numerous ways. Here are just a few of them:"**
+  - Transparent evidence: Transparency of evidence means that readers know where your evidence comes from and can confirm or, in the case of calculations, duplicate it.
+  - Use of trusted sources: Your evidence comes from or is based on sources the audience trusts, such as company documents or external sources such as well-known business databases.
+  - Endorsement by a trusted individual or group: Someone the audience respects supports your point of view or the usefulness of communicating it.
+  - Objectivity: You don't betray a bias toward a particular point of view. You earn it with a convincing argument.
+
+### Organizing the memo
+
+- Planning the conetent and organnization of message for persuasive arguments can be done with the help of the templates.
+- Templates helps is decideing the type of content required for the argument and also helps in ordering it.
+- **"Readers like predictability in the organization of a written message and dislike unpredictability. Structure helps readers make predictions about what will come next in the text, to locate key ideas, and to remember what they have read as they progress through a message."**
+
+### Drafting
+
+- Separate out the different tasks such as ttending to logical argument, audience feelings, and the representation of your character while drafting the persuasive messages.
+- **"First, write the argument. Let it be the focus in the first draft. Second, as you revise, look for opportunities to embed in the message emotion and positive impressions of you."**
+
+#### Opening of a Persuasive Message
+
+- **"a persuasive message should open with a brief description of the issue and why it's important. In addition, at or near the beginning, the writer's conclusion about the issue should be stated. The type of conclusion depends on the argument template used:"**
+  - Diagnosis: a definition of the problem and summary of the major causes
+  - Evaluation: a statement of the overall evaluation
+  - Decision: a statement of the recommended decision
+- **"Business audiences in low-context cultures want to know what the writer thinks as soon as possible. An audience that doesn’t know the point of a persuasive message can’t begin building a mental picture for understanding it."**
+- **"Cultural factors can trump stating the conclusion first. A given culture might not follow the norms of U.S. business English."**
+- **"The culture might favor gradually leading the reader to the conclusion or not want the writer to state it explicitly anywhere in the message, leaving the reader to infer it. You must work with the norms of the audience, not try to impose norms on them."**
+
+#### Conclusion of a Persuasive Message
+
+- **"The question to ask about the conclusion of a persuasive message is this: What is the final thought you want to leave with the reader?"**
+- **"The reader isn’t going to remember many of the details of your message, which is why a written message can be so useful. Writing was the first portable memory device, a permanent record that the audience can consult whenever necessary. Even so, the end of a message is a chance to “bookmark” it in the audience's memory."**
+- **"A vivid restatement of the conclusion can come in the form of a quotation, a positive comment about the future, an analogy or metaphor—these are a few ideas for ending a persuasive message on a memorable note."**
+- Conclusion summarizes the message.
+- **"Concisely summarizing an argument helps the reader retain a memory of it."**
+
+### Revising the Draft
+
+- **"Here are key points about revising presented previously in the course:"**
+  - Read the draft from the audience's point of view.
+  - Concentrate on the content, organization, and tone of the draft.
+  - Be willing to make major changes if necessary.
+  - Set aside the first draft for a day or more if possible.
+
+### Editing and Correcting
+
+- **"Editing sentences and correcting mistakes are the final steps in making a written message ready for the audience. This work can be tedious and writers often hurry through it because of a looming deadline. But editing and correcting are worth doing right. Confused sentences slow the reader down, and grammar mistakes and other errors such as misspellings rapidly erode your credibility."**
+
+----
+
+## Writing an Action Plan
+
+- **"Action plan - A critical business communication that translates thought into action. A coordinated set of actions designed to achieve a desired end state."**
+- **"An argument for a decision, an evaluation, or a diagnosis usually requires some kind of follow-up action."**
+- Simple action plan with few steps may not be written but a long descriptive ones needs to be written to vet the audience and to be effective executed.
+- A good action plan is required so that people can ordinate the actions required to achieve a desired outcome.
+- There are two key parts of the action plan:
+  1. Action - Actions need to be clearly tied to the business objectives and the outcomes rather than being focused on inputs and the tasks to be performed.
+  2. Plan - Plan needs to clearly lay out the responsibilities, timelines, dependencies and milestones.
+
+### Informative Communication as Action Plans
+
+- **"Two types of informative communication can be action plans: information organized as a chronology or as a process."**
+
+### Argument-Driven Action Plan
+
+- **"Business arguments have consequences for action. The three types of argument—diagnosis, decision, and evaluation—provide the basis for different types of actions."**
+
+|Type of Argument|Action Plan Goal|Action Plan Example|
+|--|--|--|
+|Diagnosis|Correct a problem.|Fix chronic outages in the company computer network.|
+|Evaluation|Capitalize on positives; eliminate or reduce negatives.|Improve an individual’s capabilities based on a performance evaluation.|
+|Decision|Implement decision.|Detail how a company will install the new machinery it has decided to buy.|
+
+### Basic Elements of an Action Plan
+
+- **"An action plan has these four elements:"**
+  - Goals
+  - Relevant content
+  - Specific actions
+  - Chronological order
+
+#### Goals
+
+- Action plan too needs a purpose which is summarized by its goals.
+- **"Action plan goals should address all of the important issues in the argument. A few broader goals are better than a large number of narrower ones. Many small goals make an action plan harder to write and cause the plan to become unfocused."**
+
+#### Relevant Content
+
+- **"Each step of an action plan consists of relevant content. Relevance is determined by the content of the argument."**
+
+#### Specific Actions
+
+- **"The action plan steps describe actions. Each step answers these three questions:"**
+  1. What needs to be accomplished? - The end result of the step.
+  2. Who will do it? - The individuals who will do the work.
+  3. What are the necessary tasks? - The work the individuals have to do to complete the step.
+- **"An action plan isn't helpful if the steps are vaguely written. A step should tell an audience what they need to know in order to carry it out."**
+
+#### Specific Actions: Writing Process
+
+- **"Writing a draft of an action plan involves two distinct dimensions:"**
+  - Creating a comprehensive set of actions that achieves the goals
+  - Arranging the actions in a logical order
+- **"To ease the drafting of a plan, don't try to do both at the same time. Break the work into a series of steps:"**
+  - List action steps in the order you think of them.
+  - Review the list and add missing steps and delete superfluous ones.
+  - Arrange them in a logical sequence.
+  - Edit the descriptions of the actions, clarifying them, expanding vague ones, and pruning overly detailed ones.
+
+#### Chronological Order
+
+- **"Argument-based action plans must be in chronological order."**
+- **"Splitting the plan into short-term and long-term steps assists in coordinating the steps in time, prompting the writer to decide which steps should be completed soon and which should be completed later."**
+- **"Short-term steps are"**
+  - urgent;
+  - easy; and
+  - necessary for long-term steps.
+- **"Long-term steps are"**
+  - hard to achieve and/or complex;
+  - time-consuming to complete; and
+  - dependent on prior steps.
+
+## Short Form Writing
+
+- **"Short form communication - All types of text-based digital communication such as email, wikis, blogs, texting, instant messaging, Twitter, Facebook, and Tumblr."**
+
+### Email
+
+- Email is the basic medium of communication in business.
+
+#### Strengths
+
+- **"Email has five essential strengths for businesses:"**
+  - Fast: Messages can be sent and received quickly, essentially instantaneously. Because messages are often short, recipients can read them quickly.
+  - Simple: Email applications are easy to use.
+  - Asynchronous: A message can be sent anywhere in the world, no matter how large the time difference is.
+  - Portable: Cellphones, tablets, and other portable devices can run email applications, making email communication possible anywhere, anytime.
+  - Efficient: Many email messages are short and do away with “telephone tag,” allowing people to communicate when they aren't in the same room at the same time. With email, it is as though people are always in the same room!
+
+#### Weaknesses
+
+- **"Email has weaknesses that companies are now starting to recognize. For senders, the weaknesses have implications for writing."**
+  - Limited Message Length: Some topics need longer messages. The short form medium can encourage a writer to condense the message, leaving out crucial content.
+  - Hasty Writing: Email stimulates a feeling of urgency in users, encouraging them to write hastily. That may be why so many emails are badly written and full of errors.
+  - Digital Disinhibition - Psychologists have confirmed that people are vulnerable to what they call digital disinhibition when using email. The term means saying things in an email that the writer would never say if the recipient were physically present. People are wired to monitor one another's reactions and to adjust facial expression, body, gestures, and speech. People receive none of that information when composing an email message. As a result it's easy for writers to say things they later regret.
+
+
