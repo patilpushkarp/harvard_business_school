@@ -1,0 +1,572 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regression Basics &#8212; IIMU - Harvard Business School Courses</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">IIMU - Harvard Business School Courses</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Indian Institute of Management, Udaipur - Harvard Business School Courses
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Management Communication
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../management_communication/intro.html">
+   Management Communication : Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../management_communication/planning_communication.html">
+   Planning Communication
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../management_communication/writing.html">
+   Writing in Business
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Mathematics for Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/algebra.html">
+   Algebra
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/calculus.html">
+   Calculus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/statistics.html">
+   Statistics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/probability.html">
+   Probability
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/finance.html">
+   Finance
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Quantitative Methods
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="overview.html">
+   Overview and Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="basics_data_description.html">
+   Basics: Data Description
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Finance Online
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../finance_online/intro.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/docs/quantitative_methods/regression_basics.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/patilpushkarp/harvard_business_school"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/quantitative_methods/regression_basics.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introducing-the-regression-line">
+     Introducing the Regression Line
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#summary">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-uses-of-regression">
+     The uses of Regression
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#using-regression-for-forecasting">
+       Using Regression for Forecasting
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#the-structure-of-a-relationship">
+       The Structure of a Relationship
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#calculating-the-regression-line">
+   Calculating the Regression Line
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-accuracy-of-line">
+     The Accuracy of Line
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#identifying-the-regression-line">
+     Identifying the Regression Line
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#deeper-into-regression">
+   Deeper into Regression
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#quantifying-the-predictive-power-of-regression">
+     Quantifying the Predictive Power of Regression
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#residual-analysis">
+     Residual Analysis
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="regression-basics">
+<h1>Regression Basics<a class="headerlink" href="#regression-basics" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introducing-the-regression-line">
+<h3>Introducing the Regression Line<a class="headerlink" href="#introducing-the-regression-line" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Scatter plot can help us visualize relationships between variables.</p></li>
+<li><p>Correlation coefficient can help us measure the strength of the linear relationship.</p></li>
+<li><p><strong>“Regression understand and characterize the specific structure of the relationship between two variables.”</strong></p></li>
+<li><p><strong>“One of these lines most accurately describes the relationship between the two variables: the “best-fit” or regression line.”</strong></p></li>
+<li><p><strong>“In general, a regression line can be described by a simple linear equation: <span class="math notranslate nohighlight">\(y = a + bx\)</span>, with y-intercept a and slope b.”</strong></p></li>
+<li><p><strong>“In this equation, the y-variable  is called the dependent variable. The x-variable, advertising, is called the independent variable, or the explanatory variable.”</strong></p></li>
+<li><p><strong>“When we observe that a change in the independent variable is typically accompanied by a proportional change in the dependent variable, regression analysis can identify and formalize that relationship.”</strong></p></li>
+</ul>
+<div class="section" id="summary">
+<h4>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Regression analysis helps us find the mathematical relationship between two variables. We can use regression to describe a linear relationship: one that can be represented by a straight line and characterized by an equation of the form <span class="math notranslate nohighlight">\(y = a + bx\)</span>.”</strong>
+<img alt="Summary" src="../../_images/summary_introduction_regression.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="the-uses-of-regression">
+<h3>The uses of Regression<a class="headerlink" href="#the-uses-of-regression" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Regression can help is two ways:</p>
+<ul>
+<li><p>Forecasting: prediction of future values based on current values.</p></li>
+<li><p>Deepen our understanding of the structure of the relationship between two variables by expressing the relationship mathematically.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="using-regression-for-forecasting">
+<h4>Using Regression for Forecasting<a class="headerlink" href="#using-regression-for-forecasting" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Regression analysis brings the entire data set to bear on our prediction. Having identified the relationship between the two variables from the full data set, we can apply our understanding of that relationship to our forecast.”</strong></p></li>
+<li><p>With regression, we can forecast within the range of observed values only. Be extremely cautious about forecasting beyond the observed values range.</p></li>
+<li><p><strong>“If we try to use our regression equation to forecast sales for advertising levels outside of the historical range, we are implicitly assuming that the relationship between advertising and sales continues to be linear outside of the historical range.”</strong></p></li>
+<li><p><strong>“Another critical caveat to keep in mind is that whenever we use historical data to predict future values, we are assuming that the past is a reasonable predictor of the future. Thus, we should only use regression to predict the future if the general circumstances that held in the past, such as competition, industry dynamics, and economic environment, are expected to hold in the future.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="the-structure-of-a-relationship">
+<h4>The Structure of a Relationship<a class="headerlink" href="#the-structure-of-a-relationship" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Regression can be used to deepen our understanding of the structural relationship between two variables.”</strong></p></li>
+<li><p><strong>“Understanding “the structure” of any relationship translates into finding and interpreting the coefficients of the regression equation.”</strong></p></li>
+<li><p><strong>“The regression line gives us insight into how two variables are related. As one variable increases, by how much does the other variable typically change?”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h4>Summary<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“We use regression analysis for two primary purposes: forecasting and studying the structure of the relationship between two variables. We can use regression to predict the value of the dependent variable for a specified value of the independent variable. The regression equation also tells us how the dependent variable has typically changed with changes in the independent variable.”</strong>
+<img alt="Summary" src="../../_images/summary_regression_uses.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="calculating-the-regression-line">
+<h2>Calculating the Regression Line<a class="headerlink" href="#calculating-the-regression-line" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-accuracy-of-line">
+<h3>The Accuracy of Line<a class="headerlink" href="#the-accuracy-of-line" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“A regression line helps you understand the relationship between two variables and forecast future values of the dependent variable.”</strong></p></li>
+<li><p><strong>“The regression line depicts the best linear relationship between the two variables. We attribute the difference between the actual data points and the line to the influence that other variables have on sales, or to chance alone.”</strong></p></li>
+<li><p><strong>“To quantify how accurately a line fits a data set, we measure the vertical distance between each data point and the line.”</strong></p></li>
+<li><p><strong>“We measure vertical distance because we are interested in how well the line predicts the value of the dependent variable. The dependent variable is measured on the vertical axis. For each data point, we want to know how close the value of sales predicted by the line is to the historically observed value of sales.”</strong></p></li>
+<li><p><strong>“Vertical distance between a data point and the line is the error in prediction or the residual error, or simply the error. The error is the difference between the observed value and the line’s prediction for our dependent variable. This difference may be due to the influence of other variables or to plain chance.”</strong>
+<img alt="Accuracy of Line" src="../../_images/accuracy_of_line.png" /></p></li>
+<li><p>To quantity the total error, individuals errors are squared and then added with each other so that positive and negative errors do not cancel out each other. This measure is called Sum of Squared Error (SSE) or the Residual Sum of Squares, gives us a good measure of how accurately a line describes a set of data.</p></li>
+<li><p><strong>“The less well the line fits the data, the larger the errors, and the higher the Sum of Squared Errors.”</strong></p></li>
+</ul>
+<div class="section" id="id2">
+<h4>Summary<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“To find the line that best fits a data set, we first need a measure of the accuracy of a line’s fit: the Sum of Squared Errors. To find the Sum of Squared Errors, we calculate the vertical distances from the data points to the line, square the distances, and sum the squares.”</strong>
+<img alt="Summary" src="../../_images/summary_accuracy_of_line.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="identifying-the-regression-line">
+<h3>Identifying the Regression Line<a class="headerlink" href="#identifying-the-regression-line" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Regression line is the line with smalleest SSE.</p></li>
+<li><p><strong>“The lower the Sum of Squared Errors, the more precisely the line fits the data, and the higher the line’s accuracy.”</strong></p></li>
+</ul>
+<div class="section" id="id3">
+<h4>Summary<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“The line that most accurately fits the data — the regression line — is the line for which the Sum of Squared Errors is minimized.”</strong>
+<img alt="Summary" src="../../_images/summary_identifying_regression_line.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="deeper-into-regression">
+<h2>Deeper into Regression<a class="headerlink" href="#deeper-into-regression" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="quantifying-the-predictive-power-of-regression">
+<h3>Quantifying the Predictive Power of Regression<a class="headerlink" href="#quantifying-the-predictive-power-of-regression" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Mean can be used as a benchmark to compare the predictive power of regression line.</p></li>
+<li><p>The Sum of Squared Errors for the mean line measures the total variation in the dependent variable data. In fact, it is the same measure of variation we use to derive the standard deviation of dependent variable.</p></li>
+<li><p><strong>“We call the Sum of Squared Errors for our benchmark, the Total Sum of Squares.”</strong></p></li>
+<li><p><strong>“The Sum of Squared Errors for the regression line is often called the Residual Sum of Squared Errors, or the Residual Sum of Squares. The Residual Sum of Squares is the variation left “unexplained” by the regression.”</strong></p></li>
+<li><p>The difference between the Total Sum of Squares and the Residual Sum of Squares is called the Regression Sum of Squares. The Regression Sum of Squares measures the variation in dependent variable “explained” by the regression line.
+<img alt="Total Sum of Sqaures" src="../../_images/total_sum_of_sqaures.png" /></p></li>
+<li><p><strong>“A standardized measure of the regression line’s explanatory power is called R-squared. R-squared is the fraction of the total variation in the dependent variable that is explained by the regression line.”</strong></p></li>
+<li><p><strong>“R-squared will always be between 0 and 1 — at worst, the regression line explains none of the variation in dependent variable; at best it explains all of it.”</strong></p></li>
+<li><p><strong>“We find R-squared by dividing the variation explained by the regression line — the Regression Sum of Squares — by the total variation in the dependent variable — the Total Sum of Squares.”</strong>
+<img alt="R Squared" src="../../_images/r_sqaured.png" /></p></li>
+<li><p><span class="math notranslate nohighlight">\(Fraction\_of\_variation\_not\_explained = \frac{residual\_sum\_of\_sqaures}{total\_sum\_of\_sqaures}\)</span></p></li>
+<li><p><strong>“In a regression that has only one independent variable, R-squared is closely related to the correlation coefficient between the independent and dependent variables: the correlation coefficient is simply the positive or negative square root of R-squared—positive if the slope of the regression line is positive and negative if the slope of the regression line is negative.”</strong></p></li>
+</ul>
+<div class="section" id="id4">
+<h4>Summary<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“R-squared measures how well the behavior of the independent variable explains the behavior of the dependent variable. R-squared is the ratio of the Regression Sum of Squares to the Total Sum of Squares. As such, it tells us what proportion of the total variation in the dependent variable is explained by its linear relationship with the independent variable.”</strong>
+<img alt="Summary" src="../../_images/summary_predictive_power.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="residual-analysis">
+<h3>Residual Analysis<a class="headerlink" href="#residual-analysis" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“The vertical distances from the data to the line — the errors — measure how well the line fits the data. These errors are also known as residuals.”</strong></p></li>
+<li><p>Residual plot (independent variable vs residual error) helps us identify patterns in the residuals.</p></li>
+<li><p><strong>“A residual plot often is better than the original scatter plot for recognizing patterns because it isolates the errors from the general trend in the data. Residual plots are critical for studying error patterns in more advanced regressions with multiple independent variables.”</strong></p></li>
+<li><p><strong>“If the only pattern in the dependent variable is accounted for by a linear relationship with the independent variable, then we should see no systematic pattern in the residual plot. The residuals should be spread randomly around the horizontal axis.”</strong></p></li>
+<li><p><strong>“The distribution of the residuals should be a normal distribution, with mean zero, and a fixed variance. Residuals are called homoskedastic if their distributions have the same variance.”</strong></p></li>
+<li><p><strong>“If we see a pattern in the distribution of the residuals, then we can infer that there is more to the behavior of the dependent variable than what is explained by our linear regression. Other factors may be influencing the dependent variable, or the assumption that the relationship is linear may be unwarranted.”</strong></p></li>
+<li><p><strong>“When the residuals appear to be getting larger for higher values of the independent variable. This phenomenon is known as heteroskedasticity.”</strong></p></li>
+<li><p><strong>“Residual analysis reveals that the distribution of the residuals changes with the independent variable: the variance increases as the independent variable increases. Since the variance of the residuals — which contributes to the variation of the dependent variable — is affected by the behavior of the independent variable, we can conclude that there must be more to the story than just the linear relationship.”</strong></p></li>
+</ul>
+<div class="section" id="id5">
+<h4>Summary<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“A complete regression analysis should include a careful inspection of the residuals. Plot the residuals against the independent variable to reveal patterns in the distribution of the residuals.”</strong>
+<img alt="Summary" src="../../_images/summary_residual_analysis.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./docs/quantitative_methods"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Pushkar Patil<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

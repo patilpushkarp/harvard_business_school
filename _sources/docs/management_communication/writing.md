@@ -682,4 +682,134 @@ Writing skills are fundamental in business. It’s increasingly important to be 
   - Hasty Writing: Email stimulates a feeling of urgency in users, encouraging them to write hastily. That may be why so many emails are badly written and full of errors.
   - Digital Disinhibition - Psychologists have confirmed that people are vulnerable to what they call digital disinhibition when using email. The term means saying things in an email that the writer would never say if the recipient were physically present. People are wired to monitor one another's reactions and to adjust facial expression, body, gestures, and speech. People receive none of that information when composing an email message. As a result it's easy for writers to say things they later regret.
 
+#### Writing Emails and Social Media Posts
 
+- **"Emails should have the qualities of any business writing: directness, conciseness, clarity, and logic. A short form medium heightens the importance of the qualities."**
+- **"Here are Guidelines for Writing Successful Emails:"**
+  - Write a short subject line stating the main point of the message. Think of the subject line as a headline.
+  - State your purpose or conclusion immediately.
+  - Write concisely.
+  - Use short sentences and paragraphs.
+  - Create emphasis through content, not visual devices.
+  - Check the tone of the message.
+- **"If your message is going to be long, you are better off putting it in a document and sending it as an attachment, using the email to describe the attachment and encourage the recipient to open it."**
+- **"Resist the urge to write an important message and send it immediately. Email applications are poor tools for composing because the interface is full of distractions and the long list of messages creates pressure to work as fast as possible. Instead, write the message in a word-processing application. You're likely to take more time with it, including revising, editing sentences, and making corrections."**
+
+### Ultra Short Forms
+
+- **"Innovations in technology have made available an increasing number of digital communication media that drastically restrict the length of messages. Chat, texting, instant messaging, and Twitter are just a few examples."**
+- **"Ultra short forms force conciseness, which can make communication efficient. The disadvantage of the more public media such as Twitter and Facebook is that mistakes in messaging can be read by a large audience."**
+
+#### Writing Ultra Short Form Messages
+
+- **"With few shared conventions, the language of ultra short forms can vary from individual to individual. That carries the potential for miscommunication."**
+- **"Often message-condensing practices actually save few characters. Using them may have less to do with conciseness than confirming the user's group identity as someone who knows the code. Businesspeople use texting and other ultra short forms for social purposes at work, sharing news, jokes, thoughts, and feelings, but when used for business content, the messages should follow the standards of good communication."**
+- **"Here are Guidelines for Ultra Short Form Communication:"**
+  - State your point simply.
+  - Complete sentences aren't necessary, but include enough of a sentence to make the meaning easy to understand.
+  - Don't omit punctuation and capital letters necessary to understand the message.
+  - Use format-specific abbreviations (like those for texting) only when you know the recipient will understand them.
+  - Don't force a message that needs more than a sentence or two into an ultra short form.
+
+### Blogs and Wikis
+
+- **"Blogs tend to be one-way communication—the writer and audience have separate roles."**
+- **"Wikis are online platforms for collaborative exchanges. Business wikis can be resources for disseminating information, asking questions and receiving answers, exploring ideas, and persuading participants. Some corporate wikis allow customers to participate with employees in tasks such as creating software user manuals."**
+- **"To be useful, a business blog should have a well-defined purpose and target audience. A blog post should be as well organized, concise, and correct as a business memo or report. Well-written blogs motivate readers to return."**
+- **"Email guidelines apply to wiki writing. The purpose of a wiki requires efficient and accurate messages and responses that directly address the questions asked. Like most social media, wikis usually don't have editors and depend on users to maintain the quality of communication. Their value can be diminished if users write disorganized and sloppy entries."**
+
+### Short Forms: Informative and Persuasive
+
+- **"As a primary means of business communication, email is used for the same purposes other written communication is: informing and persuading audiences."**
+- **"Short messages sent and received through mobile devices can deliver small amounts of critical information where and when needed. They can be used to express ideas and solicit brief reactions. These forms of communication can prevent ideas from being lost and get them in front of an audience for feedback."**
+- **"Short messages can be used for persuasion too—compact arguments, emotional appeals, and character plays."**
+
+## Long Form Writing
+
+- Longer form of writing still persists.
+- **"Audiences often demand long messages. Investors expect substantial annual reports and clients want detailed proposals for large projects."**
+- Examples
+
+|Informative|Persuasive|
+|--|--|
+|Technical report|Annual report|
+|Survey results report|Analyst report|
+|Construction status report|Business proposal|
+|10-K report (filing to U.S. Securities and Exchange Commission)|Business plan|
+- **"In business, long form communication meets one or more of four conditions:"**
+  - The subject is complex.
+  - The stakes are high.
+  - The issue is controversial.
+  - The audience expects a large amount of detail.
+- **"Long business documents can be informative or persuasive. Their authors face two special challenges:"
+  - Sustain a logical organization throughout a long message.
+  - Put limits on the amount of detail.
+- **"The best practices of writing short forms apply to long forms. Good writing is good writing no matter how many words are involved. The methods for creating and organizing informative and persuasive messages are likewise the same."**
+- **"Long form communication presents a tradeoff. It gives writers the opportunity to cover a topic comprehensively, but the longer the document, the harder it is to keep the attention of business audiences."**
+- **"Each part of well-written persuasion contributes to the strength of the argument, so the persuasive effect on the reader can be weakened if the reader skips or skims parts of the message."**
+
+### Engaing your Audience
+
+- **"The competition between long and short messages is tilted toward the short messages. Recipients often can deal with many short messages fairly rapidly, giving them a sense of accomplishment (even when that sense is mistaken). This can introduce an audience bias against longer messages, which obviously require more time to read and think about and therefore seem to reduce readers' productivity."**
+- **"The writer must pull the audience into and through a long message. A strong pull at the beginning generally means less need for it later on. Nevertheless, throughout the message, writers need do what they can to prolong audience engagement."**
+
+#### Start with an Overview
+
+- **"Begin a long document by describing the topic, purpose, and organization of the report. Making the reader guess the topic and purpose or making them wade through preliminary remarks to get to them creates a bad first impression. Readers don't owe you their time. Give them a reason for reading."**
+- **"Experiment with openings that intrigue and draw in readers. For example, you can express the topic as a puzzle that needs a solution and introduce the major pieces. Or you can use a contrary opening: State a conclusion opposed to yours and then say that you are going to show why it is wrong."**
+- **"Another approach for the opening of a long message is an executive summary. An executive summary provides more information than the topic, purpose, and organization; it summarizes the major points of the whole document."**
+- **"Overview is like an elevator pitch for a long written message."**
+
+#### Justify the Length
+
+- **"Make the case why the audience should commit to reading the document. In effect you're persuading the reader to read. Make an argument with whatever appeals you think will motivate readers."**
+
+#### Write Concisely
+
+- **"It may seem paradoxical to say that a long document should be written concisely, but inefficient writing and high word counts make poor partners. The combination wears out readers; the more tired they become, the more likely their attention will wander."**
+- **"Concise and content-rich writing allows readers to build momentum, pulling them through the text."**
+- **"Once you complete a draft, set it aside for at least a day and preferably longer. Then cut as much as you can from it without removing essential content. When revising, prune content to just above the minimum necessary to achieve your purpose with the audience. When editing, take out inessential words and sentences and use action verbs whenever possible."**
+- **"The audience will appreciate the work you put into making a long report as short as possible and easy to read."**
+
+#### Use Variety
+
+- **"Look for relevant stories you can tell. Use visuals. Find striking facts (be sure they are relevant to the topic and purpose). Use a wide variety of sources, including quotations."**
+- **"You may want to try involving the audience more actively. Here are some ways:"**
+  - Put hyperlinks in the document to web content—but make certain the content is relevant.
+  - Insert audio files in the document. You can record a greeting to the reader or use audio to give more detail on certain points for those interested in it.
+  - Ask if readers have questions and invite them to respond to you with an email (which can be embedded in the text) or by texting.
+  - Create a "secret" Facebook group (one that is open to invited members only and does not show up in searches) and have readers post questions and responses there.
+
+#### Provide Visualizations of Data
+
+- Every business communication has certain format associated with it. Since readers are familiar with those conventions, it is easier for them to know what information is included and where to find something.
+- **"When no convention exists, however, present quantitative relationships graphically when possible. For most audiences, the visualization of these relationships is easier to comprehend than tables of numbers. The same principal applies to nonquantitative graphics such as flowcharts and pictures. Visuals attract the eye of the reader and are another source for holding reader attention."**
+- Graphics should not be visually cluttered. Simple graphs can convey meaning of the numbers more efficiently.
+- **"Exhibits, including quantitative graphics and other types of visuals, are best displayed close to the text that discusses them. It’s easier for the writer to put all exhibits at the end of the document, but that placement is less convenient for readers. Each exhibit should have a concise, informative title. In a document with many exhibits, they should also be numbered. You should refer to each exhibit in the text. Be sure to tell readers the significance of every exhibit to the topic you're discussing. Don't assume they will make the connection themselves."**
+
+#### Provide Signposts
+
+- **"Headings pull readers through a long text by allowing them to track the text's organization and their progress through it. For longer documents, headings are crucial. The headings should correspond to the roadmap you provided the reader at the beginning."**
+- **"Even with long documents, you should use no more than three levels of headings."**
+- **"Don’t forget two simple signposts: page numbers and running heads. Any business document more than a page should have page numbers. Running heads are used in nonfiction books, but they work well in longer business documents. They are small headings in the upper corner of each page that can state the name of the section."**
+
+### Additional Elements of Long Messages
+
+- **"The audience of a long report can navigate better when you provide additional information about the document. The information includes:"**
+  - Title page: The first page of a long document providing the document title, the authors, and the date
+  - Table of contents: Gives all major sections of the document and the pages on which they begin
+  - List of exhibits: Provides the numbers and titles of all exhibits and the pages on which they appear
+  - References: A section at the end of the document that lists, in order, all of the information sources you have used. There are many different styles for citations, and organizations often designate one of them as their standard.
+
+### Writing in Teams
+
+- In business, most of the writing is team based. **"Multiple authors enrich a document with their different knowledge, experience, and skills, but they also complicate the writing process."**
+- **"When a team takes responsibility for writing, they must agree on and understand the purpose."**
+- **"Most teams need a leader and when they have a written deliverable, the need is more pronounced. A leader can facilitate agreement on a writing plan, set up roles, coordinate and monitor work, and make sure deadlines are met. The leader also needs to keep an eye out for free riders: individuals who let others do the work."**
+- **"Suggestions for adapting the writing process to teams:"**
+  - Use a writing plan: A team needs a writing plan to establish a common purpose, lay out the organization of the message, and divide tasks. Once a team has a plan, members can agree on their roles. The most straightforward division of labor is for each individual to research and write a part of the document. The team should decide writing conventions to be used such as the point of view (first or third person), levels and styles of headings, and citation form. These decisions can be made later, but someone will then have to edit the report for consistency. Especially for a long report, it’s better to minimize the inconsistencies from the start.
+  - Write a First Draft: Dividing the team into researchers and writers has some advantages but usually leads to problems. The writers don’t understand the content as well as the researchers, and the writing often takes longer than the research, raising workload issues. For these reasons, it's better that everyone on the team be responsible for researching and composing a part of the document. When all team members write, they all have a stake in the project. Some individuals might not write well, but if they duck chances to write (or are allowed to by the team), they will not improve. Writing in teams can be a good learning experience and raise the skill level of the weaker writers.
+  - Revise the Draft: Authors should provide feedback on the other sections. The foremost concern should be that each section contributes to the whole. Other matters for attention include depth, clarity, organization, transitions, redundancies, and consistency among the sections. Sentence style, grammar, punctuation, spelling, and mechanics should be secondary at this point. Authors should then revise their sections.
+  - Review the Second Draft: Everyone should read the second draft and give any additional feedback. Each of the writers should make final revisions and review his or her section for concise and clear writing style, logical organization of paragraphs, and correctness.
+  - Edit and Correct the Final Draft: As a last step, one person should review the entire document for consistency in and transitions between sections as well as style, organization of paragraphs, correctness, headings, and source citations.
+- **"Technology can facilitate the writing process. Numerous web services allow you to post a document in the cloud, edit it, add comments, and monitor versions. A team needs to be careful about setting up rules for access to and editing of the document. Many people editing the same document can lead to confusion. Most of the online services have editing tools that keep track of changes. Nevertheless, a team member should coordinate online work, setting deadlines for document changes, controlling versions, and protecting the final version from further editing."**
