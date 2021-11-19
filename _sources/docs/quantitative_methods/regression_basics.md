@@ -111,3 +111,33 @@
 - **"A complete regression analysis should include a careful inspection of the residuals. Plot the residuals against the independent variable to reveal patterns in the distribution of the residuals."**
 ![Summary](./summary_residual_analysis.png)
 
+### The Significance of Regression Coefficient
+
+- **"The regression line is almost never a perfect descriptor of the true linear relationship between the variables. Why? Because the data we use to find the regression line typically represent only a sample from the entire population of data pertaining to the relationship."**
+- **"Since each regression line comes from a limited set of data, it gives us only an approximation of the "true" linear relationship between the variables."**
+- **"Like all estimates based on sample data, the calculated estimate for a coefficient is probably different from the true coefficient. Just as in sampling, to find a range of likely values for the true coefficient, we construct confidence intervals around each estimated coefficient."**
+
+#### Testing for a Linear Relationship
+
+- If the 95% confidence interval for the slope does not include zero, then we can reject with 95% confidence the hypothesis that the slope of the true line is zero. We can say that we are 95% confident that there really is a linear relationship between dependent and independent variable.
+- **"We can also test how likely it is that the slope really is zero using a hypothesis test. We formulate the null hypothesis that there is no linear relationship: the true slope, beta, of the regression line is zero."**
+- **"If the p-value for a slope coefficient is less than 0.05, then we can reject the null hypothesis that the slope beta is zero, and conclude with 95% confidence that there is a linear relationship between the two variables. Moreover, the smaller the p-value, the more confident we are that a linear relationship exists. If the p-value for a slope coefficient is greater than 0.05, then we do not have enough evidence to conclude with 95% confidence that there is a significant linear relationship between the variables."**
+- **"Since the intercept simply anchors the regression line, whether or not it is zero is not particularly important."**
+- **"The t-stat tells us how many standard errors the coefficient is from the value zero. Thus, if the t-stat is greater than 2, we are quite sure (approximately 95% confident) that the true coefficient is not zero."**
+- **"The standard error is similar to a standard deviation of our distribution for the coefficient."**
+
+#### Summary
+
+- **"The slope and intercept of the regression line are estimates based on sample data: how closely they approximate the actual values is uncertain. Confidence intervals for the regression coefficients specify a range of likely values for the regression coefficients. Excel reports a p-value for each coefficient. If the p-value for a slope coefficient is less than 0.05 we can be 95% confident that the slope is nonzero, and hence that there is a linear relationship between the independent and dependent variables."**
+![Summary](./summary_testing_regression.png)
+
+#### Revisiting R-squared and p
+
+- **"It is important not to confuse the p-value for a coefficient with the R-squared for the regression. R-squared tells us what percentage of the variation seen in the dependent variable is explained by its relationship with the independent variable. The p-value tells us the likelihood that there is no real relationship between the dependent and independent variables - that the true coefficient of the line in the full population is zero."**
+![Revisiting R squared and p](./revisiting_r_squared_and_p.png)
+- **" The larger the sample we use to conduct the regression analysis, the more precise the information we obtain about the true nature of the relationship under investigation. Specifically, the larger the sample, the better our estimates for the slope and the intercept, and the tighter the confidence intervals around those estimates."**
+
+##### Summary
+
+- **"The p-value and R2 provide different information. A linear relationship can be significant but not explain a large percentage of the variation, so having a low p-value does not ensure a high R2. Sample size is an important determinant of regression accuracy: as with all sampling, larger samples give more accurate estimates."**
+![Summary](./summary_r_squared_and_p.png)

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Regression Basics &#8212; IIMU - Harvard Business School Courses</title>
+    <title>Regression Basics &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -53,6 +53,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Introduction" href="../finance_online/intro.html" />
+    <link rel="prev" title="Hypothesis Testing" href="hypothesis_testing.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -76,7 +78,7 @@
       
       
       
-      <h1 class="site-logo" id="site-title">IIMU - Harvard Business School Courses</h1>
+      <h1 class="site-logo" id="site-title">Indian Institute of Management, Udaipur - Harvard Business School Courses</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
@@ -150,7 +152,7 @@
   Quantitative Methods
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="overview.html">
    Overview and Introduction
@@ -159,6 +161,21 @@
  <li class="toctree-l1">
   <a class="reference internal" href="basics_data_description.html">
    Basics: Data Description
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="sampling_estimation.html">
+   Sampling and Estimation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="hypothesis_testing.html">
+   Hypothesis Testing
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Regression Basics
   </a>
  </li>
 </ul>
@@ -361,6 +378,35 @@
      </li>
     </ul>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-significance-of-regression-coefficient">
+     The Significance of Regression Coefficient
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#testing-for-a-linear-relationship">
+       Testing for a Linear Relationship
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id6">
+       Summary
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#revisiting-r-squared-and-p">
+       Revisiting R-squared and p
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id7">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
   </ul>
  </li>
 </ul>
@@ -518,6 +564,47 @@
 </ul>
 </div>
 </div>
+<div class="section" id="the-significance-of-regression-coefficient">
+<h3>The Significance of Regression Coefficient<a class="headerlink" href="#the-significance-of-regression-coefficient" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“The regression line is almost never a perfect descriptor of the true linear relationship between the variables. Why? Because the data we use to find the regression line typically represent only a sample from the entire population of data pertaining to the relationship.”</strong></p></li>
+<li><p><strong>“Since each regression line comes from a limited set of data, it gives us only an approximation of the “true” linear relationship between the variables.”</strong></p></li>
+<li><p><strong>“Like all estimates based on sample data, the calculated estimate for a coefficient is probably different from the true coefficient. Just as in sampling, to find a range of likely values for the true coefficient, we construct confidence intervals around each estimated coefficient.”</strong></p></li>
+</ul>
+<div class="section" id="testing-for-a-linear-relationship">
+<h4>Testing for a Linear Relationship<a class="headerlink" href="#testing-for-a-linear-relationship" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>If the 95% confidence interval for the slope does not include zero, then we can reject with 95% confidence the hypothesis that the slope of the true line is zero. We can say that we are 95% confident that there really is a linear relationship between dependent and independent variable.</p></li>
+<li><p><strong>“We can also test how likely it is that the slope really is zero using a hypothesis test. We formulate the null hypothesis that there is no linear relationship: the true slope, beta, of the regression line is zero.”</strong></p></li>
+<li><p><strong>“If the p-value for a slope coefficient is less than 0.05, then we can reject the null hypothesis that the slope beta is zero, and conclude with 95% confidence that there is a linear relationship between the two variables. Moreover, the smaller the p-value, the more confident we are that a linear relationship exists. If the p-value for a slope coefficient is greater than 0.05, then we do not have enough evidence to conclude with 95% confidence that there is a significant linear relationship between the variables.”</strong></p></li>
+<li><p><strong>“Since the intercept simply anchors the regression line, whether or not it is zero is not particularly important.”</strong></p></li>
+<li><p><strong>“The t-stat tells us how many standard errors the coefficient is from the value zero. Thus, if the t-stat is greater than 2, we are quite sure (approximately 95% confident) that the true coefficient is not zero.”</strong></p></li>
+<li><p><strong>“The standard error is similar to a standard deviation of our distribution for the coefficient.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h4>Summary<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“The slope and intercept of the regression line are estimates based on sample data: how closely they approximate the actual values is uncertain. Confidence intervals for the regression coefficients specify a range of likely values for the regression coefficients. Excel reports a p-value for each coefficient. If the p-value for a slope coefficient is less than 0.05 we can be 95% confident that the slope is nonzero, and hence that there is a linear relationship between the independent and dependent variables.”</strong>
+<img alt="Summary" src="../../_images/summary_testing_regression.png" /></p></li>
+</ul>
+</div>
+<div class="section" id="revisiting-r-squared-and-p">
+<h4>Revisiting R-squared and p<a class="headerlink" href="#revisiting-r-squared-and-p" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“It is important not to confuse the p-value for a coefficient with the R-squared for the regression. R-squared tells us what percentage of the variation seen in the dependent variable is explained by its relationship with the independent variable. The p-value tells us the likelihood that there is no real relationship between the dependent and independent variables - that the true coefficient of the line in the full population is zero.”</strong>
+<img alt="Revisiting R squared and p" src="../../_images/revisiting_r_squared_and_p.png" /></p></li>
+<li><p><strong>” The larger the sample we use to conduct the regression analysis, the more precise the information we obtain about the true nature of the relationship under investigation. Specifically, the larger the sample, the better our estimates for the slope and the intercept, and the tighter the confidence intervals around those estimates.”</strong></p></li>
+</ul>
+<div class="section" id="id7">
+<h5>Summary<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“The p-value and R2 provide different information. A linear relationship can be significant but not explain a large percentage of the variation, so having a low p-value does not ensure a high R2. Sample size is an important determinant of regression accuracy: as with all sampling, larger samples give more accurate estimates.”</strong>
+<img alt="Summary" src="../../_images/summary_r_squared_and_p.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 </div>
 
@@ -545,7 +632,21 @@
               
         
             <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="hypothesis_testing.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Hypothesis Testing</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../finance_online/intro.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Introduction</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
         
         </div>

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introduction &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
+    <title>Multiple Regression &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,7 +51,6 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="prev" title="Regression Basics" href="../quantitative_methods/regression_basics.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -151,27 +150,27 @@
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/overview.html">
+  <a class="reference internal" href="overview.html">
    Overview and Introduction
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/basics_data_description.html">
+  <a class="reference internal" href="basics_data_description.html">
    Basics: Data Description
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/sampling_estimation.html">
+  <a class="reference internal" href="sampling_estimation.html">
    Sampling and Estimation
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/hypothesis_testing.html">
+  <a class="reference internal" href="hypothesis_testing.html">
    Hypothesis Testing
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/regression_basics.html">
+  <a class="reference internal" href="regression_basics.html">
    Regression Basics
   </a>
  </li>
@@ -181,9 +180,9 @@
   Finance Online
  </span>
 </p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../finance_online/intro.html">
    Introduction
   </a>
  </li>
@@ -228,7 +227,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/finance_online/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/quantitative_methods/multiple_regression.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -248,7 +247,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/finance_online/intro.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/quantitative_methods/multiple_regression.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -275,9 +274,54 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-is-finance">
-   What is finance?
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introducing-multiple-regression">
+     Introducing Multiple Regression
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#summary">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adapting-basic-concepts">
+   Adapting Basic Concepts
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#interpreting-the-multiple-regression-equation">
+     Interpreting the Multiple Regression Equation
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#residual-analysis">
+     Residual Analysis
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -290,16 +334,68 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="what-is-finance">
-<h2>What is finance?<a class="headerlink" href="#what-is-finance" title="Permalink to this headline">¶</a></h2>
+  <div class="tex2jax_ignore mathjax_ignore section" id="multiple-regression">
+<h1>Multiple Regression<a class="headerlink" href="#multiple-regression" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introducing-multiple-regression">
+<h3>Introducing Multiple Regression<a class="headerlink" href="#introducing-multiple-regression" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>All sorts of organizations need to deploy funds or invest funds and raise additional funds for investment.</p></li>
-<li><p><strong>“The study of corporate finance covers the principles, analytical tools, and institutional knowledge a manager needs to make good investment and financing decisions.”</strong></p></li>
-<li><p>Financial infrastructure are the systems for monitoring cash and cash flow, for creating operating and financial budgets, for measuring and reporting its financial and operating performance, for managing its current and expected tax liabilities, and so forth.</p></li>
-<li></li>
+<li><p><strong>“Most management problems are too complex to be completely described by the interactions between only two variables. Incorporating multiple independent variables can give managers a more accurate mathematical representation of their business.”</strong></p></li>
+<li><p>It is necessary to factor any relationship between two or more independent variables in regression analysis. This can be achieved by multiple regression.</p></li>
+<li><p><strong>” In multiple regression, we adapt what we know about regression with one independent variable — often called simple regression — to situations in which we take into account the influence of several variables.”</strong></p></li>
+<li><p>Visualization and graphical representation become essentially impossible beyond three variables.</p></li>
+<li><p><strong>“As managers, almost any quantity we wish to study will be influenced by more than one variable: to construct an accurate model of a business’ dynamics, we’ll usually need several variables. Multiple regression is an essential and powerful management tool for analyzing these situations.”</strong></p></li>
 </ul>
+<div class="section" id="summary">
+<h4>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Multiple regression is an extension of simple regression that allows us to analyze the relationships between multiple independent variables and a dependent variable. Relationships among independent variables complicate multivariate regression. With more than two independent variables, graphing multivariable relationships is impossible, so we must proceed with caution and conduct additional analyses to identify patterns.”</strong>
+<img alt="Summary" src="../../_images/summary_introduction_multiple_regression.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="adapting-basic-concepts">
+<h2>Adapting Basic Concepts<a class="headerlink" href="#adapting-basic-concepts" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="interpreting-the-multiple-regression-equation">
+<h3>Interpreting the Multiple Regression Equation<a class="headerlink" href="#interpreting-the-multiple-regression-equation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“In general, the linear equation for a regression model with k different variables has the form below. Since the coefficients we obtain from the data are just estimates, we must distinguish between the idealized equation that represents the “true” relationship and the regression line that estimates that relationship. To express that even the “true” equation does not fit perfectly, we include an error term in the idealized equation.”</strong>
+<img alt="General Regression Equation" src="../../_images/general_regression_equation.png" /></p></li>
+<li><p><strong>“The coefficient in the simple regression and the coefficient in the multiple regression have very different meanings.”</strong> In the simple regression equation of dependent variable versus independent variable, we interpret the coefficien of slope in the following way: for a unit increase in the independent variable, we expect dependent variable to increase/decrease by the coefficient of slope (positive/negative).</p></li>
+<li><p>We describe the above change in dependent variable as gross effect. It is an average computed over the range of variation of all other factors that influence dependent variable.</p></li>
+<li><p>In multiple regression, the coefficient for an independent variable tells us that for every unit change in independent variable, dependent variable change by coefficient provided other independent variables remain constant.</p></li>
+<li><p>We describe the above change in dependent variable as net effect. It is the effect of the independent variable under consideration over dependent variable controlling other independent variables.</p></li>
+<li><p><strong>“A coefficient is “net” with respect to all variables included in the regression, but “gross” with respect to all omitted variables. An included variable may be picking up the effects on price of a variable that is not included in the model.”</strong></p></li>
+<li><p><strong>“For each independent variable, we must inspect its p-value in the regression output to make sure that its relationship with the dependent variable is significant.”</strong></p></li>
+</ul>
+<div class="section" id="id1">
+<h4>Summary<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“We use multiple regression to understand the structure of relationships between multiple variables and a dependent variable, and to forecast values of the dependent variable. A coefficient for an independent variable in a regression equation characterizes the net relationship between the independent variable and the dependent variable: the effect of the independent variable on the dependent variable when we control for the other independent variables included in the regression.”</strong></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="residual-analysis">
+<h3>Residual Analysis<a class="headerlink" href="#residual-analysis" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“The regression equation with two independent variables defines a plane that passes through the data. The residuals — the differences between the actual and predicted dependent variable in the data set — are the vertical distances from the regression plane to the data points.”</strong></p></li>
+<li><p><strong>“As in simple regression, these vertical distances are known as residuals or errors. The regression plane is the plane that “best fits” the data in the sense that it is the plane for which the sum of the squared errors is minimized.”</strong></p></li>
+<li><p><strong>“We can plot the residuals against the values of each independent variable to look for patterns that could indicate that our linear regression model is inadequate in some way.”</strong></p></li>
+<li><p><strong>“When linear regression is a good model for the relationships studied, each of the residual plots should reveal a random distribution of the residuals. The distribution should be normal, with mean zero and fixed variance.”</strong></p></li>
+<li><p><strong>“The residual plot against distance in the multiple regression looks different from the residual plot against distance in the simple regression. They represent different concepts: the first gives insight into the net relationship and the second gives insight into the gross relationship.”</strong></p></li>
+<li><p><strong>“Because residual plots always involve only two variables — the magnitude of the residual and one of the independent variables — they provide an indispensable visual tool for detecting patterns such as heteroskedasticity and non-linearity in regressions with multiple independent variables.”</strong></p></li>
+</ul>
+<div class="section" id="id2">
+<h4>Summary<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“The residuals, or errors, are the differences between the actual values of the dependent variable and the predicted values of the dependent variable. For a regression with two independent variables, the residuals are the vertical distances from the regression plane to the data points. We can graph a residual plot for each independent variable to help identify patterns such as heteroskedasticity or non-linearity.”</strong>
+<img alt="Summary" src="../../_images/summary_multiple_resgression_residuals.png" /></p></li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 
@@ -316,7 +412,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./docs/finance_online"
+            path: "./docs/quantitative_methods"
         },
         predefinedOutput: true
     }
@@ -327,14 +423,7 @@
               
         
             <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../quantitative_methods/regression_basics.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Regression Basics</p>
-        </div>
-    </a>
+<div class='prev-next-area'>
 </div>
         
         </div>
