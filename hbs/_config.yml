@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: IIMU - Harvard Business School Courses
+title: Indian Institute of Management, Udaipur - Harvard Business School Courses
 author: Pushkar Patil
 
 # Force re-execution of notebooks on each build.
