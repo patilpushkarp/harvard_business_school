@@ -160,4 +160,196 @@ The idea of making a presentation in public is the No. 1 fear reported by people
 - **"At the end of the presentation, leave the audience with a concise memory of the points you most want them to remember. A visual can be used for this purpose. A striking image, a brief story, and an emotional appeal connected to the key points are just a few ways to fix your core message in the listeners’ memories."**
 - **"Speaking past the scheduled end of the presentation violates an implicit contract with audience members. The speaker agreed to a presentation of a certain length and the audience members planned accordingly; then the speaker changes the contract without their consent. Audiences do not appreciate a speaker unwilling to let go of them."**
 
+## The Message: Preparing the Plan
+
+- **Although the length of a presentation depends on many variables, such as audience interest in the topic and the nature of the content, keep it as short as possible. You can use a target of 18 minutes. Rarely do audiences complain about presentations being too short.**
+- **Auditory memory is more limited than visual memory. Although a good presentation has visuals, you communicate most of it through speech.**
+- **Presenters also have to contend with the time an audience can concentrate. As you have learned, every speaker is engaged in a continuous competition for audience members' attention, attracting it, losing it, and bringing it back. No matter how good a presenter you are, you can only expect to draw listeners back so many times. The longer you talk, the more likely you are to lose the struggle for attention."**
+- **"Here is a seven-step process for planning and creating a presentation:"**
+  1. Generate ideas and take notes.
+  2. Group content.
+  3. Create the presentation plan.
+  4. Plan slides and other media.
+  5. Prepare slides and other media.
+  6. Edit the presentation.
+  7. Practice the presentation.
+
+### Generate Ideas and Take Notes
+
+- **In whatever medium you are comfortable—paper, word processing, or mind-mapping software—list ideas for the content of the presentation. Don’t worry about the order of the notes—capture ideas whenever they come to mind. Be as detailed as you want.**
+- **"Set aside your notes and take a break. When you return to them, you’ll bring a fresh perspective. Wait until the next day if possible. The phrase "sleep on it" is good advice, according to neuroscience. When we sleep, we seem to consolidate and stabilize memories."**
+
+### Group Content
+
+- **"As you review your notes, think about your purpose for presenting. Write it down—you should be able to express your purpose in one or two sentences."**
+- Always step back and think about the best way to communicate the prepared slides.
+
+### Create the Presentation Plan
+
+- **"Create a simple outline from the notes. The groups of related content you identified in the last step will be the major parts of the presentation. Put them in the order they will be presented. The plan should be sufficiently detailed to remind you of the key points. You should not write a word-for-word script because a presentation is not a speech."**
+- **"If the content comes from a document, review the organization carefully. You may find that it needs to be in a different order for oral communication."**
+- **"Again, take a break or set aside the plan until the next day. Check it and rearrange as necessary. You may need to fill in gaps that the plan has exposed. Now think about how you will open and close, including any media elements. Add the ideas to the plan."**
+
+### Plan Slides and Other Media
+
+- **"Review the notes you have made about media and add or subtract visuals or other reinforcement that you think will help. Do not limit your thinking about media to slides. Consider video, web content, pictures, props, and flip charts."**
+- **"Use a storyboard to capture your ideas for slides and other visuals. Sticky notes are a handy way to create one. Write ideas for slides or visuals on notes and stick them on a piece of paper in the order you will use them. You can replace notes, remove them, and rearrange them."**
+- For presentation, have clear concise storyline and simplify.
+
+### Prepare Slides and Other Media
+
+- **"When you’re satisfied with the storyboard, use PowerPoint, Keynote, Prezi, or a similar application to copy the key point of each sticky note into a new slide file. On each slide, type the main idea, such as an image, text, or a chart, and then build it."**
+- **"Most presentation software uses the single-slide format. The online application Prezi takes a different approach, giving you a visual space with which to work. You fill in different areas of the space with groups of content. For the presentation, you move from one grouping to another."**
+- **"Go back to the storyboard and start work on any other media you will use. For instance, say that you will be presenting a series of innovative ideas generated internally to interest department heads in funding them. You could describe each one with bullet point slides. But you think the people behind the ideas are as important as the ideas. Having them each present in the room would be unwieldy. Instead, you can make short videos of each person explaining her or his idea. You have to decide when in the presentation to show the videos and plan their production."**
+
+### Edit the Presentation
+
+- **"To start the editing process, estimate the time of each part of the presentation. “Talk the presentation” from beginning to end. That means speaking out loud."**
+- **"In your estimate of the time, include the time needed for the discussion of each slide, audience participation, use of props, and any in-session logistics such as telling the audience how to operate a handheld device they will use for a poll."**
+- **"Your time estimates will help you determine whether you have too much or too little material. Edit your written presentation plan first, then the slides and other media, making them as lean as possible. Presenters typically overestimate the amount of content they can deliver comfortably in a given period of time—sometimes by a large margin."**
+- **"Walk trusted colleagues or friends through the presentation and the slides and ask if they think anything is missing or can be dropped. Listen to them carefully. A slide filled with data you think is absolutely crucial may be, in their eyes, impossible to understand."**
+
+### Practice the Presentation
+
+- **"Rehearse the presentation out loud with slides and other media as often as you can. Practice how you are going to express your ideas, make sure the presentation doesn’t run too short or long, and orchestrate other presentation elements such as slides and props. Practicing can increase confidence and reduce nervousness."**
+
+## The Message: Enriching the Presentation
+
+- **"During the planning of a presentation, keep in mind that you have many choices for adding texture, energy, and interest. You do not have to settle for bland explanation and bullet point slides."**
+
+### Energizing the Speech Channel
+
+- **"You can enliven the speaking part of a presentation with storytelling, audience participation, handouts, and vivid language."**
+
+#### Storytelling
+
+- **"Humans seem to have an inherent interest in stories. When someone starts to tell a story, we generally want to hear how it ends. We watch, read, or listen to thousands upon thousands of stories during our lifetimes and never seem to tire of them. As a presenter, you can use stories to galvanize the attention of people in the room."**
+- **"Stories help both speakers and listeners remember details. Stories seem to promote longer-term memories in several ways, one of which is the stimulation of emotions. It is no accident that for thousands of years, preliterate societies told or sang stories to communicate information across generations."**
+
+#### Audience Participation
+
+- **"Audience participation makes presentations two way and stimulates active engagement."**
+- **"Here are some ways of directly involving the members of your audience:"**
+  - Ask a question.
+  - Present a problem and ask for solutions.
+  - Take a poll. (You can use handheld digital devices for this.)
+  - Ask them to generate ideas with you.
+- **"To avoid making the presentation too long, audience participation should not require too much time. It should also be voluntary for the audience—you don’t want to put anyone on the spot."**
+- **"Whatever form the participation takes, it should be connected—and stay connected—to the content. Audience members can slide off onto tangents or irrelevant topics. Be ready to steer the discussion back to the subject or take back the floor. You are responsible to the entire audience and have to protect the time needed to deliver your message."**
+
+#### Handouts
+
+- **"Handouts can reduce the content load of the spoken portion of a presentation, and thus allow time for activities that enliven it."**
+- **"Handouts can be a takeaway reminder of your key points. They can also furnish additional information or evidence that you do not want to include in the presentation."**
+- **"Presentation software can print slides, but using them as handouts forces you to make many copies and audience members end up with a stack of paper. Preparing an outline of the presentation in a word-processing program means less paper and more convenience for audiences."**
+- **"The best time to distribute handouts is at the end of the presentation, not the beginning. An audience with handouts will be reading them much of the time rather than looking at you."**
+
+#### Vivid Language: Quotations
+
+- **"Quotations from experts or famous individuals lend credibility to your point of view. Because of the speaker’s authority, a quote can have a greater impact on an audience than your own words."**
+
+#### Vivid Language: Analogies
+
+- **"Analogies compare two things, usually to identify similarities. Analogies can be useful because people learn new ideas better when they can connect them to something they already know."**
+
+#### Vivid Language: Metaphors
+
+- **"Metaphors describe something using language unrelated to what is being described. Metaphors can make language more memorable for an audience. Often, they have an emotional impact, too."**
+
+### Energizing the Visual Channel
+
+- **"As you know, audiences learn more through the dual channels of hearing and sight than from one or the other. You can use the visual channel for content other than slides, props, and handouts."**
+- **"A quick and simple method for adding visual content to a presentation is the traditional flip chart. Like slides, use them to communicate key points. Flip charts can also be used in conjunction with audience participation. For instance, if you ask the audience a question, you can record responses on the flip chart."**
+
+#### Images
+
+- **"With or without words, images can be emotionally evocative. Get in the practice of exercising your visual imagination."**
+
+#### Charts and Other Graphics
+
+- **"Quantitative information expresses relationships and relationships usually make good visuals. Spreadsheets serve a purpose in handouts, but they are ill suited to presentations because of their visual complexity."**
+- **"From spreadsheets and other structured arrangements of numbers, extract the relationships of greatest importance to the presentation: major differences or similarities, relevant increases and decreases, notable trends, critical sequences, and the like."**
+
+#### Videos
+
+- **"Video has become a valuable tool for communicating with business audiences. Cellphone video cameras have gotten better and video-editing software is cheaper and easier to use. In addition, some screen-capture applications can create videos for presentations."**
+- **"Even so, video has to be used carefully, like any other visual content. You should take the less-is-more approach. Video clips should be short—under 30 seconds. Poor-quality video can make the presentation seem unprofessional."**
+- **"Say that your presentation requires the explanation of a highly technical financial concept. Instead of trying to explain the concept yourself, you can record an in-house expert explaining the point and play the video during the presentation."**
+
+#### Internet-Based Technologies
+
+- Potential internert-based technologies that can be used during preaentation:
+  - Youtube: For posting videos.
+  - Skype: Conferencing application to interact with expert.
+  - Internet Databases: Structured data can be directly used in the presentations sometimes.
+- **"Technical malfunctions can make using online material perilous. You have to manage the details of web technology before and during the presentation, just like you do display equipment in the room. In addition, you need a contingency plan for technical failures."**
+
+#### Props and Demonstrations
+
+- **"Props can be used in presentations to illustrate a point, reinforce the message, and capture audience members’ attention."**
+
+## The Message: Preparing Slides and Other Media
+
+- **"Slides should be at the end of your presentation to-do list."**
+- **"When you start to design slides, do not allow the need for handouts to constrain you. Presenters often use printed versions of their slides as handouts. But effective designs do not necessarily print well. Slides with a solid dark background may be nearly illegible when printed on a black-and-white printer."**
+- **"To solve the design conflict between slides and handouts, create separate handouts in a word-processing program."**
+
+### Slides as Organizers
+
+- **"The visual nature of slides makes them well suited to organizing a presentation for listeners."**
+- **"At the beginning of a presentation, provide a roadmap slide of what you are going to say; at the end, provide a summary slide of the points you want the audience to remember. In the body of the presentation, sign post slides tell the audience where they are."**
+
+### Number of Slides
+
+- **"Here is a process for keeping your slide count under control. Imagine that you aren’t going to use any slides for a presentation. Then ask these questions:"**
+  - What are the points I will have the hardest time getting across to the audience using only spoken words? Create slides for these points.
+  - What emotions that align with my purpose could I draw out better using slides instead of spoken words alone? Build emotion into the slides you’ve already created or create new ones.
+  - What additional slides do I need to assist the audience? Examples are the roadmap and summary slides.
+
+### Lead Lines and Bullet Points
+
+- **"PowerPoint templates for formatting slide titles assume a headline of a few words. However, in the report of a 2005 study, investigators concluded that one or two full sentences at the top of a slide are better memory aids than headlines. They added a caveat: These lead line sentences need to be short."**
+- **"Not all slides serve the same purpose, however, and some do not need a lead line."**
+- **"Probably the majority of presentation slides you have seen had bullet points with a title. For presenters, bullet points let them put a lot of information on a slide. For the audience, they pose a problem. Too often slides have too many bullet points with too much text in each item. Not only do these slides tax the concentration of the audience; but they also are not efficient. Most audiences will remember little or nothing of the detail on them."**
+- **"Try to limit use of the bullet point design. In many cases, you can do without bullets by putting a single concept on a slide and telling the audience the details."**
+- **"When you do use bullet points, keep the items short. When you show the slide, use the “Build” function to display bullet points one at a time. Literate adults automatically read written language. A slide that displays all of the bullet points at once forces viewers to read them, which can cause information overload."**
+
+### Slide Animation
+
+- **"Presentation software has many different slide animations, including multiple options for moving text, images, or objects onto the screen. Some animations like builds (the sequential appearance of items) can be useful."**
+- **"Animation can divert audience members’ attention from the content. And animation quickly becomes stale with repeated use. Animation also takes time; if it is used on many slides, it can lengthen the presentation considerably. Use slide animation sparingly, if at all."**
+
+### Designing Effective Slides
+
+- **"Effective slides have these essential qualities:"**
+  - Relevance
+  - Simplicity and clarity
+  - Forcefulness
+  - Readability
+- **"To design effective presentation slides, use the following questions as a guide:"**
+  - What is the essential point I want to convey with each slide?
+  - What is the minimum information necessary to understand that point?
+  - How can I communicate the required information in the most visual way possible? What are the alternatives to bullet points or data-infested charts and tables?
+  - What other means can I use to share information too dense for a slide? Alternatives include a handout, a document that includes backup information related to the presentation, or a link to a webpage that includes the information.
+
+#### Relevance
+
+- **"People retain more of a presentation’s content when the visual and speech channels reinforce each other. Visual content irrelevant to the spoken content actually reduces retention."**
+
+#### Simplicity and Clarity
+
+- **"Simplicity has two dimensions: a manageable amount of information and uncomplicated design. A slide with clarity immediately communicates its meaning."**
+- **"Good presenters have great faith in their ability to use the data rather than merely display it. They break down complexity into smaller pieces and show how they fit together."**
+- **"The culture of complexity isn't going to yield overnight, but you can be part of furthering a culture of clarity."**
+
+#### Forcefulness
+
+- **"Slides can have a significant impact on audience members. Skilled presenters use less text and exploit the power of images and sound to make an impression."**
+
+#### Readability
+
+- **"The benchmark for readability is a yes answer to the following question: Can the person farthest away from the screen read the slides easily?"**
+- **"To fit a large amount of text on a slide, the size of the type has to be small. Small type makes slide text hard to read."**
+- **"Don't use type smaller than 18 points."**
+- **"A second good practice is to have a clear contrast between the type and the background. A lack of contrast reduces readability."**
 
