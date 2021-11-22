@@ -110,6 +110,11 @@
    Writing in Business
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../management_communication/presenting_in_business.html">
+   Presenting in Business
+  </a>
+ </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
@@ -172,6 +177,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="regression_basics.html">
    Regression Basics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decision_analysis.html">
+   Decision Analysis
   </a>
  </li>
 </ul>
@@ -321,6 +331,66 @@
      </li>
     </ul>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#quantifying-the-predictive-power-of-multiple-regression">
+     Quantifying the Predictive Power of Multiple Regression
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#new-concepts-in-multiple-regression">
+   New Concepts in Multiple Regression
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#multicollinearlity">
+     Multicollinearlity
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#diagnosing-and-treating-multicollinearity">
+       Diagnosing and Treating Multicollinearity
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Summary
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lagged-variables">
+       Lagged Variables
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id5">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#dummy-variables">
+       Dummy Variables
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id6">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
   </ul>
  </li>
 </ul>
@@ -394,6 +464,87 @@
 <li><p><strong>“The residuals, or errors, are the differences between the actual values of the dependent variable and the predicted values of the dependent variable. For a regression with two independent variables, the residuals are the vertical distances from the regression plane to the data points. We can graph a residual plot for each independent variable to help identify patterns such as heteroskedasticity or non-linearity.”</strong>
 <img alt="Summary" src="../../_images/summary_multiple_resgression_residuals.png" /></p></li>
 </ul>
+</div>
+</div>
+<div class="section" id="quantifying-the-predictive-power-of-multiple-regression">
+<h3>Quantifying the Predictive Power of Multiple Regression<a class="headerlink" href="#quantifying-the-predictive-power-of-multiple-regression" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>In multiple regression, R squared measures the percentage of variation in dependent variable explained by the variation in the independent variable.</p></li>
+<li><p><strong>“R-squared cannot decrease when we add another independent variable to a regression — it can only stay the same or increase, even if the new independent variable is completely unrelated to the dependent variable.”</strong></p></li>
+<li><p><strong>“Improving R-squared by adding irrelevant variables is “cheating.” We can always increase R-squared to 100% by adding independent variables until we have one fewer than the number of observations. We are “over-fitting” the data when we obtain a regression equation in this way: the equation fits our particular data set exactly, but almost surely does not explain the true relationship between the independent and dependent variables.”</strong></p></li>
+<li><p><strong>“To balance out the effect of the difference between the number of observations and the number of independent variables, we modify R-squared by an adjustment factor. This transformation looks quite complicated, but notice that it is largely determined by n-k, the difference between the number of observations n and the number of independent variables k.”</strong>
+<img alt="Adjusted R squared" src="../../_images/adjusted_r_squared.png" /></p></li>
+<li><p><strong>“This adjustment reduces R-squared slightly for each variable we add: unless the new variable explains enough additional variance to increase R-squared by more than the adjustment factor reduces it, we should not add the new variable to the model.”</strong></p></li>
+<li><p><strong>“It is critical to use adjusted R-squared when comparing the predictive power of regressions with different numbers of independent variables.”</strong></p></li>
+<li><p><strong>“We should never compare R-squared or adjusted R-squared values for regressions with different dependent variables.”</strong></p></li>
+</ul>
+<div class="section" id="id3">
+<h4>Summary<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“R-squared measures how well the behavior of the independent variables explains the behavior of the dependent variable. It is the percentage of variation in the dependent variable explained by its relationship with the independent variables. Because R-squared never decreases when independent variables are added to a regression, we multiply it by an adjustment factor. This adjustment balances out the apparent advantage gained just by increasing the number of independent variables.”</strong>
+<img alt="Summary" src="../../_images/summary_adjusted_r_sqaured.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="new-concepts-in-multiple-regression">
+<h2>New Concepts in Multiple Regression<a class="headerlink" href="#new-concepts-in-multiple-regression" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="multicollinearlity">
+<h3>Multicollinearlity<a class="headerlink" href="#multicollinearlity" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“When two of the independent variables are highly correlated, one is essentially a proxy for the other. This phenomenon is called multicollinearity.”</strong></p></li>
+</ul>
+<div class="section" id="diagnosing-and-treating-multicollinearity">
+<h4>Diagnosing and Treating Multicollinearity<a class="headerlink" href="#diagnosing-and-treating-multicollinearity" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“A common indication of lurking multicollinearity in a regression is a high adjusted R-squared value accompanied by low significance for one or more of the independent variables. One way to diagnose multicollinearity is to check if the p-value on and independent variable rises when a new independent variable is added, suggesting strong correlation between those independent variables.”</strong></p></li>
+<li><p><strong>“How much of a problem is multicollinearity? That depends on what we are using the regression analysis for. If we’re using it to make predictions, multicollinearity is not a problem, assuming as always that the historically observed relationships among the variables continue to hold going forward.”</strong></p></li>
+<li><p><strong>“If we’re trying to understand the net relationships of the independent variables, multicollinearity is a serious problem that must be addressed.”</strong></p></li>
+<li><p><strong>“One way to reduce multicollinearity is to increase the sample size. The more observations we have, the easier it will be to discern the net effects of the individual independent variables. We can also reduce or eliminate multicollinearity by removing one of the collinear independent variables. Identifying which variable to remove requires a careful analysis of the relationships between the independent variables and the dependent variable. This is where a manager’s deep understanding of the dynamics of the situation becomes invaluable.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h4>Summary<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Multicollinearity occurs when some of the independent variables are strongly interrelated: distinguishing the respective effects of some of the independent variables on the dependent variable is not possible using the available data. Multicollinearity is typically not a problem when we use regression for forecasting. When using regression to understand the net relationships between independent variables and the dependent variable, multicollinearity should be reduced or eliminated.”</strong>
+<img alt="Summary" src="../../_images/summary_multicollinearity.png" /></p></li>
+</ul>
+</div>
+<div class="section" id="lagged-variables">
+<h4>Lagged Variables<a class="headerlink" href="#lagged-variables" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Data at a specific point in time is called cross-sectional data.</p></li>
+<li><p><strong>“A time series is a set of data collected over a range of time: each data point pertains to a specific time period.”</strong></p></li>
+<li><p><strong>“Sometimes, the value of the dependent variable in a given period is affected by the value of an independent variable in an earlier period. We incorporate the delayed effect of an independent variable on a dependent variable using a lagged variable.”</strong></p></li>
+<li><p><strong>“To study the carry-over effect, we add the lagged variable “previous year’s advertising.””</strong></p></li>
+<li><p>We lose some data point(s) by introducing lagged variables.</p></li>
+<li><p><strong>“We include a lagged variable only if we believe the benefits of adding it outweigh the loss of an observation and the “penalty” imposed by the adjustment to R-squared.”</strong></p></li>
+<li><p><strong>“Lagged variables can be very useful. Since they pertain to previous time periods, they are usually available ahead of time. Lagged variables are often good “leading indicators” that help us predict future values of a dependent variable.”</strong></p></li>
+</ul>
+<div class="section" id="id5">
+<h5>Summary<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“We can use lagged variables when data consist of a time series, and we believe that the value of the dependent variable at one point in time is related to the value of an independent variable at a previous point in time. Lagged variables are especially useful for prediction since they are available ahead of time. However, they come at a cost: we lose one observation for each time series interval of delayed effect we incorporate into the lagged variable.”</strong>
+<img alt="Summary" src="../../_images/summary_lagged_variables.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="dummy-variables">
+<h4>Dummy Variables<a class="headerlink" href="#dummy-variables" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Variable which can be quantified but can be classified in to categories are called categorical variables.</p></li>
+<li><p><strong>“A dummy variable takes on one of two values, 0 or 1, to indicate which of available categories a data point falls into.”</strong></p></li>
+<li><p><strong>“In general, we’d need one fewer dummy variable than the number of categories.”</strong></p></li>
+<li><p>Perfectly correlated variables are perfectly collinear and hence it is better to drop variables to avoid multicollinearity.</p></li>
+</ul>
+<div class="section" id="id6">
+<h5>Summary<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“We can use dummy variables to incorporate qualitative variables into a regression analysis. Dummy variables have the values 0 and 1: the value is 1 when an observation falls into a category of the qualitative variable and 0 when it doesn’t. For qualitative variables with more than two categories, we need multiple dummy variables: one fewer than the number of categories.”</strong>
+<img alt="Summary" src="../../_images/summary_dummy_variable.png" /></p></li>
+</ul>
+</div>
 </div>
 </div>
 </div>

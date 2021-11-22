@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculus &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
+    <title>Decision Analysis &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -42,8 +42,6 @@
     <script src="../../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -53,8 +51,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Statistics" href="statistics.html" />
-    <link rel="prev" title="Algebra" href="algebra.html" />
+    <link rel="next" title="Introduction" href="../finance_online/intro.html" />
+    <link rel="prev" title="Regression Basics" href="regression_basics.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -125,29 +123,29 @@
   Mathematics for Management
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="algebra.html">
+  <a class="reference internal" href="../mathematics/algebra.html">
    Algebra
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/calculus.html">
    Calculus
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="statistics.html">
+  <a class="reference internal" href="../mathematics/statistics.html">
    Statistics
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="probability.html">
+  <a class="reference internal" href="../mathematics/probability.html">
    Probability
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="finance.html">
+  <a class="reference internal" href="../mathematics/finance.html">
    Finance
   </a>
  </li>
@@ -157,34 +155,34 @@
   Quantitative Methods
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/overview.html">
+  <a class="reference internal" href="overview.html">
    Overview and Introduction
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/basics_data_description.html">
+  <a class="reference internal" href="basics_data_description.html">
    Basics: Data Description
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/sampling_estimation.html">
+  <a class="reference internal" href="sampling_estimation.html">
    Sampling and Estimation
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/hypothesis_testing.html">
+  <a class="reference internal" href="hypothesis_testing.html">
    Hypothesis Testing
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/regression_basics.html">
+  <a class="reference internal" href="regression_basics.html">
    Regression Basics
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/decision_analysis.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Decision Analysis
   </a>
  </li>
@@ -241,7 +239,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/mathematics/calculus.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/quantitative_methods/decision_analysis.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -261,7 +259,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/mathematics/calculus.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/quantitative_methods/decision_analysis.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -288,34 +286,54 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#motivation-for-differential-calculus">
-   Motivation for Differential Calculus
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introducing-decision-analysis">
+     Introducing Decision Analysis
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#summary">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#slope-and-tangent-lines">
-   Slope and Tangent Lines
+  <a class="reference internal nav-link" href="#decision-trees">
+   Decision Trees
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#rules-for-computing-derivatives">
-   Rules for Computing Derivatives
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#second-derivatives-convex-and-concave-functions">
-   Second Derivatives, Convex and Concave Functions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#maximizing-and-minimizing-functions">
-   Maximizing and Minimizing Functions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#inflection-points">
-   Inflection Points
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#uncertainty-and-probability">
+     Uncertainty and Probability
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#structuring-decision-trees">
+     Structuring Decision Trees
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id2">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -328,67 +346,70 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="calculus">
-<h1>Calculus<a class="headerlink" href="#calculus" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="decision-analysis">
+<h1>Decision Analysis<a class="headerlink" href="#decision-analysis" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introducing-decision-analysis">
+<h3>Introducing Decision Analysis<a class="headerlink" href="#introducing-decision-analysis" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>A non linear function will never have a constant slop line a straight line.</p></li>
-<li><p><strong>“A branch of mathematics concerned with determining the slope of a function at any point. Knowledge of differential calculus enables us to easily maximize and minimize functions and also graph complicated functions.”</strong></p></li>
+<li><p><strong>“Decision-making is an essential management responsibility. Managers are charged with choosing from multiple courses of action that can each lead to radically different consequences.”</strong></p></li>
+<li><p><strong>“When faced with a choice of actions and a range of possible outcomes, decision making can be difficult, in large part due to uncertainty. Although the course of action we choose influences the outcome, much of what happens is not only beyond our control, but beyond our powers to predict with certainty.”</strong></p></li>
+<li><p><strong>“Decision analysis tools can help managers weigh alternative options and make informed and rational choices.”</strong></p></li>
+<li><p><strong>“In a world of uncertainty, applying decision analysis will not guarantee that each decision you make will lead to the best result, or even to a good result. But if you apply effective decision analysis consistently over the course of a managerial career, you are almost certain to gain a reputation for sound judgment.”</strong></p></li>
 </ul>
-<div class="section" id="motivation-for-differential-calculus">
-<h2>Motivation for Differential Calculus<a class="headerlink" href="#motivation-for-differential-calculus" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="summary">
+<h4>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>It is necessary in businesses to know some minimum and maximum point of a function defining a system.</p></li>
-<li><p><strong>“The maximum or minimum value of a function is the point at which the slope of the curve is zero.”</strong></p></li>
-<li><p>The slope of the function at <span class="math notranslate nohighlight">\(x\)</span> can be approximated by the slope of the line joining <span class="math notranslate nohighlight">\((x, f(x))\)</span> and <span class="math notranslate nohighlight">\((x+\Delta x, f(x + \Delta x))\)</span>, as <span class="math notranslate nohighlight">\(\Delta x\)</span> tends to <span class="math notranslate nohighlight">\(0\)</span>.</p></li>
-<li><p>Making <span class="math notranslate nohighlight">\(\Delta x\)</span> approach to 0 is equivalent to taking first order derivative of the function <span class="math notranslate nohighlight">\(f(x)\)</span>.</p></li>
-</ul>
-</div>
-<div class="section" id="slope-and-tangent-lines">
-<h2>Slope and Tangent Lines<a class="headerlink" href="#slope-and-tangent-lines" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><strong>“The slope of a function at a given point can be shown visually by drawing a line such that it touches the function only at that point. That line is called tangent.”</strong></p></li>
-<li><p><strong>“When the two points come together, Δx becomes zero, the line becomes a tangent line, and the slope of the function at that now-single point is revealed.”</strong></p></li>
-<li><p><strong>“The point where the function shifts from increasing values of y to decreasing values of y (or from decreasing values of y to increasing values of y) is where the slope of the tangent line equals zero — i.e., where the tangent line is horizontal.”</strong></p></li>
+<li><p><strong>“Decision analysis is a set of formal tools that can help managers make more informed decisions in the face of uncertainty. Although applying even the most rigorous decision analysis does not guarantee infallibility, it can help you make sound judgments over the course of your career.”</strong>
+<img alt="Summary" src="../../_images/summary_intro_decision_analysis.png" /></p></li>
 </ul>
 </div>
-<div class="section" id="rules-for-computing-derivatives">
-<h2>Rules for Computing Derivatives<a class="headerlink" href="#rules-for-computing-derivatives" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="decision-trees">
+<h2>Decision Trees<a class="headerlink" href="#decision-trees" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="uncertainty-and-probability">
+<h3>Uncertainty and Probability<a class="headerlink" href="#uncertainty-and-probability" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(dy/dx\)</span> is used as notation for derivative of <span class="math notranslate nohighlight">\(y\)</span> with respect to <span class="math notranslate nohighlight">\(x\)</span>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(dy/dx = y' = f'(x)\)</span></p></li>
-<li><p>If <span class="math notranslate nohighlight">\(f'(x) &gt; 0\)</span>, the function is increasing at <span class="math notranslate nohighlight">\(x\)</span>, and that if <span class="math notranslate nohighlight">\(f'(x) &lt; 0\)</span>, the function is decreasing at <span class="math notranslate nohighlight">\(x\)</span>.</p></li>
-<li><p>Rule 1: If <span class="math notranslate nohighlight">\(f(x) = k\)</span> then <span class="math notranslate nohighlight">\(y' = 0\)</span>.</p></li>
-<li><p>Rule 2: If <span class="math notranslate nohighlight">\(f(x) = x^n\)</span>, where <span class="math notranslate nohighlight">\(n\)</span> is a any number, then <span class="math notranslate nohighlight">\(y' = nx^{n-1}\)</span></p></li>
-<li><p>Rule 3: If <span class="math notranslate nohighlight">\(f(x)=kg(x)\)</span>, then <span class="math notranslate nohighlight">\(y' = kg'(x)\)</span> where <span class="math notranslate nohighlight">\(g'(x)\)</span> is the derivative of <span class="math notranslate nohighlight">\(g(x)\)</span>.</p></li>
-<li><p>Rule 4: If <span class="math notranslate nohighlight">\(f(x) = g(x) + h(x)\)</span>, then <span class="math notranslate nohighlight">\(f'(x) = g'(x) + h'(x)\)</span>.</p></li>
+<li><p><strong>“Uncertainty clearly has a quantitative dimension: we can distinguish between degrees of uncertainty.”</strong></p></li>
+<li><p><strong>“Probability is a measure of uncertainty.”</strong></p></li>
+<li><p><strong>“Events that are impossible are said to have zero (or zero percent) probability, and events that are absolutely certain are said to have a probability of one (or 100%).”</strong></p></li>
+<li><p>We have a set of events and a set of outcomes. We form the ratio of the number of times a particular event occurs to the total number of experiments. The probability of that particular event is the value that ratio approaches as the total number of experiments approaches infinity.</p></li>
+<li><p><strong>“Your subjective estimate may be based on an informal assessment of relative frequency.”</strong></p></li>
+<li><p><strong>“It makes sense to measure the uncertainty due to a lack of information the same way we measure the uncertainty due to our inability to predict the outcomes of future events.”</strong></p></li>
+</ul>
+<div class="section" id="id1">
+<h4>Summary<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Uncertainty makes decision-making challenging. We can be uncertain about outcomes that have or have not occurred. To make the most informed decisions, we quantify our uncertainty using probability measures. Probability is measured on a scale from 0% to 100%: events with 0% probability are impossible; events with 100% probability are certain. An event’s probability can often be determined by observing the relative frequency of its occurrence within a set of opportunities for the event to occur. For events for which relative frequencies are difficult to assess, we often make subjective estimates of the probabilities. Though not based on “hard” data, these estimates are often a sufficient basis for sound decision making.”</strong>
+<img alt="Summary" src="../../_images/summary_uncertainty.png" /></p></li>
 </ul>
 </div>
-<div class="section" id="second-derivatives-convex-and-concave-functions">
-<h2>Second Derivatives, Convex and Concave Functions<a class="headerlink" href="#second-derivatives-convex-and-concave-functions" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="structuring-decision-trees">
+<h3>Structuring Decision Trees<a class="headerlink" href="#structuring-decision-trees" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>Sometimes it is necessary to maximize a function or minimize a function.</p></li>
-<li><p>Concave functions can be easily maximized while convex functions can be easily minimized.</p></li>
-<li><p>To determine whether a function is convex or concave, second derivative (<span class="math notranslate nohighlight">\(y''\)</span>) is used.</p></li>
-<li><p><span class="math notranslate nohighlight">\(d^2y/d^2x = y'' = f''(x)\)</span>.</p></li>
-<li><p>Second derivative is the derivative of first derivative of a function.</p></li>
-<li><p><strong>“When a function’s second derivative is positive, the function’s first derivative is increasing; when a function’s second derivative is negative, the function’s first derivative is decreasing.”</strong></p></li>
-<li><p><strong>“A function <span class="math notranslate nohighlight">\(f(x)\)</span> is convex if for all values of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(f&quot;(x) ≥ 0\)</span>.”</strong></p></li>
-<li><p><strong>“A function <span class="math notranslate nohighlight">\(f(x)\)</span> is concave if for all values of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(f&quot;(x) ≤ 0\)</span>.”</strong></p></li>
+<li><p><strong>“Graphical representations are often a highly efficient way to organize and convey information. Scatter plots and histograms efficiently communicate distributions of data, an organizational chart can quickly outline the structure of a company; and pie charts effectively express information about proportions and probabilities.”</strong></p></li>
+<li><p>Decision tree: a graphical tool that helps inform and organize the decision-making process.</p></li>
+<li><p><strong>“Decisions aren’t the only points at which alternatives can branch off. Events with uncertain outcomes also lead to branching alternatives. Each of the uncertain outcomes corresponds to a separate branch on the decision tree.”</strong></p></li>
+<li><p><strong>“Decision trees have two types of branching points, or nodes. At decision nodes, the tree branches into the alternatives the decision-maker can choose. We use square boxes to represent decision nodes.”</strong></p></li>
+<li><p><strong>“At chance nodes, the tree branches because the uncertainty of the business world permits multiple possible outcomes. We represent chance nodes by circles.”</strong></p></li>
+<li><p><strong>“We arrange the nodes from left to right in the order in which we will eventually determine their results.”</strong></p></li>
+<li><p><strong>“One of the challenges of creating a decision tree is determining the correct sequence of nodes: in what order will the relevant outcomes be determined? Which events “depend” on the occurrence of other events? What alternatives are created or foreclosed by prior decisions or by the outcomes of uncertain events?”</strong></p></li>
+<li><p><strong>“Drawing a decision tree forces us to delineate each alternative and clarify our assumptions about those alternatives. Thus, even before we use a tree to make a decision, simply structuring the tree helps us clarify and organize our thoughts about a problem. A decision tree is also useful in its own right as a tool for communicating our understanding of a complex situation to others.”</strong></p></li>
+<li><p><strong>“Categorizing branching points as decision or chance nodes makes clear which events and outcomes are under our power and which are beyond our control.”</strong></p></li>
+<li><p><strong>“Writing down alternatives in a systematic fashion often allows us to think of ideas for new alternatives.”</strong></p></li>
+</ul>
+<div class="section" id="id2">
+<h4>Summary<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Decision trees are a graphical tool managers use to organize, structure, and inform their decision-making. Decision trees branch at two types of nodes: at decision nodes, the branches represent different courses of action the decision-maker can choose. At chance nodes, the branches represent different possible outcomes of an uncertain event - at the time of the initial decision, the decision maker does not know which of these outcomes will occur (or has occurred). The nodes are arranged from left to right, in the order in which the decision-maker will determine which of the possible branches actually occurs.”</strong>
+<img alt="Summary" src="../../_images/summary_structuring_decision_tree.png" /></p></li>
 </ul>
 </div>
-<div class="section" id="maximizing-and-minimizing-functions">
-<h2>Maximizing and Minimizing Functions<a class="headerlink" href="#maximizing-and-minimizing-functions" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><strong>“A concave function attains its maximum value at any point where <span class="math notranslate nohighlight">\(f'(x) = 0\)</span>.”</strong></p></li>
-<li><p>**”A convex function attains its minimum value at any point where <span class="math notranslate nohighlight">\(f'(x) = 0\)</span>.”</p></li>
-</ul>
 </div>
-<div class="section" id="inflection-points">
-<h2>Inflection Points<a class="headerlink" href="#inflection-points" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><strong>“A point where a curve changes from being convex to concave or concave to convex is an inflection point.”</strong></p></li>
-<li><p>An infletion point exist at <span class="math notranslate nohighlight">\(f''(x)=0\)</span>.</p></li>
-</ul>
 </div>
 </div>
 
@@ -405,7 +426,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./docs/mathematics"
+            path: "./docs/quantitative_methods"
         },
         predefinedOutput: true
     }
@@ -417,17 +438,17 @@
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="algebra.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="regression_basics.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Algebra</p>
+            <p class="prev-next-title">Regression Basics</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="statistics.html" title="next page">
+    <a class='right-next' id="next-link" href="../finance_online/intro.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Statistics</p>
+        <p class="prev-next-title">Introduction</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
