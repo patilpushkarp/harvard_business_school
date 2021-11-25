@@ -353,3 +353,232 @@ The idea of making a presentation in public is the No. 1 fear reported by people
 - **"Don't use type smaller than 18 points."**
 - **"A second good practice is to have a clear contrast between the type and the background. A lack of contrast reduces readability."**
 
+## The Delivery: Communicating the Message
+
+- **"The list of dos and don’ts for presentation delivery is long. Those imperatives can be confusing, discouraging, and even annoying. But the imperatives do have an underlying rationale. They support the core of a presentation: a connection between the speaker and the audience. Despite all the media tools available today, you are the content of a presentation. You are the reason people are in the room."**
+- **"Another reality of face-to-face presentations is that emotions are always alive in the room. If you simply stand in front of an audience and say nothing, the audience will have feelings about you. Delivery shapes the way listeners react emotionally. You want to align what they feel with your purpose."**
+
+### Communication Apprehension
+
+- **"Nearly everyone gets nervous before they present. That is not a problem. In fact, nervousness is a natural performance enhancer. It energizes speakers and makes them more alert, focused, and attuned to the situation. But too much nervousness can be a problem."**
+- **"Surveys show that public speaking is one of people’s greatest fears. This fear, called communication apprehension, strikes both novice and experienced speakers."**
+- **"Communication apprehension can have long-term consequences. Individuals who suffer from it can dodge opportunities to speak and improve. Sadly, research has shown that communication apprehension reduces academic performance, limits career choices, spoils job interviews, and erodes satisfaction with work."**
+- **"Whatever level of fear you experience, you need to accept it. Trying to ignore or suppress communication apprehension does not work. But acceptance does not equate to resignation."**
+
+#### Causes of Communication Apprehension
+
+- **"Research has identified three causes of communication apprehension: the situation, the audience, and the speaker’s goals."**
+  - Situation: Physical aspects of speaking, such as the room or the number of people 
+    - Example: Speaking to a large number of people
+  - Audience: The people the speaker is addressing 
+    - Example: A non-native speaker of English presenting to an audience of native English speakers
+  - Goals: The speaker’s desired outcome 
+    - Example: Asking the audience for a large sum of money to keep a company afloat
+- **Locating your greatest sources of anxiety can inform the coping strategies."**
+
+#### Coping Strategies
+
+- **"Research has identified numerous practices for coping with communication apprehension. Here are seven that are widely used."**
+  1. Welcoming Anxiety: Anxiety about speaking should never surprise you. If you have felt it before, you should expect to feel it again. Allow the anxiety to unfold; it is not an alien force taking over your body. But be prepared. An expert on communication apprehension recommends that you write out an anxiety management plan describing how you will respond. Any of the six remaining tactics can be part of the plan.
+  2. Instruction and Practice: As you become more skilled at something, you worry about it less. People who do not like presenting often try to avoid it. But instruction and practice can help build confidence and be conducive to other ways of reducing communication apprehension.
+  3. Visualization: Visualization can also build self-confidence. It involves making a movie in your head of a successful presentation. Visualization helps only when you imagine the entire performance, not a single scene from it, and for several days in a row prior to speaking.
+  4. Reframing: When you reframe something, you change the way you think about it. A speaker who is anxious about the audience can reframe them as people who are interested in his topic and open to what he has to say. You feel vulnerable if you view a presentation as a solo performance with all eyes on you. But you can reframe it by practicing it as a conversation with a friend. You can also deal with the anxiety that all eyes are on you by "sharing the stage" with a video, a prop, audience participation, or a co-presenter.
+  5. Writing Thoughts and Feelings: Expressing yourself in writing can lessen anxiety. Answer questions such as: What are my greatest fears about public speaking? What is the worst thing that can happen if I don’t present well? Putting fears into writing makes them concrete. When they are in writing, you have a chance to reflect on them, considering whether they are realistic. You can write down positives about the presentation you will give. For example, you might say that you are grateful to have a chance to talk about a topic that’s important to you. Regardless of the content of the writing, it is most effective when you do it regularly. You also can record your thoughts and feelings after a presentation, creating a baseline for your speaking experience grounded in reality.
+  6. Positive Self-Talk: Negative self-talk can be self-fulfilling by stoking fear. Positive self-talk can do the opposite—focusing you on positives such as the fact that your accent has never been a serious impediment to communication. You can script your self-talk by reading from positive written comments you have written previously.
+  7. Staying in the Present: Fear of consequences from an unsuccessful presentation can trigger communication apprehension. Because those consequences are in the future, an antidote is staying in the present before and while you speak. With a racing mind and stressed body, you cannot will yourself into the present. You need to engage in an activity that grounds you. Techniques for grounding include listening to music, challenging exercise (such as running up stairs), counting backward, and meditation.
+
+### Voice
+
+- We can train our voice.
+- **"Voice communicates something about who you are and your feelings about what you are telling the audience."**
+- **"Five characteristics of your speaking voice are critical:"**
+  - Projection
+  - Emphasis
+  - Rate of speech
+  - Tone
+  - Verbal fillers
+
+#### Projection
+
+- **"Projection is how well a person’s voice carries. The goal is to speak so that the person farthest away from you can clearly hear your words. Achieving the goal can be a problem if you have a soft speaking voice."**
+- **"Projection does not require you to shout. If you talk much louder than you normally do, you strain your vocal cords and alienate listeners. To project, do the following:"**
+  - Stand erect but not rigidly.
+  - Speak from your diaphragm rather than your throat.
+- **"Good posture helps the body produce more resonant speech. Speaking from the diaphragm projects your voice better than speaking from the throat and saves wear and tear on your vocal muscles. If the room is large, consider using a microphone."**
+- **"Using your diaphragm for speech takes practice. Try the following suggestions:"**
+  - Take a few breaths while concentrating on pulling the air in with your diaphragm—this is called belly breathing. It also triggers a relaxation response, which can be useful to calm nerves. Put your hand on your stomach; if you are breathing from the diaphragm, you should feel a pronounced in and out movement.
+  - After you get a feel for belly breathing, hum as you expel air. This exercise lets you experience what making sounds from the area below your lungs feels like.
+  - Continue belly breathing. Try saying a single word as you expel air. Then try saying the word from your throat. You should feel a difference.
+
+#### Emphasis
+
+- **"Listening to a monotone is not only fatiguing for an audience, but it also strips away a dimension of meaning. We change the pitch of our voices as part of the meaning of spoken words, especially to signal significance. All words in a sentence do not have the same importance. The voice tells listeners which ones are and are not."**
+
+#### Rate of Speech
+
+- **"You have no doubt heard speakers whose concern to get through a presentation as quickly as possible caused them to speak rapidly. Rapid speaking can be a side effect of nervousness. The faster they talked, the less likely it is that you listened carefully."**
+- **"Rapid speech has another bad effect from the audience’s point of view: It eliminates emphasis on key words."**
+- **"Talk at a comfortable pace. Monitor your rate by making audio or video recordings of your rehearsals."**
+
+#### Tone
+
+- **"Tone expresses how speakers feel about the topic and the people they are speaking to. Many speakers unwittingly adopt a tone that does not make a good impression on listeners. Speaking in a monotone or a colorless tone of voice may be due to nerves or a consequence of reciting from memory. However, listeners can hear this tone of voice as boredom, indifference, or fear."**
+- **"Be very careful about a negative tone. It may be appropriate on rare occasions, but in general that type of tone will complicate or sever a connection with the audience."**
+- **"Practicing a presentation by delivering it to a friend will help you maintain a conversational tone—one that has energy and positive feeling."**
+
+#### Verbal Fillers
+
+- **"Uh, ah, and um and phrases such as you know and like—these sounds and phrases are verbal fillers because they fill what otherwise would be silence. Occasional fillers are not a problem, but when they are frequent, they distract and annoy listeners. This problem has a simple solution: Replace the fillers with silent pauses."**
+- **"While the solution is conceptually simple, the implementation is difficult. Fillers are habits so they need to be ushered out of an individual’s vocabulary gradually. Also, speakers tend to be afraid of silence and often have an exaggerated sense of how long a silence lasts, even though audiences do not notice when speakers pause or they quickly forget that they did."**
+- **"Here are suggestions for gradually eliminating fillers:"**
+  - Start monitoring how you use them in everyday conversations.
+  - Start substituting a pause for some of them.
+  - Set a goal of reducing your use of fillers over a period of time.
+
+### Nonverbal Communication
+
+- **"Nonverbal communication conveys meaning through facial expression, gestures, and other means that do not rely on words. Nonverbal communication can be divided into five sources:"**
+  - Facial expression
+  - Eye contact
+  - Posture
+  - Movement
+  - Gesture
+- **"This form of communication has a profound effect on people, starting with first impressions. As you know, people form a first impression of a stranger in about a tenth of a second."**
+- **"Audience members are likely to feel more positively toward you if you exhibit what psychologists call immediacy behaviors, or nonverbal behavior that brings individuals closer to each other. They include:"**
+  - Smiling
+  - Relaxed posture
+  - Eye contact
+- **"Exhibiting immediacy behaviors while speaking nurtures and sustains a favorable impression. The behaviors can be augmented with expressions of feelings such as concern, reassurance, humor, confidence, and empathy."**
+- **"Your physical appearance matters too and should fit what your audience thinks is appropriate, for instance, business attire for bankers and casual clothes for video-game developers."**
+
+#### Facial Expression
+
+- **"Smiling is a vital element of immediacy behavior."**
+- **"Anxiety about speaking can lead to a blank or frowning face. The people in the room do not know what you are feeling; they can only go on what they see and hear. From their viewpoint, you may appear slightly hostile, unhappy about having to present, or uninterested in the topic and them."**
+- **"You want the audience to like you. When people smile at you, you tend to like them—that is a well-documented psychological response."**
+- **"You don’t have to smile all the time. Many other expressions are appropriate according to the circumstances."**
+
+#### Eye Contact
+
+- **"Whether you are moving or standing still, face the audience as much as possible and look at audience members in their eyes. That keeps you connected with them. Try not to stand in one place, rotating your head back and forth to scan the audience."**
+- **"At a visceral level, we have negative feelings about people who won’t look us in the eye. This reaction is not a conscious judgment. It happens automatically and can color our attitude toward the speaker without our being aware of it."**
+- **"In certain cultures, steady eye contact is not regarded as a positive behavior. As always, you have to be sensitive to the cultural context."**
+- **"One of the biggest liabilities of presentation slides is that they exert an almost magnetic attraction on the presenter’s eyes. All of us have stared at the back of presenters who seem mesmerized by their own slides—and probably all of us have turned our own backs to an audience. Part of rehearsing a presentation is establishing the discipline of facing the audience as much as possible."**
+
+#### Posture
+
+- **"When speakers stand erect but relaxed they seem comfortable with us, and we usually feel comfortable with them. As for the perennial question of what to do with your hands, when they are not doing something—such as making gestures—put them where nature did: at your sides."**
+- **"Slumped shoulders, a rigid body, standing sideways to the audience for long periods—all of these postures signal a presenter's discomfort, which is readily communicated to audiences."**
+- **"Even the position and movement of your head can affect audiences. In psychological studies, people tend to perceive a slightly raised head as expressing confidence or happiness and a lowered head as meaning sadness or submission."**
+- **"A head tilted to the right or left is usually seen as a desire for rapport, although when combined with a negative facial expression such as a frown, it communicates disagreement or disapproval."**
+
+#### Movement
+
+- **"Movement helps maintain the audience’s focus on you. Remember that people have three systems of attention and one, alerting, is sensitive to movements."**
+- **"Maintain purposeful movement while you speak. For example, walk toward part of the audience, make eye contact with individuals, and then walk toward another part of the audience and again make eye contact. Return to a spot in the front of the audience and stand for a few moments. Then repeat the process, but approach different parts of the audience than you did the first time."**
+- **"Getting close to individuals in the audience breaks down the barrier of space and strengthens the impression that the speaker is talking to each of them."**
+
+#### Gesture
+
+- **"Along with movement, gesture is the kinetic companion of speaking. Think of gestures as visual aids that happen to be attached to you."**
+- **"Gesturing helps people think. Scientists speculate that the movement of arms and hands makes people’s thoughts more concrete. The gesture–thought connection implies that suppressing gestures can make speaking more difficult."**
+- **"Some people say that they feel exposed and awkward with their hands at their sides. They want to do something with their arms that makes them feel safer. Instead of fighting the tendency to clasp hands or put them behind your back, keep them at waist level, close together but not clasped. The hands need to be free so that you can gesture with them."**
+
+#### Useful Gestures for Speaking
+
+- **"The most useful gestures are those that come naturally. Let your head, hands, and arms move as they do when you have a conversation. However, you can employ a few standard gestures when speaking. The two standard sets of gestures are enumeration and emphasis."**
+
+### Practice
+
+- **"You should spend more time practicing your presentation than actually delivering it."**
+- Speaking involves both mind and body and the only to get better at is practice.
+- **"Presentation practice has a memory component—learning the content of the presentation so that you can deliver it fluently but not memorizing anything more than a few sentences, if that."**
+- **"Presentation practice has emotional and physical components. You should get used to smiling and other immediacy behaviors as you speak. Monitor your speaking voice for a positive tone. Allow your hands and arms to gesture naturally, move forward, and maintain a comfortable posture. Practicing silently in your head may help you remember the content, but it does nothing for the other elements of your presentation."**
+- **"Researchers who study memory recommend fairly brief periods of practice (10 to 15 minutes), short breaks, and then tests of what you have learned. Studying chunks of content and other aspects of the presentation followed by self-tests to see if you can perform the chunk without major mistakes leads to better retention than studying all of the content at once, along with all the slide changes, movements, and other details of speaking."**
+- **"You also are better off practicing different parts of the presentation rather than practicing one part over and over. If you have divided your presentation into smaller parts, practice them one at a time."**
+
+#### Memory Aids
+
+- **"The best memory aid is practice. The ideal is to speak without notes. An individual speaking to the audience without referring to notes or constantly looking at her slides helps establish a strong connection to the audience and enhances how they perceive her."**
+- **"But a memory aid, such as an outline, is helpful as a reference. Memory aids can make a presenter feel more secure, because he has recourse if he forgets. Slides can serve the same purpose as notes, but be sure not to become over-dependent on them. If you do, you will have your back turned to listeners and read the slides to them."**
+- **"Do not read your presentation from notes or recite it word for word from memory. Both kill any engagement between the speaker and the audience."**
+
+#### Four Ways to Practice
+
+- **"You should try to practice in the room where you will be speaking. The venue makes a difference: Speaking in a small conference room differs markedly from speaking in a large room or auditorium. For example, voice projection and movement are variables that depend on the size of the space."**
+- **"Practicing in the room where you will speak gives you an opportunity to check conditions such as lighting and equipment."**
+- Four ways to practice:
+  1. Use Video
+     - Watching a video of your rehearsals is probably the most effective teaching tool available other than audience feedback. Most people do not like looking at themselves on video. Recruiting a friend to watch with you can moderate the tendency to harsh self-criticism.
+     - For realistic practice, ask several friends to serve as the audience. Have them sit on your right and left so you can get used to moving and making eye contact with the audience. Ask them for honest feedback.
+     - Because of cellphones with video cameras, recording is easy. You can have a friend record you or do it yourself by placing a phone on a flat surface or using an inexpensive mini-tripod.
+  2. Use a Trusted Audience
+     - Rehearse in front of a trusted audience without recording yourself. Arrange the audience members as described in number 1. Then ask them for feedback.
+  3. Practice with a Mirror
+     - Practicing in front of a mirror can help you work on specific visual aspects of delivery such as posture. As you watch, you can change the way you are standing or refine a gesture in real time. However, watching yourself in a mirror can be distracting and can encourage bad habits such as not moving.
+  4. Practice without a Mirror
+     - Rehearsing by yourself without a mirror or video camera is better than no rehearsal—as long as you talk out loud. You might feel self-conscious sometimes, but you need to use your voice, as you will in the presentation.
+
+### Answering Questions
+
+- **"Think of a question-and-answer (Q&A) session as part of a presentation rather than an add-on. For a persuasive presentation, a Q&A provides more opportunities to convince the audience as well as a chance to reengage them when their interest and energy may be flagging."**
+
+#### Preparing for Questions
+
+- **"You can never include every important point about a topic in a presentation—nor should you. To prepare for questions, consider what you are leaving out that audience members may have questions about. (Sometimes this thinking will identify content that does need to be in the presentation.)"**
+- **"Every conclusion about a complicated, controversial issue inevitably has weaknesses or downsides. These can often be the subjects of audience members’ questions. A good response will explain how to mitigate those weaknesses or downsides. You may also have to defend your conclusion by reviewing the evidence you have presented. You should know how to summarize it quickly."**
+
+### Rehearsing a Q&A
+
+- **"Write down the questions you expect so that you can practice answering them. A practice method is using online or mobile applications for creating flashcards. (Many of these applications are free.) They allow you to randomize the order of the flashcards, and some of them have the capability to speak the questions. Another option is to have a friend ask you questions."**
+- **"Try to practice answers as you do the presentation: Stand and speak out loud."**
+
+### Conducting the Q&A
+
+- **"After delivering a presentation, you are probably keyed up and may have strong emotions. This is not an internal state conducive to listening patiently. But that is what you need to do in a Q&A—observe questioners closely and listen to them carefully."**
+- **"Watch the body language of the questioner: To strengthen your concentration, note questioners’ nonverbal communication—facial expression, posture (even when seated, people have different postures), and gestures. The information helps you concentrate and assess the questioner’s motivation and attitude."**
+- **"Understand the question: Be certain that you understand a question. Your job is to answer questions, not sort out vague or confused audience statements. Never answer what you think was asked—ask for clarification. For example, “I have a sense that you don’t find the evidence convincing. If that’s true, tell me why you aren't persuaded and I can speak to that.” Be alert for questions that give you an opening to reinforce your main points."**
+- **"Speak to everyone: Repeat the question so that everyone knows what it is. Remember to speak to the whole audience, not the questioner alone."**
+- **"Accept criticism gracefully: You have to take to heart the fact that no position is without weakness and therefore no presentation is impregnable. In addition, understand that you probably can’t convince everyone in the room. Show respect for critics, even if you think they are wrong, and do not try to deny or hide from fair criticism. What if a questioner has noticed a mistake in the presentation? Thank her for it. It is embarrassing, but it is better to have the chance to correct the mistake than to have audience members realize it later."**
+- **"Do not fake it—ever: When you do not know the answer to a question, say so. Faking an answer risks destroying your credibility. If your answer is wrong and the audience accepts it, it could lead to bad consequences later on. Tell the person who asked the question that you will get back to him with an answer. (And make sure you do.)"**
+
+#### Maintaining Control
+
+- **"Occasionally, audience members can feel competitive with speakers. They may think they are right and the speaker is wrong, and attempt to hijack a Q&A for a counterargument."**
+- **"As soon as you see this situation developing, politely tell the individual that you want as many audience members as possible to have a chance to ask questions. Propose a conversation after the session has ended. Without an audience, the individual often will not be interested in pursuing the discussion."**
+- **"Another risk is people who do not dispute the presentation but want to talk about something they consider more interesting. Be watchful for topics that have nothing to do with the presentation. If this happens, a response similar to the one just described is appropriate."**
+
+### Team Presentations
+
+- **"In business school and the corporate world, presentations are often done in teams. Team presentations are not merely a series of individual presentations. They add a layer of planning, preparation, and practice to the individual presentations."**
+- **"Presenting in teams demands coordination and continuity in four areas:"**
+  - Content
+  - Slides and other visuals
+  - Delivery
+  - Transitions and timing
+
+#### Content
+
+- **"Content may be the toughest aspect of a team presentation. As with any form of teamwork, individuals easily head in different directions, resulting in incoherent, disjointed material. To avoid this, all members of the team should agree on a written presentation plan. A crystal clear statement of purpose forms the foundation of the plan."**
+- **"Use the plan as a blueprint to assign team members responsibility for the major parts of the presentation. Their first task is generating content. Teams should regularly communicate about progress and discuss any problems that crop up. For example, a team member may find little material for the part she has been assigned. The team can decide whether to change the presentation plan or see if they can help with the research."**
+- **"Use the plan as a blueprint to assign team members responsibility for the major parts of the presentation. Their first task is generating content. Teams should regularly communicate about progress and discuss any problems that crop up. For example, a team member may find little material for the part she has been assigned. The team can decide whether to change the presentation plan or see if they can help with the research."**
+- **"Assuming the team will take questions, each member should write out a few questions that audience members may ask about his or her portion of the content. Team members should ask each other the questions and answer them as part of the presentation practice."**
+
+#### Slides and Other Visuals
+
+- **"If slides are used, the team should develop a common slide template to ensure a consistent look and feel. Because people have different ideas about slide design, the group should also talk about design principles."**
+- **"The team should discuss other visual materials, such as video or props that could enhance the presentation and decide who will be responsible for them."**
+- **"Having another team member advance slides and handle other media takes some pressure off the speakers and eliminates the need for them to take turns holding the remote."**
+
+#### Delivery
+
+- **"Everyone has a unique personality and therefore a unique delivery style. The differences are an advantage because they can keep audience engagement alive."**
+- **"But all of the presenters should follow certain best practices. They should express a similar level of emotion, such as enthusiasm, and make similar efforts to engage the audience, such as eye contact and body movement. A high-engagement speaker followed by a low-engagement speaker will jar audience members and possibly cause them to wonder whether the low-engagement presenter believes in the team’s message."**
+
+#### Transitions and Timing
+
+- **"The transitions between the team’s speakers should not be left to improvisation. The team should agree on how to handle them and practice them. One approach to transitions is having each speaker introduce the next one. Or one person can handle the transitions; that person can also open and conclude the presentation."**
+- **"Presenters can practice their parts on their own, but the team should rehearse the full presentation, including transitions, several times. Team members should give each other honest but constructive feedback."**
+- **"Careful attention should be paid to how long each person speaks and the total time of the presentation. Adjustments should be made when one person runs long and puts pressure on the speakers that follow to cut short their remarks. Making adjustments in front of the audience is much more stressful than making them in practice sessions."**
+- **"Speakers can lose track of time in front of an audience. A team member should be responsible for monitoring the time speakers are taking and give a sign agreed on in advance if they do not finish when they are supposed to."**
+

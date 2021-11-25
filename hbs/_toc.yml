@@ -25,6 +25,7 @@ parts:
     - file: docs/quantitative_methods/hypothesis_testing.md
     - file: docs/quantitative_methods/regression_basics.md
     - file: docs/quantitative_methods/decision_analysis.md
+    - file: docs/quantitative_methods/decision_analysis_2.md
   - caption: Finance Online
     chapters:
     - file: docs/finance_online/intro.md
