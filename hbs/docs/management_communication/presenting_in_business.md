@@ -582,3 +582,44 @@ The idea of making a presentation in public is the No. 1 fear reported by people
 - **"Careful attention should be paid to how long each person speaks and the total time of the presentation. Adjustments should be made when one person runs long and puts pressure on the speakers that follow to cut short their remarks. Making adjustments in front of the audience is much more stressful than making them in practice sessions."**
 - **"Speakers can lose track of time in front of an audience. A team member should be responsible for monitoring the time speakers are taking and give a sign agreed on in advance if they do not finish when they are supposed to."**
 
+### Web and Video Conferencing
+
+- **"Internet-based conferencing applications are routinely used for business communication. Although they have real shortcomings, their physical and economic benefits ensure their wide usage."**
+
+#### Technical Considerations
+
+- **"For virtual presentations to be successful, both the speaker and the audience need to know how to use the software. Presenters, therefore, should practice extensively with the application they will use, especially when they are new to it."**
+- **"Even when they are skilled, however, presenters should have an experienced producer for every event. "**
+- **"Experienced producers can save web presentations from disruption. They can be responsible for making sure that participants have correct login information in advance and are able to connect to the event. They can monitor the software during the presentation, troubleshoot, assist participants, and manage communications such as chat and email."**
+- **"A virtual event can quickly run into trouble if participants are unfamiliar with the software. Presenters should be sure the audience knows the software before the day of the presentation. If they do not, the presenter should make sure they receive the necessary technical support."**
+
+#### Strengths of Virtual Presentations
+
+- **"Audience size: The "virtual conference room" of a web-based presentation can accommodate a few participants or hundreds or even thousands."**
+- **"Distance and Time: Because it is web based, the technology can reach all over the globe and make time differences less important."**
+- **"Cost: Virtual presentations can be far less expensive than face-to-face meetings if significant travel is involved."**
+- **"Maturing technology: Software used for virtual presenting has been in use for years. Reliability has improved and the range of features and tools is large."**
+
+#### Weaknesses of Virtual Presentations
+
+- **"Audience attention: The competition for the audience's attention is worse during virtual presentations than live events. Audience members can be doing anything instead of listening and watching—reading and writing emails, texting, or staring out a window."**
+- **"Nonverbal feedback: Presenters receive no nonverbal feedback from the audience. They can't read how attentive participants are or their emotions such as confusion, satisfaction, or dissent."**
+- **"Making a connection: Except when using high-end software, virtual presenters have limited ways of making a connection with the audience: voice, facial expression, simulated eye contact (looking directly at the video camera), limited gestures, and slides and other visual material."**
+
+#### Preparing Virtual Presentations
+
+- **"Set realistic limits on presentation content and time: Virtual presenting diminishes the human connection possible in face-to-face encounters, thus making it harder to keep the audience's attention. So does the fact that participants can do many other things while they are supposed to be paying attention. Therefore, you should cut the content down to the bare essentials and restrain the length of the presentation."**
+- **"Persuade with the purpose: Prepare a statement about why participants should pay attention to you. Think of them as sitting in their office or home with many options for directing their attention. Give them reasons why they should choose you and your message."**
+- **"Divide the presentation into short chunks: A presentation consisting of several small chunks with clear boundaries can give the audience a sense of forward progress. The momentum can assist you in keeping them focused. Prepare yourself to describe the structure at the beginning of the presentation."**
+- **"Build in interactivity: Since the interaction between the speaker and audience is so limited, build in two-way events such as question-and-answer periods, discussions (including calling on audience members by name), problems participants have to work through, polls, games (if appropriate), and teamwork."**
+- **"Design simple slides and eye-catching visuals: Keep your visual messages as simple as possible and tastefully eye-catching. For example, visually simple charts and graphs in bright colors will attract and hold attention better than tables with rows of numbers."**
+- **"Practice with the software: Practice the presentation as much as possible, using the software. If the application has the capability, record rehearsals, critique them, and practice again."**
+
+#### Delivering Virtual Presentations
+
+- **"Make a bargain with the audience: Besides telling the audience why they should listen, let them know that in return for their attention, you will keep the presentation moving and end on time. Then clearly state the purpose, structure, and length of the presentation."**
+- **"Do a sound, video, and interface check: Make sure everyone can hear you (and see you if using video). Check whether any participant is having a technical problem."**
+- **"Position the camera correctly and speak into it: Check the positioning of the video camera before you begin. It should be at eye level and far enough away that viewers can see you from the waist up. Speak to the camera most of the time."**
+- **"Pay attention to your voice: Your voice is your main medium of communication in a virtual presentation. For presentations without video, it is your only medium other than text and visuals. Use it wisely. Speak at a moderate rate and modulate for emphasis. Be sure you are talking at a volume comfortable for the listeners."**
+- **"Use gentle gestures: If you have a video channel, gestures play a role in communicating meaning. So use them, but remember that in the small frame of the typical web video camera, movements are magnified. Try not to move your hands and arms quickly and keep them close to the body."**
+- **"Do not interpret silence as attention: As the presenter you can't be constantly worried that people are paying attention. At the same time, silence can be a bad sign. Asking a participant by name if she understands a point you've just made shows the audience that you will be monitoring their involvement. Other types of interactivity accomplish the same goal."**
