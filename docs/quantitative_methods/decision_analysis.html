@@ -51,7 +51,7 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Introduction" href="../finance_online/intro.html" />
+    <link rel="next" title="Decision Analysis II" href="decision_analysis_2.html" />
     <link rel="prev" title="Regression Basics" href="regression_basics.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -184,6 +184,11 @@
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Decision Analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="decision_analysis_2.html">
+   Decision Analysis II
   </a>
  </li>
 </ul>
@@ -333,6 +338,109 @@
      </li>
     </ul>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#incorporating-data-into-decision-trees">
+     Incorporating Data into Decision Trees
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#decision-trees-and-probabilities">
+     Decision Trees and Probabilities
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comparing-the-outcomes">
+   Comparing the Outcomes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introducing-the-expected-monetary-value">
+     Introducing the Expected Monetary Value
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id4">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#relevant-costs">
+     Relevant Costs
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id5">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#time-horizons">
+     Time Horizons
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id6">
+       Summary
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sensitivity-analysis">
+   Sensitivity Analysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#a-decision-s-sensitivity-to-outcome-estimates">
+     A Decision’s Sensitivity to Outcome Estimates
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id7">
+       Summary
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#evaluating-non-monetary-consequences">
+       Evaluating non-monetary consequences
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id8">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#a-decision-s-sensitivity-to-probability-estimates">
+       A Decision’s Sensitivity to Probability Estimates
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id9">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
   </ul>
  </li>
 </ul>
@@ -410,6 +518,143 @@
 </ul>
 </div>
 </div>
+<div class="section" id="incorporating-data-into-decision-trees">
+<h3>Incorporating Data into Decision Trees<a class="headerlink" href="#incorporating-data-into-decision-trees" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Laying out a decision tree — mapping a logical structure and identifying the alternative scenarios — is an essential first step in the decision-making process.”</strong></p></li>
+<li><p><strong>“In the business world, success is often measured in profits.”</strong></p></li>
+<li><p>Sometimes, the outcomes might not be a single value but a range of values.</p></li>
+<li><p><strong>“Although it is mathematically possible to analyze the full range of possible outcomes, the procedure for doing so is usually more complicated and time consuming than is warranted for many decision problems. In practice, considering only a few representative scenarios will typically lead to good decisions.”</strong></p></li>
+<li><p><strong>“When we use a scenario to represent a range of possible outcomes, the outcome figure we assign to that scenario should represent the weighted average of all outcomes in the range that scenario represents.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="decision-trees-and-probabilities">
+<h3>Decision Trees and Probabilities<a class="headerlink" href="#decision-trees-and-probabilities" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“To each branch emanating from a chance node we must associate a probability: the probability of that outcome occurring. These probabilities may be based on historical data or on our best judgment of the likelihood of each outcome.”</strong></p></li>
+<li><p><strong>“When assigning outcomes and probabilities to chance nodes, we must meet two requirements.”</strong>:</p>
+<ol class="simple">
+<li><p>Outcomes that branch off from the same chance node must be “mutually exclusive.” Thus, for example, two outcomes emanating from the same node cannot both occur at the same time: the occurrence of one outcomes excludes the occurrence of any other.</p></li>
+<li><p>The set of outcomes that branch off from the same chance node must be “collectively exhaustive”: the branches must represent all possible outcomes.”**</p></li>
+</ol>
+</li>
+<li><p><strong>“In practice, we typically don’t depict every possible outcome separately.”</strong> This is particularly in the case when there exist range of outcomes instead of fix specidic outcomes. The complete range of coutcomes must be categorized in such a way that they are collectively exhaustive.</p></li>
+<li><p><strong>“Also, we usually consider extremely unlikely but not impossible events to be included in one of the existing branches, or if sufficiently unlikely, to be irrelevant to decision-making.”</strong></p></li>
+<li><p><strong>“When we construct a chance node, we must make sure that the outcomes emanating from that node are mutually exclusive and collectively exhaustive. Since it is certain that one and only one of the possible scenarios will occur, the individual probabilities must add up to 100%.”</strong></p></li>
+</ul>
+<div class="section" id="id3">
+<h4>Summary<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“For a decision tree to effectively inform a decision, it must incorporate two types of relevant data: endpoint values corresponding to each scenario and the probabilities of the possible outcomes of each uncertain event. An outcome value is associated with a scenario - a unique path from the first node on the left of the tree to an endpoint on the right. We place the appropriate probability on each branch emanating from a chance node. Outcomes represented by branches emanating from the same chance node must be mutually exclusive and collectively exhaustive.”</strong>
+<img alt="Summary" src="../../_images/summary_decision_trees_and_probabilities.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="comparing-the-outcomes">
+<h2>Comparing the Outcomes<a class="headerlink" href="#comparing-the-outcomes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="introducing-the-expected-monetary-value">
+<h3>Introducing the Expected Monetary Value<a class="headerlink" href="#introducing-the-expected-monetary-value" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“The EMV is a weighted average of the expected outcomes of the scenarios due to a decision”</strong></p></li>
+<li><p><strong>“We can use the EMV as a measure with which to compare alternative options. First, we calculate the EMV for each chance node, beginning at the right of the tree.”</strong></p></li>
+<li><p><strong>“At a decision node, we choose the best EMV of all the branches emanating from that decision node. Selecting the option with the best EMV and removing all other options from consideration is known as “pruning” the tree.”</strong></p></li>
+<li><p><strong>“Any decision tree — no matter how large or complex — can be analyzed using two simple procedures. At each chance node, calculate the EMV, collapse the branches to a point, and replace the chance node with its EMV. At each decision node, compare the EMVs and prune the branches with less favorable EMVs. This entire process is known as folding back the decision tree.”</strong></p></li>
+</ul>
+<div class="section" id="id4">
+<h4>Summary<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“We often use expected monetary value (EMV) to quantify the value of uncertain outcomes. The EMV is the sum of the values of the possible outcomes of an uncertain event after each has been weighted by its probability of occurring. The EMV can be interpreted as the expected average outcome value of the uncertain event, if that uncertain event were repeated a large number of times. To analyze a tree, we “fold it back”: we move from right (the future) to left, finding the EMV for each node. For chance nodes we calculate the EMV as described below. For decision nodes we simply choose the option with the best EMV — lower costs or higher profits — among the choices represented by a decision node’s branches and prune the others.”</strong>
+<img alt="Summary" src="../../_images/summary_intro_emv.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="relevant-costs">
+<h3>Relevant Costs<a class="headerlink" href="#relevant-costs" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Costs that were incurred or committed to in the past, before a decision is made, contribute to the total costs of all scenarios that could possibly unfold after the decision is made. As such these costs — called sunk costs — should not have any bearing on the decision, because we cannot devise a scenario in which they are avoided. It isn’t wrong to include a sunk cost in the analysis as long as it is included in the value of every outcome. However, including sunk costs distracts from the differences between scenarios — the relevant costs.”</strong></p></li>
+<li><p><strong>“Misinterpreting a sunk cost as a cost that weighs on only some of the scenarios is a common error.”</strong></p></li>
+<li><p><strong>“Good decisions are made based on possible future outcomes, not on the desire to correct or justify past decisions or mistakes.”</strong></p></li>
+<li><p><strong>“Another common decision-making error is to omit from the analysis relevant costs that should have a bearing on the decision.”</strong></p></li>
+<li><p><strong>“Opportunity costs are an important cost category that decision makers often neglect to include in their analyses.”</strong></p></li>
+<li><p><strong>“We should also take non-monetary costs into account. Jen will feel sad at leaving her trusted vehicle and companion on many a road trip behind. Although such costs can be difficult to quantify, they should not be neglected.”</strong></p></li>
+<li><p>Sentivity Anlysis is used to take into account non-monetary costs.</p></li>
+</ul>
+<div class="section" id="id5">
+<h4>Summary<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Among the most common errors in decision analysis is the failure to properly account for the costs involved in different possible scenarios. On the one hand, relevant costs such as opportunity costs or non-monetary consequences are often omitted. On the other hand, irrelevant costs such as sunk costs are incorrectly included in the analysis. Sunk costs are costs that were incurred or committed to prior to making the decision and cannot be recovered at the time the decision is being made. Since these costs factor into any possible future outcome, they can be safely omitted from the analysis; sunk costs must never be included in only selected branches of a decision tree.”</strong>
+<img alt="Summary" src="../../_images/summary_relevant_cost.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="time-horizons">
+<h3>Time Horizons<a class="headerlink" href="#time-horizons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Costs can only be compared when values at same point of time. Compare the present value of costs associated with each option.</p></li>
+<li><p><strong>“The value of an asset at the end of the time horizon is typically called its terminal value.”</strong></p></li>
+</ul>
+<div class="section" id="id6">
+<h4>Summary<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“When we make a decision, we need to choose a time horizon over which we quantify the outcomes of our decision. To compare monetary values that take place at different times, we must account for the time value of money by comparing cash flows at their values at a common point in time. Generally, we compare the present values — or net present values — of different outcomes by discounting future cash flows at the appropriate discount rate. Terminal values of assets held at the end of the time horizon must be determined and discounted to their present value.”</strong>
+<img alt="Summary" src="../../_images/summary_time_horizons.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="sensitivity-analysis">
+<h2>Sensitivity Analysis<a class="headerlink" href="#sensitivity-analysis" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="a-decision-s-sensitivity-to-outcome-estimates">
+<h3>A Decision’s Sensitivity to Outcome Estimates<a class="headerlink" href="#a-decision-s-sensitivity-to-outcome-estimates" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Decision may be sensitive to the profit or loss in each decision.</p></li>
+<li><p>Breakeven value is the value of EMV at which the decision changes.</p></li>
+<li><p><strong>“Once we calculate a breakeven value, we know whether or not expending additional time and other resources to find a more accurate estimate is worthwhile. The breakeven value establishes a comfort zone: as long as we are confident that the value we are estimating is within the zone, we can feel comfortable choosing the option recommended by our initial analysis, based on our original estimate.”</strong></p></li>
+<li><p><strong>“If we think the value we are estimating could be close to the breakeven value, we need to be more cautious. If the true value we are trying to estimate could lie outside of the comfort zone, we might want to try to make our estimate of that value more accurate before we reach a final decision.”</strong></p></li>
+<li><p><strong>“How confident we are that the true value we are estimating lies inside the comfort zone given by the breakeven analysis is a matter of judgment and experience. Sometimes, we might collect sample data to estimate an outcome value. In this case, we should look closely at the variation in the data to see how widely and in what way the data can vary.”</strong></p></li>
+<li><p><strong>“Calculating a breakeven value for data used in a decision analysis is called sensitivity analysis: for each estimated value in the analysis, we check to see by how much it would have to change to affect our decision, assuming our estimates for all the other data are correct.”</strong></p></li>
+<li><p><strong>“Sensitivity analysis is an important and powerful tool for management decision-making. Managers who base decisions on an initial analysis without performing sensitivity analysis on critical data risk lulling themselves into a false sense of security in their decisions.”</strong></p></li>
+</ul>
+<div class="section" id="id7">
+<h4>Summary<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“After completing an initial decision analysis, always conduct a sensitivity analysis for each outcome value estimate you are uncomfortable with. First, calculate the outcome value’s breakeven value: the value for which the EMV of the option initially recommended by the decision analysis ceases to be the best EMV. The breakeven value defines a comfort zone: If we believe that the actual outcome value might be outside that zone — thereby changing the optimal decision — we should reconsider our analysis and refine our estimate of the outcome value in question.”</strong>
+<img alt="Summary" src="../../_images/summary_sensitvity_analysis.png" /></p></li>
+</ul>
+</div>
+<div class="section" id="evaluating-non-monetary-consequences">
+<h4>Evaluating non-monetary consequences<a class="headerlink" href="#evaluating-non-monetary-consequences" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Sensitivity analysis can give us a “reality check” on how highly we value non-monetary consequences such as frustration, reputation costs and benefits, and sentimental values. Although it may be difficult to assign a value to such consequences, we can often answer questions about the most we’d be willing to pay to avoid (or to obtain) them by calculating a threshold value.”</strong></p></li>
+</ul>
+<div class="section" id="id8">
+<h5>Summary<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“To incorporate non-monetary consequences into a decision, first find the option with the best EMV. Then, add the non-monetary consequence to the outcome values of all scenarios affected by that non-monetary consequence, and calculate the breakeven value for which the option recommended by the initial decision analysis ceases to have the best EMV. The breakeven value defines a comfort zone: If we believe that the actual value of the non-monetary consequences might be outside that zone — thereby changing the optimal decision — we should try to gain a firm estimate of the non-monetary consequence’s value.”</strong>
+<img alt="Summary" src="../../_images/summary_non_monetary_consequences.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="a-decision-s-sensitivity-to-probability-estimates">
+<h4>A Decision’s Sensitivity to Probability Estimates<a class="headerlink" href="#a-decision-s-sensitivity-to-probability-estimates" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Decision-making is an iterative, multi-step process. When analyzing a decision, we should first construct and analyze a decision tree based on our best estimates of the outcomes and probabilities involved. After reaching a tentative decision, it is critical to scrutinize the data used in a decision analysis and conduct sensitivity analyses for each estimate that we feel unsure about.”</strong></p></li>
+<li><p><strong>“As long as we are comfortable that the true value we are estimating is within the range specified by the breakeven calculation, we can confidently proceed with our decision. If not, we should focus our efforts on refining our estimates for those values to which our decisions are most sensitive.”</strong>
+<img alt="Decision Analysis Flow Chart" src="../../_images/decision_analysis_flowchart.png" /></p></li>
+<li><p><strong>“Finally, we should note that managers sometimes need to test the sensitivity of their decisions to two or more estimates simultaneously. Sensitivity analysis techniques can be extended to address these situations; these techniques are beyond the scope of this course.”</strong></p></li>
+</ul>
+<div class="section" id="id9">
+<h5>Summary<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“After completing an initial decision analysis, always conduct a sensitivity analysis for each probability value you are uncomfortable with. First calculate the probability’s breakeven value: the probability for which the EMV of the option initially recommended by the decision analysis ceases to be the best EMV. The breakeven value defines a comfort zone: If we believe that the actual probability might be outside that zone — thereby changing the optimal decision — we should reconsider our analysis and refine our estimate of the probability in question.”</strong>
+<img alt="Summary" src="../../_images/summary_sensitivity_probabilities.png" /></p></li>
+</ul>
+</div>
+</div>
+</div>
 </div>
 </div>
 
@@ -445,10 +690,10 @@
             <p class="prev-next-title">Regression Basics</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../finance_online/intro.html" title="next page">
+    <a class='right-next' id="next-link" href="decision_analysis_2.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introduction</p>
+        <p class="prev-next-title">Decision Analysis II</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

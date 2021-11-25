@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculus &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
+    <title>Decision Analysis II &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -53,8 +53,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Statistics" href="statistics.html" />
-    <link rel="prev" title="Algebra" href="algebra.html" />
+    <link rel="next" title="Introduction" href="../finance_online/intro.html" />
+    <link rel="prev" title="Decision Analysis" href="decision_analysis.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -125,29 +125,29 @@
   Mathematics for Management
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="algebra.html">
+  <a class="reference internal" href="../mathematics/algebra.html">
    Algebra
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematics/calculus.html">
    Calculus
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="statistics.html">
+  <a class="reference internal" href="../mathematics/statistics.html">
    Statistics
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="probability.html">
+  <a class="reference internal" href="../mathematics/probability.html">
    Probability
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="finance.html">
+  <a class="reference internal" href="../mathematics/finance.html">
    Finance
   </a>
  </li>
@@ -157,39 +157,39 @@
   Quantitative Methods
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/overview.html">
+  <a class="reference internal" href="overview.html">
    Overview and Introduction
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/basics_data_description.html">
+  <a class="reference internal" href="basics_data_description.html">
    Basics: Data Description
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/sampling_estimation.html">
+  <a class="reference internal" href="sampling_estimation.html">
    Sampling and Estimation
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/hypothesis_testing.html">
+  <a class="reference internal" href="hypothesis_testing.html">
    Hypothesis Testing
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/regression_basics.html">
+  <a class="reference internal" href="regression_basics.html">
    Regression Basics
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/decision_analysis.html">
+  <a class="reference internal" href="decision_analysis.html">
    Decision Analysis
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../quantitative_methods/decision_analysis_2.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Decision Analysis II
   </a>
  </li>
@@ -246,7 +246,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/mathematics/calculus.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/quantitative_methods/decision_analysis_2.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -266,7 +266,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/mathematics/calculus.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/quantitative_methods/decision_analysis_2.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -293,34 +293,47 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#motivation-for-differential-calculus">
-   Motivation for Differential Calculus
+  <a class="reference internal nav-link" href="#conditional-probabilities">
+   Conditional Probabilities
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#slope-and-tangent-lines">
-   Slope and Tangent Lines
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#rules-for-computing-derivatives">
-   Rules for Computing Derivatives
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#second-derivatives-convex-and-concave-functions">
-   Second Derivatives, Convex and Concave Functions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#maximizing-and-minimizing-functions">
-   Maximizing and Minimizing Functions
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#inflection-points">
-   Inflection Points
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#joint-marginal-probabilities">
+     Joint &amp; Marginal Probabilities
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#summary">
+       Summary
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Conditional Probabilities
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id2">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#statistical-independence">
+       Statistical Independence
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id3">
+         Summary
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -333,67 +346,64 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="calculus">
-<h1>Calculus<a class="headerlink" href="#calculus" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="decision-analysis-ii">
+<h1>Decision Analysis II<a class="headerlink" href="#decision-analysis-ii" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="conditional-probabilities">
+<h2>Conditional Probabilities<a class="headerlink" href="#conditional-probabilities" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="joint-marginal-probabilities">
+<h3>Joint &amp; Marginal Probabilities<a class="headerlink" href="#joint-marginal-probabilities" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>A non linear function will never have a constant slop line a straight line.</p></li>
-<li><p><strong>“A branch of mathematics concerned with determining the slope of a function at any point. Knowledge of differential calculus enables us to easily maximize and minimize functions and also graph complicated functions.”</strong></p></li>
+<li><p><strong>“The table is a useful tool for calculating proportions of potential interest to managers.”</strong></p></li>
+<li><p><strong>“We can create an entire table of proportions. These proportions can be interpreted as probabilities.”</strong></p></li>
+<li><p>“Probability” and “Proportion” are used interchangeably.</p></li>
+<li><p>The probabilities on the inside of the table are called joint probabilities. While the probabilties related to totals are called marginal probabilities.
+<img alt="Joint Probabilities" src="../../_images/joint_probabilities.png" />
+<img alt="Marginal Probabilities" src="../../_images/marginal_probabilities.png" /></p></li>
+<li><p><strong>“Information about the distribution of properties in populations is often available in terms of probabilities, so the table of probabilities is a very natural way to represent the data.”</strong></p></li>
 </ul>
-<div class="section" id="motivation-for-differential-calculus">
-<h2>Motivation for Differential Calculus<a class="headerlink" href="#motivation-for-differential-calculus" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="summary">
+<h4>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>It is necessary in businesses to know some minimum and maximum point of a function defining a system.</p></li>
-<li><p><strong>“The maximum or minimum value of a function is the point at which the slope of the curve is zero.”</strong></p></li>
-<li><p>The slope of the function at <span class="math notranslate nohighlight">\(x\)</span> can be approximated by the slope of the line joining <span class="math notranslate nohighlight">\((x, f(x))\)</span> and <span class="math notranslate nohighlight">\((x+\Delta x, f(x + \Delta x))\)</span>, as <span class="math notranslate nohighlight">\(\Delta x\)</span> tends to <span class="math notranslate nohighlight">\(0\)</span>.</p></li>
-<li><p>Making <span class="math notranslate nohighlight">\(\Delta x\)</span> approach to 0 is equivalent to taking first order derivative of the function <span class="math notranslate nohighlight">\(f(x)\)</span>.</p></li>
-</ul>
-</div>
-<div class="section" id="slope-and-tangent-lines">
-<h2>Slope and Tangent Lines<a class="headerlink" href="#slope-and-tangent-lines" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><strong>“The slope of a function at a given point can be shown visually by drawing a line such that it touches the function only at that point. That line is called tangent.”</strong></p></li>
-<li><p><strong>“When the two points come together, Δx becomes zero, the line becomes a tangent line, and the slope of the function at that now-single point is revealed.”</strong></p></li>
-<li><p><strong>“The point where the function shifts from increasing values of y to decreasing values of y (or from decreasing values of y to increasing values of y) is where the slope of the tangent line equals zero — i.e., where the tangent line is horizontal.”</strong></p></li>
-</ul>
-</div>
-<div class="section" id="rules-for-computing-derivatives">
-<h2>Rules for Computing Derivatives<a class="headerlink" href="#rules-for-computing-derivatives" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(dy/dx\)</span> is used as notation for derivative of <span class="math notranslate nohighlight">\(y\)</span> with respect to <span class="math notranslate nohighlight">\(x\)</span>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(dy/dx = y' = f'(x)\)</span></p></li>
-<li><p>If <span class="math notranslate nohighlight">\(f'(x) &gt; 0\)</span>, the function is increasing at <span class="math notranslate nohighlight">\(x\)</span>, and that if <span class="math notranslate nohighlight">\(f'(x) &lt; 0\)</span>, the function is decreasing at <span class="math notranslate nohighlight">\(x\)</span>.</p></li>
-<li><p>Rule 1: If <span class="math notranslate nohighlight">\(f(x) = k\)</span> then <span class="math notranslate nohighlight">\(y' = 0\)</span>.</p></li>
-<li><p>Rule 2: If <span class="math notranslate nohighlight">\(f(x) = x^n\)</span>, where <span class="math notranslate nohighlight">\(n\)</span> is a any number, then <span class="math notranslate nohighlight">\(y' = nx^{n-1}\)</span></p></li>
-<li><p>Rule 3: If <span class="math notranslate nohighlight">\(f(x)=kg(x)\)</span>, then <span class="math notranslate nohighlight">\(y' = kg'(x)\)</span> where <span class="math notranslate nohighlight">\(g'(x)\)</span> is the derivative of <span class="math notranslate nohighlight">\(g(x)\)</span>.</p></li>
-<li><p>Rule 4: If <span class="math notranslate nohighlight">\(f(x) = g(x) + h(x)\)</span>, then <span class="math notranslate nohighlight">\(f'(x) = g'(x) + h'(x)\)</span>.</p></li>
+<li><p><strong>“For two events A and B with outcomes A1, A2, etc. and B1, B2, etc., respectively, the joint probability P(A1 &amp; B1) is the probability that the uncertain event A has outcome A1 and the uncertain event B has outcome B1. The joint probabilities of all possible outcomes of two uncertain events can be summarized in a probability table. The marginal probability of the outcome A1 of the first uncertain event is the sum of the joint probabilities of outcomes A1 and all possible outcomes B1, B2, etc. of the second uncertain event.”</strong>
+<img alt="Summary" src="../../_images/summary_joint_marginal.png" /></p></li>
 </ul>
 </div>
-<div class="section" id="second-derivatives-convex-and-concave-functions">
-<h2>Second Derivatives, Convex and Concave Functions<a class="headerlink" href="#second-derivatives-convex-and-concave-functions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h4>Conditional Probabilities<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>Sometimes it is necessary to maximize a function or minimize a function.</p></li>
-<li><p>Concave functions can be easily maximized while convex functions can be easily minimized.</p></li>
-<li><p>To determine whether a function is convex or concave, second derivative (<span class="math notranslate nohighlight">\(y''\)</span>) is used.</p></li>
-<li><p><span class="math notranslate nohighlight">\(d^2y/d^2x = y'' = f''(x)\)</span>.</p></li>
-<li><p>Second derivative is the derivative of first derivative of a function.</p></li>
-<li><p><strong>“When a function’s second derivative is positive, the function’s first derivative is increasing; when a function’s second derivative is negative, the function’s first derivative is decreasing.”</strong></p></li>
-<li><p><strong>“A function <span class="math notranslate nohighlight">\(f(x)\)</span> is convex if for all values of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(f&quot;(x) ≥ 0\)</span>.”</strong></p></li>
-<li><p><strong>“A function <span class="math notranslate nohighlight">\(f(x)\)</span> is concave if for all values of <span class="math notranslate nohighlight">\(x\)</span>, <span class="math notranslate nohighlight">\(f&quot;(x) ≤ 0\)</span>.”</strong></p></li>
+<li><p>Probability of event A given event B is called caonditional probability.</p></li>
+<li><p>It is denoted as <span class="math notranslate nohighlight">\(P(A|B)\)</span>
+<img alt="Conditional Probabilities Example" src="../../_images/conditional_probabilities_example.png" /></p></li>
+<li><p><strong>“When given information as a table of probabilities, we can use the probabilities to calculate conditional probabilities as well: we simply form the ratios of the appropriate probabilities.”</strong></p></li>
+<li><p><strong>“A conditional probability is formally defined in terms of the ratio of a joint probability to a marginal probability.”</strong>
+<img alt="Conditional Probability" src="../../_images/conditional_probability.png" />
+<img alt="Probabilities Full Table" src="../../_images/probabilities_full_table.png" /></p></li>
+<li><p><strong>” when presented with a decision problem in which the outcomes are influenced by multiple uncertain events, constructing the joint probabilities of these events is almost always a wise first step.”</strong></p></li>
+</ul>
+<div class="section" id="id2">
+<h5>Summary<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>The conditional probability P(A | B) is the probability of the outcome A of one uncertain event, given that the outcome B of a second uncertain event has already occurred. The table of joint probabilities provides all the information needed to compute all conditional probabilities. First calculate the marginal probabilities for each event, then compute the conditional probabilities as shown below:”</strong>
+<img alt="Summary" src="../../_images/summary_conditional_probability.png" /></p></li>
 </ul>
 </div>
-<div class="section" id="maximizing-and-minimizing-functions">
-<h2>Maximizing and Minimizing Functions<a class="headerlink" href="#maximizing-and-minimizing-functions" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="statistical-independence">
+<h4>Statistical Independence<a class="headerlink" href="#statistical-independence" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><strong>“A concave function attains its maximum value at any point where <span class="math notranslate nohighlight">\(f'(x) = 0\)</span>.”</strong></p></li>
-<li><p>**”A convex function attains its minimum value at any point where <span class="math notranslate nohighlight">\(f'(x) = 0\)</span>.”</p></li>
+<li><p><strong>“In general, we can interpret the fact that two uncertain events are independent in the following way: knowing that one event has occurred gives us no additional information about whether or not the other event has. For example, the results of two spins of a wheel of fortune are independent. The first result does not reveal anything about the second.”</strong></p></li>
+<li><p><strong>“The joint probabilities are simply the products of the marginal probabilities.”</strong></p></li>
+<li><p><strong>“Although it may seem plausible to assume that certain properties are independent, managers who take statistical independence for granted do so at their peril. We need to verify the assumption that the properties are independent by looking at and evaluating data or by proving independence on the theoretical level.”</strong></p></li>
+</ul>
+<div class="section" id="id3">
+<h5>Summary<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><strong>“Two uncertain events A and B are said to be statistically independent if knowing that A has occurred does not tell us anything about the probability of B occurring, and vice versa. Statistical independence of two events can be demonstrated based on data or proved from theory; it should never be assumed. Events that are not statistically independent are said to be statistically dependent.”</strong>
+<img alt="Summary" src="../../_images/summary_statistical_independence.png" /></p></li>
 </ul>
 </div>
-<div class="section" id="inflection-points">
-<h2>Inflection Points<a class="headerlink" href="#inflection-points" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><strong>“A point where a curve changes from being convex to concave or concave to convex is an inflection point.”</strong></p></li>
-<li><p>An infletion point exist at <span class="math notranslate nohighlight">\(f''(x)=0\)</span>.</p></li>
-</ul>
+</div>
+</div>
 </div>
 </div>
 
@@ -410,7 +420,7 @@
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./docs/mathematics"
+            path: "./docs/quantitative_methods"
         },
         predefinedOutput: true
     }
@@ -422,17 +432,17 @@
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="algebra.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="decision_analysis.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Algebra</p>
+            <p class="prev-next-title">Decision Analysis</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="statistics.html" title="next page">
+    <a class='right-next' id="next-link" href="../finance_online/intro.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Statistics</p>
+        <p class="prev-next-title">Introduction</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
