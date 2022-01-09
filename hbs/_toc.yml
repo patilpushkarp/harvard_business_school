@@ -29,6 +29,8 @@ parts:
   - caption: Financial Accounting
     chapters:
     - file: docs/financial_accounting/intro.md
+    - file: docs/financial_accounting/terms_concepts.md
+    - file: docs/financial_accounting/balance_sheet.md
   - caption: Finance Online
     chapters:
     - file: docs/finance_online/intro.md

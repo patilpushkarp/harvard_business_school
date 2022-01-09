@@ -81,3 +81,19 @@
 
 - **"Accrual accounting attempts to record the financial effects on a business of transactions that have economic consequences for the business in the accounting period when the transaction occurs rather than only in the periods when cash is received or paid by the company."**
 - **"When applied consistently, accrual accounting is a means of enhancing the relevance of financial statements. Cash-basis accounting results in inadequate and misleading financial statements for all but the most simple of businesses. As a result, accrual accounting is the accounting system of choice throughout the world today."**
+
+## GAAP
+
+- **"Financial accounting reports are used by investors, regulators, employees, customers and a number of other external parties. So that this diverse list of users can understand an entity's financial statements, accountants must follow certain guidelines or standards when preparing financial accounting reports. These principles, more numerous than the accounting concepts, are explicit rules that are used to improve the reliability and comparability of financial reports."**
+- **"Generally Accepted Accounting Principles (GAAP) are guidelines that accountants, managers and auditors must follow while preparing and auditing accounting information for external reporting purposes. For example, GAAP requires the use of accrual accounting. The application of GAAP rules results in reasonably reliable financial information, while also permitting each entity to reasonably describe its own business strategy and performance through relevant accounting information."**
+- **"The Financial Accounting Standards Board (FASB) determines GAAP in the United States. There also exists an International Accounting Standards Board (IASB), which, among other activities, has undertaken a major effort to harmonize accounting standards around the world."**
+
+## IFRS
+
+- **"The International Accounting Standards Board (IASB) publishes International Financial Reporting Standards (IFRS)."**
+
+## Principles vs Rules
+
+- **"IFRS tends to be stated as in the form of broad principles. In contrast, much of GAAP tends to be stated in the form of bright-line rules. For example, as you will learn later along with various accounting rules, under GAAP if a term of a lease is equal to 75 percent of the economic life of the leased property, the lease will be accounted for as a capital lease. On the other hand, if the lease item is equal to 74 percent or less of the leased property's economic life, the lease will be accounted for as an operating lease. IFRS takes a different approach. It makes the distinction between a capital and an operating lease based on which party - the lessor or the lessee - substantially bears the risk and reward of ownership."**
+- **"The distinction between the principle based and rule based accounting standards is important. Under a principle standards model, the accounting for transactions is more likely to reflect the substance of the transaction. Under a rule based standards model, the accounting for a transaction is more likely to reflect the form of the transaction."**
+- **"As GAAP and IFRS converge, it is anticipated that GAAP will become more principle based."**
