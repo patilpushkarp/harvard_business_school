@@ -31,6 +31,10 @@ parts:
     - file: docs/financial_accounting/intro.md
     - file: docs/financial_accounting/terms_concepts.md
     - file: docs/financial_accounting/balance_sheet.md
+    - file: docs/financial_accounting/income_statement.md
+    - file: docs/financial_accounting/accounting_records.md
+    - file: docs/financial_accounting/statement_of_cash_flows.md
+    - file: docs/financial_accounting/revenue_receivables.md
   - caption: Finance Online
     chapters:
     - file: docs/finance_online/intro.md
