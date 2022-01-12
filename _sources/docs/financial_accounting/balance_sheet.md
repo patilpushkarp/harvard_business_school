@@ -97,4 +97,3 @@
 - **"If a company has a total debt to equity ratio that is significantly higher than that of its peers, financial statement users may be concerned about its ability to make the required payments to its debt holders and the company's long-term solvency may be questioned."**
 - **"If, on the other hand, a company has a total debt to equity ratio that is significantly lower than that of its peers, financial statement users may question whether the company is being aggressive enough in pursuing profitable growth opportunities by raising debt when necessary to finance those opportunities."**
 - **"As with other financial ratios, there is no single perfect total debt to equity ratio for any business. What is important is a company's total debt to equity ratio relative to those of other, similar businesses, and also how the ratio changes over time."**
-- 

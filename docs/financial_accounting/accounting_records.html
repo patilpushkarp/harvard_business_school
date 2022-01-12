@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Financial Accounting &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
+    <title>Accounting Records &#8212; Indian Institute of Management, Udaipur - Harvard Business School Courses</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
   <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -42,6 +42,8 @@
     <script src="../../_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -51,8 +53,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Terms and Concepts" href="terms_concepts.html" />
-    <link rel="prev" title="Decision Analysis II" href="../quantitative_methods/decision_analysis_2.html" />
+    <link rel="next" title="The Statement of Cash Flows" href="statement_of_cash_flows.html" />
+    <link rel="prev" title="The Income Statement" href="income_statement.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -198,8 +200,8 @@
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
    Welcome to Financial Accounting
   </a>
  </li>
@@ -218,8 +220,8 @@
    The Income Statement
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="accounting_records.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Accounting Records
   </a>
  </li>
@@ -286,7 +288,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../../_sources/docs/financial_accounting/intro.md"><button type="button"
+        <a class="dropdown-buttons" href="../../_sources/docs/financial_accounting/accounting_records.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -306,7 +308,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/financial_accounting/intro.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/patilpushkarp/harvard_business_school/issues/new?title=Issue%20on%20page%20%2Fdocs/financial_accounting/accounting_records.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -333,8 +335,47 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#the-accounting-process">
-   The Accounting Process
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#double-entry-accounting">
+   Double-Entry Accounting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#journal-entries">
+   Journal Entries
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#debit-and-credit">
+     Debit and Credit
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ledger">
+   Ledger
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#t-accounts">
+     T-Accounts
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adjusting-entries">
+   Adjusting Entries
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#closing-entries">
+   Closing Entries
   </a>
  </li>
 </ul>
@@ -347,7 +388,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Welcome to Financial Accounting</h1>
+                <h1>Accounting Records</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -358,8 +399,47 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#the-accounting-process">
-   The Accounting Process
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#double-entry-accounting">
+   Double-Entry Accounting
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#journal-entries">
+   Journal Entries
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#debit-and-credit">
+     Debit and Credit
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ledger">
+   Ledger
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#t-accounts">
+     T-Accounts
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adjusting-entries">
+   Adjusting Entries
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#closing-entries">
+   Closing Entries
   </a>
  </li>
 </ul>
@@ -371,15 +451,68 @@
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="welcome-to-financial-accounting">
-<h1>Welcome to Financial Accounting<a class="headerlink" href="#welcome-to-financial-accounting" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="the-accounting-process">
-<h2>The Accounting Process<a class="headerlink" href="#the-accounting-process" title="Permalink to this headline">¶</a></h2>
+  <div class="tex2jax_ignore mathjax_ignore section" id="accounting-records">
+<h1>Accounting Records<a class="headerlink" href="#accounting-records" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><strong>“Financial accounting is a financial information system that tracks and records an organization’s business transactions and aggregates them into reports for decision makers both inside and outside the business. A transaction is an event that has consequences for a business’ financial condition. The event could be either external or internal to the business.”</strong>
-<img alt="Financial Accounting" src="../../_images/fa_intro.png" /></p></li>
-<li><p>Business transactions are classified as operating, investing and financing.</p></li>
-<li><p>An auditor must make an independent judgment about the validity of a company’s financial statements.</p></li>
+<li><p><strong>“In any accounting system, a series of systematic steps help the entity and its accountants track and record its financial activities during an accounting period and to prepare the desired financial statements at the end of the period.”</strong>
+<img alt="Simple Accounting System" src="../../_images/simple_acccounting_system.png" /></p></li>
+</ul>
+</div>
+<div class="section" id="double-entry-accounting">
+<h2>Double-Entry Accounting<a class="headerlink" href="#double-entry-accounting" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“A double-entry accounting system records the dual effects of each financial transaction. Each transaction affects at least two accounts.”</strong></p></li>
+<li><p><strong>“Consider a transaction you have already encountered: raising <span class="math notranslate nohighlight">\(80,000 cash by issuing common stock, entity's first transaction. Entity recieved cash and issued common stock. Account analysis indicates that two accounts were affected by this transaction: the cash account and the common stock account. The financial accounting system, a double-entry system, recorded an increase of \)</span>80,000 in the cash account and an increase of $80,000 in the common stock account. This is how we recorded the transaction when it occurred.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="journal-entries">
+<h2>Journal Entries<a class="headerlink" href="#journal-entries" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“When a transaction occurs and has been analyzed, an entry has to be made in the journal. The journal is a chronological record of the entity’s transactions.”</strong></p></li>
+</ul>
+<div class="section" id="debit-and-credit">
+<h3>Debit and Credit<a class="headerlink" href="#debit-and-credit" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Each change to an account consists of a dollar amount and a direction (whether it is an increase or a decrease). In accounting, we indicate the direction of the change by a specialized use of the words debit and credit. While learning financial accounting, you should forget day-to-day meanings of the words debit and credit.”</strong>
+<img alt="Debit and Credit" src="../../_images/debit_credit.png" /></p></li>
+<li><p><strong>“After analyzing a transaction, a journal entry is prepared using the rule that debits indicate increases in assets and in expenses and credits indicate increases in liabilities, owners’ equity and sales.”</strong></p></li>
+<li></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ledger">
+<h2>Ledger<a class="headerlink" href="#ledger" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“After a journal entry has been made, it is posted to the ledger, which contains T-accounts, one for each account. Accountants use T-accounts as an aid to double-entry bookkeeping, one that helps track changes (debits and credits) to different accounts, and when used correctly, ensures that the basic accounting equation holds after each transaction.”</strong>
+<img alt="Ledger Example" src="../../_images/ledger_example.png" /></p></li>
+</ul>
+<div class="section" id="t-accounts">
+<h3>T-Accounts<a class="headerlink" href="#t-accounts" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Each T-account is associated with a single account, such as Cash, Accounts Payable, Common Stock or Sales. The T-account is literally a large ‘T’ with an account name on top. The left side of the T-account is the debit side. The right side of the T-account is the credit side. So, in financial accounting, debit means left side, and credit means right side.”</strong></p></li>
+<li><p><strong>“At any given time, each account has a balance (the monetary amount in that account). An account may have a debit (left-side) or a credit (right-side) balance.”</strong></p></li>
+<li><p><strong>“Combining the journal-related use of debit and credit with their ledger-related meanings, immediately tells us how to post journal entries to the ledger. For asset accounts, increases are recorded on the debit side or the left side of the T-account. Decreases in asset accounts are recorded on the credit or the right side of the T-account.”</strong></p></li>
+<li><p><strong>“For liability and owners’ equity accounts, decreases are recorded on the debit or the left side of each T-account. Increases in liability and owners’ equity accounts are recorded on the credit or right side of the T-account.”</strong></p></li>
+<li><p><strong>“Increases in sales are recorded as credits and increases in expenses are recorded as debits.”</strong>
+<img alt="T-account" src="../../_images/t_account.png" /></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="adjusting-entries">
+<h2>Adjusting Entries<a class="headerlink" href="#adjusting-entries" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“in accrual accounting, at the end of each accounting period, a number of adjusting entries have to be made. These transactions, which do not involve any external parties, represent expenses that are not associated with either the goods or services sold during the period or with future revenues. They must therefore be recorded in the current period.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="closing-entries">
+<h2>Closing Entries<a class="headerlink" href="#closing-entries" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“Now it is time to close out each temporary or income statement account and reset it to a zero balance, in preparation for the next accounting period. Notice that the sales account has a credit balance, and all the expense accounts have debit balances.”</strong></p></li>
+<li><p>Closing entries are required to close income statement account.</p></li>
+<li><p><strong>“After closing out the income statement (temporary) accounts, the balances in the ledger’s balance sheet (permanent) accounts are transferred to the balance sheet at the end of the period.”</strong></p></li>
+<li><p><strong>“The closing entry shows the balances in all the income statement accounts just before they were closed, and hence provides the information needed to prepare the income statement of the period.”</strong></p></li>
 </ul>
 </div>
 </div>
@@ -409,17 +542,17 @@
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../quantitative_methods/decision_analysis_2.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="income_statement.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Decision Analysis II</p>
+            <p class="prev-next-title">The Income Statement</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="terms_concepts.html" title="next page">
+    <a class='right-next' id="next-link" href="statement_of_cash_flows.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Terms and Concepts</p>
+        <p class="prev-next-title">The Statement of Cash Flows</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
