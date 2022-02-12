@@ -37,9 +37,12 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/togglebutton.js"></script>
     <script src="../../_static/clipboard.min.js"></script>
     <script src="../../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
@@ -51,7 +54,7 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Introduction" href="../finance_online/intro.html" />
+    <link rel="next" title="Inventories and Cost of Sales" href="investories_and_cost_of_sales.html" />
     <link rel="prev" title="The Statement of Cash Flows" href="statement_of_cash_flows.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -233,6 +236,16 @@
    Revenue and Receivables
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="investories_and_cost_of_sales.html">
+   Inventories and Cost of Sales
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="depreciation_and_non_current_assets.html">
+   Depreciation and Non-Current Assets
+  </a>
+ </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
@@ -243,6 +256,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../finance_online/intro.html">
    Introduction
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../finance_online/ratio_analysis.html">
+   Ratio Analysis
   </a>
  </li>
 </ul>
@@ -385,6 +403,76 @@
   <a class="reference internal nav-link" href="#prompt-payment-discounts">
    Prompt Payment Discounts
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Estimation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#allowance-setup">
+     Allowance Setup
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cash-collections">
+     Cash Collections
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adjusting-allowances-month-s-end">
+   Adjusting Allowances: Month’s End
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#updating">
+     Updating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#overestimations">
+     Overestimations
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#underestimations">
+     Underestimations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ratios">
+   Ratios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bad-debt-ratio">
+     Bad Debt Ratio
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#interpretation">
+       Interpretation
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#days-receivable-ratio">
+     Days Receivable Ratio
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Interpretation
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -459,6 +547,76 @@
   <a class="reference internal nav-link" href="#prompt-payment-discounts">
    Prompt Payment Discounts
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Estimation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#allowance-setup">
+     Allowance Setup
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cash-collections">
+     Cash Collections
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#adjusting-allowances-month-s-end">
+   Adjusting Allowances: Month’s End
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#updating">
+     Updating
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#overestimations">
+     Overestimations
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#underestimations">
+     Underestimations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ratios">
+   Ratios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bad-debt-ratio">
+     Bad Debt Ratio
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#interpretation">
+       Interpretation
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#days-receivable-ratio">
+     Days Receivable Ratio
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id3">
+       Interpretation
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -540,8 +698,85 @@
 <div class="section" id="prompt-payment-discounts">
 <h2>Prompt Payment Discounts<a class="headerlink" href="#prompt-payment-discounts" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li></li>
+<li><p>The incentive provided in the form of discount to the customer for prompt payment for the goods purchased is known prompt payment discount.</p></li>
+<li><p>We follow the allowance accounts method for prompt payment discounts too.</p></li>
 </ul>
+<div class="section" id="id2">
+<h3>Estimation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Company’s past experience is used to estimate the allowance.</p></li>
+</ul>
+</div>
+<div class="section" id="allowance-setup">
+<h3>Allowance Setup<a class="headerlink" href="#allowance-setup" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Set up the liability allowance account and cash discount allowance deduction from gross sales account.”</strong></p></li>
+<li><p><strong>“The allowance for cash discounts is a liability account. The corresponding account - Estimated cash discounts - is shown in the income statement as a deduction from gross sales. Like the sales refunds adjustment to gross sales, this income statement account is also renamed in the income statement. It will appear as “allowance for cash discounts”. Do not be confused. The liability of same name is still on the balance sheet.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="cash-collections">
+<h3>Cash Collections<a class="headerlink" href="#cash-collections" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Customer pays and takes discount.”</strong></p></li>
+<li><p><strong>“Three accounts are affected by the entries - accounts receivable, cash and allowance for cash discounts.”</strong></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="adjusting-allowances-month-s-end">
+<h2>Adjusting Allowances: Month’s End<a class="headerlink" href="#adjusting-allowances-month-s-end" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="updating">
+<h3>Updating<a class="headerlink" href="#updating" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>If an estimate is exact then no adjustments are required.</p></li>
+<li><p>Appropriate entries will satisify the accounts equation.</p></li>
+</ul>
+</div>
+<div class="section" id="overestimations">
+<h3>Overestimations<a class="headerlink" href="#overestimations" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>If a value is overestimated then appropriate adjustments are made in the liabilities and owner’s equity section.</p></li>
+<li><p>Asset section is remained untouched.</p></li>
+</ul>
+</div>
+<div class="section" id="underestimations">
+<h3>Underestimations<a class="headerlink" href="#underestimations" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>If a value is underestimated then appropriate adjustments are made in the liabilities and owner’s equity section.</p></li>
+<li><p>Asset section is remained untouched.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ratios">
+<h2>Ratios<a class="headerlink" href="#ratios" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="bad-debt-ratio">
+<h3>Bad Debt Ratio<a class="headerlink" href="#bad-debt-ratio" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“The bad debt ratio is the percentage of a company’s gross receivables that it does not expect to be paid. A company with a low bad debt ratio believes it is more likely to receive payment of more of its receivables outstanding than a company with a high bad debt ratio. Financial statement users use the bad debt ratio against their knowledge of the issuers’ business and industry to assess the reliability of the company’s net accounts receivable balance.”</strong>
+<img alt="Bad Debt Ratio" src="../../_images/bad_debt_ratio.png" /></p></li>
+</ul>
+<div class="section" id="interpretation">
+<h4>Interpretation<a class="headerlink" href="#interpretation" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“Bad debt ratios vary considerably from industry to industry, ranging from less than 1% to over 15%.”</strong></p></li>
+<li><p><strong>“Analysts look to see if a company’s bad debt ratio is increasing over time, or if it is significantly greater than that of other companies in its industry. In either case, this might indicate that the company is failing to properly screen potential clients before offering them credit. It might also mean that the company is pursuing less credit-worthy customers in an attempt to generate sales which it is not getting elsewhere.”</strong></p></li>
+<li><p><strong>“From a managerial perspective, the greater your company’s bad debt ratio is, the more it costs you to extend credit to your customers. If you are attempting to analyze the incremental profitability of a sale, the cost of providing credit to a customer is one of the costs elements to include. An increase in the cost of extending credit means a decrease in net profit from a sale.”</strong></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="days-receivable-ratio">
+<h3>Days Receivable Ratio<a class="headerlink" href="#days-receivable-ratio" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“The “days receivable” ratio or the “days sales outstanding” (DSO) ratio indicates the average number of days necessary for the company to collect its outstanding accounts receivable. The days receivable ratio is sometimes called receivables turnover, because it tells you how fast the receivable are turning over and being converted into cash.”</strong></p></li>
+</ul>
+<div class="section" id="id3">
+<h4>Interpretation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>“As is true with bad debt ratios, days receivables varies considerably between industries. Retail apparel chains have very short days receivable while heavy equipment manufacturers, by comparison, have much longer days receivable.”</strong></p></li>
+<li><p><strong>“Analysts compare a company’s days receivables to that of its industry peers. The slowing of a company’s days receivables or a high days receivables compared to its competitors has a negative impact on the firm’s liquidity; it ties up capital that might otherwise be used to finance the production of saleable assets. An increasing days receivable ratio might also be an indication that more of the receivables will become bad debts.”</strong></p></li>
+<li><p><strong>“In periods of economic downturn, many companies experience an increase in days receivable and bad debts as their customers find it more difficult to meet their obligations.”</strong></p></li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 
@@ -577,10 +812,10 @@
             <p class="prev-next-title">The Statement of Cash Flows</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../finance_online/intro.html" title="next page">
+    <a class='right-next' id="next-link" href="investories_and_cost_of_sales.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introduction</p>
+        <p class="prev-next-title">Inventories and Cost of Sales</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

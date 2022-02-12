@@ -51,4 +51,59 @@
 
 ## Prompt Payment Discounts
 
-- 
+- The incentive provided in the form of discount to the customer for prompt payment for the goods purchased is known prompt payment discount.
+- We follow the allowance accounts method for prompt payment discounts too.
+
+### Estimation
+
+- Company's past experience is used to estimate the allowance.
+
+### Allowance Setup
+
+- **"Set up the liability allowance account and cash discount allowance deduction from gross sales account."**
+- **"The allowance for cash discounts is a liability account. The corresponding account - Estimated cash discounts - is shown in the income statement as a deduction from gross sales. Like the sales refunds adjustment to gross sales, this income statement account is also renamed in the income statement. It will appear as "allowance for cash discounts". Do not be confused. The liability of same name is still on the balance sheet."**
+
+### Cash Collections
+
+- **"Customer pays and takes discount."**
+- **"Three accounts are affected by the entries - accounts receivable, cash and allowance for cash discounts."**
+
+## Adjusting Allowances: Month's End
+
+### Updating
+
+- If an estimate is exact then no adjustments are required.
+- Appropriate entries will satisify the accounts equation.
+
+### Overestimations
+
+- If a value is overestimated then appropriate adjustments are made in the liabilities and owner's equity section.
+- Asset section is remained untouched.
+
+### Underestimations
+
+- If a value is underestimated then appropriate adjustments are made in the liabilities and owner's equity section.
+- Asset section is remained untouched.
+
+## Ratios
+
+### Bad Debt Ratio
+
+- **"The bad debt ratio is the percentage of a company's gross receivables that it does not expect to be paid. A company with a low bad debt ratio believes it is more likely to receive payment of more of its receivables outstanding than a company with a high bad debt ratio. Financial statement users use the bad debt ratio against their knowledge of the issuers' business and industry to assess the reliability of the company's net accounts receivable balance."**
+![Bad Debt Ratio](./bad_debt_ratio.png)
+
+#### Interpretation
+
+- **"Bad debt ratios vary considerably from industry to industry, ranging from less than 1% to over 15%."**
+- **"Analysts look to see if a company's bad debt ratio is increasing over time, or if it is significantly greater than that of other companies in its industry. In either case, this might indicate that the company is failing to properly screen potential clients before offering them credit. It might also mean that the company is pursuing less credit-worthy customers in an attempt to generate sales which it is not getting elsewhere."**
+- **"From a managerial perspective, the greater your company's bad debt ratio is, the more it costs you to extend credit to your customers. If you are attempting to analyze the incremental profitability of a sale, the cost of providing credit to a customer is one of the costs elements to include. An increase in the cost of extending credit means a decrease in net profit from a sale."**
+
+### Days Receivable Ratio
+
+- **"The "days receivable" ratio or the "days sales outstanding" (DSO) ratio indicates the average number of days necessary for the company to collect its outstanding accounts receivable. The days receivable ratio is sometimes called receivables turnover, because it tells you how fast the receivable are turning over and being converted into cash."**
+
+#### Interpretation
+
+- **"As is true with bad debt ratios, days receivables varies considerably between industries. Retail apparel chains have very short days receivable while heavy equipment manufacturers, by comparison, have much longer days receivable."**
+- **"Analysts compare a company's days receivables to that of its industry peers. The slowing of a company's days receivables or a high days receivables compared to its competitors has a negative impact on the firm's liquidity; it ties up capital that might otherwise be used to finance the production of saleable assets. An increasing days receivable ratio might also be an indication that more of the receivables will become bad debts."**
+- **"In periods of economic downturn, many companies experience an increase in days receivable and bad debts as their customers find it more difficult to meet their obligations."**
