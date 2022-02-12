@@ -14,4 +14,4 @@
   - They share a common form across many different types of businesses
   - They express everything in common units.
   - They provide a systematic way of linking the past, present, and (expected) future performance.
-- 
+- Financial statements are quantitative in nature and provide a sound base for evaluating any business, since it would be too difficult to evaluate a business based just on words and pictorially.
