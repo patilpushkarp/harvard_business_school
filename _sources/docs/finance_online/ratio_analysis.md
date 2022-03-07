@@ -38,6 +38,10 @@ Be aware that not everyone uses the same categories, and different analysts may 
 
 - **"We can think of profit margins in a hierarchy in which each successive margin takes an additional factor into account."**
 ![Profit Margins](./profit_margins_1.png)
+- **"The gross margin is gross profit divided by sales. It tells us how profitable the entity's operations are, without yet taking into account its administration and overhead costs."**
+- **"The operating margin is operating profit divided by sales. It is a measure of how profitable the company is, before taking into account its interest expenses and taxes."**
+- **"The net margin is net income divided by sales and it measures profitability after everything is taken into account — production costs, overhead, interest expense, and taxes."**
+- By looking at different margins, we can learn more about the reasons for good or bad performance.
 - By looking at different margins, we can learn more about the good and bad performance. 
 
 ### Return on Equity
@@ -111,4 +115,77 @@ Be aware that "debt ratio" is a name applied to a variety of differently defined
 ![Fixed to Variable Cost](./fixed_to_variable_cost.png)
 - Fixed costs are assumed to be all of selling, general and administrative expenses (except sales commission).
 - Variable costs are assumed to be all of all of cost of goods sold (except depreciation).
-- 
+
+## Common-size Financial Statements
+
+- **"A common-size financial statement is simply one that has been scaled by a single parameter, such as sales or assets, so that each item is expressed in relative or percentage terms, rather than in units of currency. Such statements make it easy to spot trends over time that are not due to growth. And they facilitate comparisons of different companies in relative terms, regardless of differences in size."**
+- **"While many of the ratios introduced above come naturally out of a common-size income statement or balance sheet (e.g., the gross margin, operating margin, debt ratios, etc.), others do not, because they consist of items from both the balance sheet and income statement (for example, asset turnover)."**
+
+### Balance Sheet
+
+- **"Common-size balance sheets typically express all items as a percent of total assets."**
+
+### Income Statement
+
+- **"Common-size income statements generally express all items as a percent of net sales, enabling us to study company's cost and profit structures."**
+
+## Interpretation
+
+- **"Different analysts and managers compute different ratios. More confusingly, each may define a given ratio differently from someone else. How should you decide which variation of a particular ratio to look at? It depends, of course, on what you are trying to learn about a company. It also depends on personal preferences, available data, and available benchmarks."**
+- **"The computation of financial ratios is fairly mechanical, as you have seen. Interpreting them, however, is seldom so straightforward. Most have little or no intrinsic meaning. That is, even though they address important topics, such as growth and profitability, and they are inherently comparisons — of say, operating profit to sales — they must be subjected to still further comparisons to be meaningful."**
+- **"Financial ratios are usually interpreted according to one or another of four basic comparisons: changes over time, peer companies, pre-specified budgets or targets, and rules of thumb."**
+
+### Time-Trend
+
+- **"One of the most informative ways to interpret a company's ratios is to compare them to the same company's past performance."**
+
+### Industry Comparison
+
+- **"One set of useful benchmarks is other companies in the same business, perhaps even direct competitors, whose financial statements may be available for comparison. Sometimes such comparisons are done company by company."**
+
+### Budget
+
+- Plans are made by every company around operating budget and some specific targets.
+- **"One common use of financial ratios is in the comparison of a company's actual performance to the targets set beforehand."**
+- Performance is also measured given the expectations built into the operating budget.
+
+### Rules of Thumb
+
+- **"Some analysts develop rules of thumb to help them interpret ratios."**
+- **"At their best, rules of thumb reflect a capable analyst's years of experience. At their worst, they are subjective notions that should be challenged or at least supplemented with other data."**
+
+## List of Common Ratios
+
+### Growth
+
+- **"Growth ratios could be computed for almost any item on the balance sheet or income statement. However, analysts usually focus on growth in sales, operating profit, net income, the working capital accounts, fixed assets, and total assets. We can look at year-to-year growth rates or at average rates. An average may be compounded (as we computed the CAGR) above, or not. A compounded average is sometimes referred to as a "geometric mean" while a non-compounded average of year-to-year rates is an "arithmetic mean.""**
+
+### Profitability
+
+- Ratios include gross margin, operating margin, net margin, return on assets, return on beginning equity, return on invested capital, pretax return on invested capital.
+
+### Efficiency
+
+- Ratios include Asset turnover, net working capital turnover, fixed assets turnover, days in inventory, inventory turnover, collection period, receivables turnover, days' sales in cash, payables period.
+
+### Liquidity
+
+- Ratios include current ratio, quick ratio, cash ratio, interval measure.
+
+### Leverage
+
+- Ratios include debt ratio, debt to equity ratio, equity to asset ratio, times-interest earned, times-interest earned (cash flow), times-burden covered.
+
+### Risk
+
+- Ratios include Fixed to Variable Costs, Sales to Fixed Costs, Contribution Margin.
+
+## Qualifications
+
+- Limitations of ratio analysis include:
+  - Ratios based solely on financial statements overlook other crucial determinants of performance and financial conditions. For example, market share is an important measure of performance that cannot be computed solely from financial statements;
+  - It may be difficult to identify truly similar companies for external comparisons;
+  - Accounting methods may differ across otherwise similar companies, e.g., for companies in different countries;
+  - A given company may change accounting methods over time;
+  - Ratios may be distorted by non-operating activities and transactions, by extraordinary events, and discontinued operations. Ratios may be distorted by seasonality and cyclicality;
+  - Most ratios are computed using book values rather than market values, which may be substantially different. For example, a debt-to-assets measure of leverage that seems high when computed in terms of book values might be quite reasonable if a company's fixed assets are worth substantially more than their book values.

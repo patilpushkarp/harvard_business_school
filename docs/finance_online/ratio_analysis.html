@@ -45,15 +45,15 @@
     <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Cash Cycle and Growth" href="cash_cycle_and_growth.html" />
     <link rel="prev" title="Introduction" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -245,6 +245,16 @@
    Depreciation and Non-Current Assets
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../financial_accounting/liabilities_and_financing%20costs.html">
+   Liabilities and Financing Costs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../financial_accounting/investments_and_investment_income.html">
+   Investments and Investment Income
+  </a>
+ </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
@@ -260,6 +270,11 @@
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Ratio Analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cash_cycle_and_growth.html">
+   Cash Cycle and Growth
   </a>
  </li>
 </ul>
@@ -456,6 +471,92 @@
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#common-size-financial-statements">
+   Common-size Financial Statements
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#balance-sheet">
+     Balance Sheet
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#income-statement">
+     Income Statement
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#interpretation">
+   Interpretation
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#time-trend">
+     Time-Trend
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#industry-comparison">
+     Industry Comparison
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#budget">
+     Budget
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rules-of-thumb">
+     Rules of Thumb
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-of-common-ratios">
+   List of Common Ratios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Growth
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Profitability
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Efficiency
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Liquidity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     Leverage
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     Risk
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#qualifications">
+   Qualifications
+  </a>
+ </li>
 </ul>
 
             </nav>
@@ -583,6 +684,92 @@
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#common-size-financial-statements">
+   Common-size Financial Statements
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#balance-sheet">
+     Balance Sheet
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#income-statement">
+     Income Statement
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#interpretation">
+   Interpretation
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#time-trend">
+     Time-Trend
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#industry-comparison">
+     Industry Comparison
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#budget">
+     Budget
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rules-of-thumb">
+     Rules of Thumb
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#list-of-common-ratios">
+   List of Common Ratios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Growth
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Profitability
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Efficiency
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Liquidity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     Leverage
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     Risk
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#qualifications">
+   Qualifications
+  </a>
+ </li>
 </ul>
 
                         </nav>
@@ -646,6 +833,10 @@
 <ul class="simple">
 <li><p><strong>“We can think of profit margins in a hierarchy in which each successive margin takes an additional factor into account.”</strong>
 <img alt="Profit Margins" src="../../_images/profit_margins_1.png" /></p></li>
+<li><p><strong>“The gross margin is gross profit divided by sales. It tells us how profitable the entity’s operations are, without yet taking into account its administration and overhead costs.”</strong></p></li>
+<li><p><strong>“The operating margin is operating profit divided by sales. It is a measure of how profitable the company is, before taking into account its interest expenses and taxes.”</strong></p></li>
+<li><p><strong>“The net margin is net income divided by sales and it measures profitability after everything is taken into account — production costs, overhead, interest expense, and taxes.”</strong></p></li>
+<li><p>By looking at different margins, we can learn more about the reasons for good or bad performance.</p></li>
 <li><p>By looking at different margins, we can learn more about the good and bad performance.</p></li>
 </ul>
 </div>
@@ -748,9 +939,116 @@
 <img alt="Fixed to Variable Cost" src="../../_images/fixed_to_variable_cost.png" /></p></li>
 <li><p>Fixed costs are assumed to be all of selling, general and administrative expenses (except sales commission).</p></li>
 <li><p>Variable costs are assumed to be all of all of cost of goods sold (except depreciation).</p></li>
-<li></li>
 </ul>
 </div>
+</div>
+<div class="section" id="common-size-financial-statements">
+<h2>Common-size Financial Statements<a class="headerlink" href="#common-size-financial-statements" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“A common-size financial statement is simply one that has been scaled by a single parameter, such as sales or assets, so that each item is expressed in relative or percentage terms, rather than in units of currency. Such statements make it easy to spot trends over time that are not due to growth. And they facilitate comparisons of different companies in relative terms, regardless of differences in size.”</strong></p></li>
+<li><p><strong>“While many of the ratios introduced above come naturally out of a common-size income statement or balance sheet (e.g., the gross margin, operating margin, debt ratios, etc.), others do not, because they consist of items from both the balance sheet and income statement (for example, asset turnover).”</strong></p></li>
+</ul>
+<div class="section" id="balance-sheet">
+<h3>Balance Sheet<a class="headerlink" href="#balance-sheet" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Common-size balance sheets typically express all items as a percent of total assets.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="income-statement">
+<h3>Income Statement<a class="headerlink" href="#income-statement" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Common-size income statements generally express all items as a percent of net sales, enabling us to study company’s cost and profit structures.”</strong></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="interpretation">
+<h2>Interpretation<a class="headerlink" href="#interpretation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>“Different analysts and managers compute different ratios. More confusingly, each may define a given ratio differently from someone else. How should you decide which variation of a particular ratio to look at? It depends, of course, on what you are trying to learn about a company. It also depends on personal preferences, available data, and available benchmarks.”</strong></p></li>
+<li><p><strong>“The computation of financial ratios is fairly mechanical, as you have seen. Interpreting them, however, is seldom so straightforward. Most have little or no intrinsic meaning. That is, even though they address important topics, such as growth and profitability, and they are inherently comparisons — of say, operating profit to sales — they must be subjected to still further comparisons to be meaningful.”</strong></p></li>
+<li><p><strong>“Financial ratios are usually interpreted according to one or another of four basic comparisons: changes over time, peer companies, pre-specified budgets or targets, and rules of thumb.”</strong></p></li>
+</ul>
+<div class="section" id="time-trend">
+<h3>Time-Trend<a class="headerlink" href="#time-trend" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“One of the most informative ways to interpret a company’s ratios is to compare them to the same company’s past performance.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="industry-comparison">
+<h3>Industry Comparison<a class="headerlink" href="#industry-comparison" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“One set of useful benchmarks is other companies in the same business, perhaps even direct competitors, whose financial statements may be available for comparison. Sometimes such comparisons are done company by company.”</strong></p></li>
+</ul>
+</div>
+<div class="section" id="budget">
+<h3>Budget<a class="headerlink" href="#budget" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Plans are made by every company around operating budget and some specific targets.</p></li>
+<li><p><strong>“One common use of financial ratios is in the comparison of a company’s actual performance to the targets set beforehand.”</strong></p></li>
+<li><p>Performance is also measured given the expectations built into the operating budget.</p></li>
+</ul>
+</div>
+<div class="section" id="rules-of-thumb">
+<h3>Rules of Thumb<a class="headerlink" href="#rules-of-thumb" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Some analysts develop rules of thumb to help them interpret ratios.”</strong></p></li>
+<li><p><strong>“At their best, rules of thumb reflect a capable analyst’s years of experience. At their worst, they are subjective notions that should be challenged or at least supplemented with other data.”</strong></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="list-of-common-ratios">
+<h2>List of Common Ratios<a class="headerlink" href="#list-of-common-ratios" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Growth<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>“Growth ratios could be computed for almost any item on the balance sheet or income statement. However, analysts usually focus on growth in sales, operating profit, net income, the working capital accounts, fixed assets, and total assets. We can look at year-to-year growth rates or at average rates. An average may be compounded (as we computed the CAGR) above, or not. A compounded average is sometimes referred to as a “geometric mean” while a non-compounded average of year-to-year rates is an “arithmetic mean.””</strong></p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Profitability<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Ratios include gross margin, operating margin, net margin, return on assets, return on beginning equity, return on invested capital, pretax return on invested capital.</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h3>Efficiency<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Ratios include Asset turnover, net working capital turnover, fixed assets turnover, days in inventory, inventory turnover, collection period, receivables turnover, days’ sales in cash, payables period.</p></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h3>Liquidity<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Ratios include current ratio, quick ratio, cash ratio, interval measure.</p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h3>Leverage<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Ratios include debt ratio, debt to equity ratio, equity to asset ratio, times-interest earned, times-interest earned (cash flow), times-burden covered.</p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h3>Risk<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Ratios include Fixed to Variable Costs, Sales to Fixed Costs, Contribution Margin.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="qualifications">
+<h2>Qualifications<a class="headerlink" href="#qualifications" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Limitations of ratio analysis include:</p>
+<ul>
+<li><p>Ratios based solely on financial statements overlook other crucial determinants of performance and financial conditions. For example, market share is an important measure of performance that cannot be computed solely from financial statements;</p></li>
+<li><p>It may be difficult to identify truly similar companies for external comparisons;</p></li>
+<li><p>Accounting methods may differ across otherwise similar companies, e.g., for companies in different countries;</p></li>
+<li><p>A given company may change accounting methods over time;</p></li>
+<li><p>Ratios may be distorted by non-operating activities and transactions, by extraordinary events, and discontinued operations. Ratios may be distorted by seasonality and cyclicality;</p></li>
+<li><p>Most ratios are computed using book values rather than market values, which may be substantially different. For example, a debt-to-assets measure of leverage that seems high when computed in terms of book values might be quite reasonable if a company’s fixed assets are worth substantially more than their book values.</p></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 
@@ -785,6 +1083,13 @@
             <p class="prev-next-subtitle">previous</p>
             <p class="prev-next-title">Introduction</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="cash_cycle_and_growth.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Cash Cycle and Growth</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             
