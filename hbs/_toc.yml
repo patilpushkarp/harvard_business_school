@@ -37,8 +37,11 @@ parts:
     - file: docs/financial_accounting/revenue_receivables.md
     - file: docs/financial_accounting/investories_and_cost_of_sales.md
     - file: docs/financial_accounting/depreciation_and_non_current_assets.md
+    - file: docs/financial_accounting/liabilities_and_financing costs.md
+    - file: docs/financial_accounting/investments_and_investment_income.md
   - caption: Finance Online
     chapters:
     - file: docs/finance_online/intro.md
     - file: docs/finance_online/ratio_analysis.md
+    - file: docs/finance_online/cash_cycle_and_growth.md
     
