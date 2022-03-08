@@ -46,3 +46,43 @@
 ### Seasonality
 
 - **"Seasonality in operations causes predictable fluctuations in working capital accounts, including cash. To fund the seasonal peaks in working capital, many businesses rely on revolving credit. A revolving credit facility works a lot like consumer credit cards — the company may borrow up to some agreed-upon limit as necessary, and then repays the loan as its seasonal needs recede. This is similar to a consumer who uses credit cards to buy holiday gifts and then pays down the balance over the following months. A fee is charged by the bank for providing the line of credit, and interest is charged on the amount actually borrowed. Most revolving credit agreements impose further conditions, such as limits based on available collateral (usually receivables and inventory) and a requirement that the loan be completely paid off for some period during each year."**
+
+## Sources and Uses
+
+- **"Another way of monitoring a company's funding needs and patterns is to prepare a statement of Sources and Uses of funds. Accountants have specialized formats for such statements, which you have already studied elsewhere. A useful shortcut for preparing a sources and uses analysis is simply to take balance sheets from two different dates and subtract one from the other. The amount by which each line in the balance sheet has changed from one date to the other is then categorized as either a source or a use of funds. Because balance sheets balance, it will always be the case (within rounding error) that sources equal uses."**
+
+### Construction
+
+- **"Two steps are necessary to create a statement of sources and uses:"**
+  1. Compute the changes between two balance sheets. Often these will be from one year end to the next, but we could choose any period of interest. For Golden State we are looking now at a two-year period.
+  2. Then the observed changes need to be classified as either sources or uses.
+- **"Sources of funds come from reducing an asset or increasing a liability."**
+- **"Uses of funds come from increasing an asset or decreasing a liability."**
+
+## Growth
+
+- **"growth amplifies the natural need for financing implied by a cash cycle in which outflows precede inflows."**
+
+### Internal Growth Rate
+
+- **"A company's internal growth rate is the rate at which it can grow without any new external funding (from banks or shareholders for example), and assuming its operating ratios remain unchanged. Without external funding, the company's only source of funds for growth is its retained earnings. So its internal growth rate is simply the ratio of new retained earnings to beginning-of-period assets. New retained earnings will equal net income minus dividends, sometimes computed as net income times the retention rate. The retention rate is simply the fraction of net income not paid out as dividends."**
+![Internal Growth Rate](./internal_growth_rate.png)
+- Retention rate is the fraction of earnings that are retained by the company. It is also known as plowback ratio. It also equals one minus payount ratio - the fraction of earnings paid out as dividends.
+- Beginning assets come from the balance sheet for the end of the preceding period. 
+
+### Sustainable Growth Rate
+
+- **"Another measure of a company's capacity for financing growth is its sustainable growth rate. This is the rate at which a company can grow if (1) it does not issue any new external equity, and (2) it keeps its operating and financing ratios constant. The sustainable growth rate is generally higher than the internal growth rate for a firm with leverage. The internal growth rate is computed assuming no new external financing of any kind. By contrast, the sustainable growth rate is computed assuming no new external equity; in other words, the sustainable growth rate assumes new external borrowing in amounts necessary to keep the debt ratio constant. This new borrowing supports more growth, which is why the sustainable growth rate is higher than the internal growth rate."**
+![Sustainable Growth Rate](./sustainable_growth_rate.png)
+- **"Why is the sustainable growth rate tied to the return on equity? To see why, assume no dividends, so the retention rate is 100%. Now, since operating and financing ratios are presumed constant, the only way to grow the balance sheet is with new financing. New financing is tied to new earnings, which in turn determine how much new borrowing must be done to keep leverage constant. Sales may only grow as fast as assets, given constant operating ratios. In this way, growth is constrained by the rate at which equity can be augmented by earnings. In other words, sustainable growth must equal the return on equity."**
+
+#### DuPont Formula
+
+- **"The internal and sustainable growth rates (the retention rate times ROBA and ROBE, respectively) are useful benchmarks. They both indicate that the more profitable a company is, the faster it can grow, all else equal. The so-called "DuPont formula" is a restatement of ROBE in terms of other ratios."**
+![Dupont Formula](./dupont_formula.png)
+- **"The DuPont formula shows that the sustainable growth rate may be boosted by increasing the retention rate (cutting dividends), raising profitability (return on sales), efficiency (asset turnover), or leverage."**
+
+### Qualifications
+
+- **"The internal and sustainable growth rates are useful benchmarks, but not hard constraints. Can a company grow faster than its sustainable growth rate? Certainly. How? We have already seen via the DuPont formula that a change in ratios (e.g. profitability, efficiency, or leverage) translates into a change in ROBE and hence, sustainable growth. Even more fundamentally, a company wishing to grow fast could simply issue new external equity - i.e., sell more stock to investors. Many high growth companies do exactly that."**
+- **"Nothing so far has shown us that a particular growth rate is optimal. It is true that raising leverage or selling shares, for example, permits higher growth. But repeated increases in leverage could also lead to bankruptcy. And repeated issuances of new shares may dilute ownership. How fast to grow a company and how to finance the growth are complex managerial problems."**

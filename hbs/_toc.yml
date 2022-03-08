@@ -44,4 +44,4 @@ parts:
     - file: docs/finance_online/intro.md
     - file: docs/finance_online/ratio_analysis.md
     - file: docs/finance_online/cash_cycle_and_growth.md
-    
+    - file: docs/finance_online/financial_forecasting.md
