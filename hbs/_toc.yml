@@ -47,3 +47,6 @@ parts:
     - file: docs/finance_online/financial_forecasting.md
     - file: docs/finance_online/rearranging_financial_statements.md
     - file: docs/finance_online/capital_structure.md
+    - file: docs/finance_online/time_value_of_money_and_project_valuation.md
+    - file: docs/finance_online/risk_and_return.md
+    - file: docs/finance_online/valuing_a_business.md
